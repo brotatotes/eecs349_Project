@@ -1,0 +1,73 @@
+PEER REVIEW FOR PROJECT PROPOSAL SUBMITTED BY ERIC HAO
+
+
+Rubric 1:
+---------
+
+	Assign the Project Proposal a score based on the novelty, interestingness and importance of the proposed task. Provide a reasoning for the score and enter any other comments and/or suggestions.
+
+Score
+
+	1.875
+
+Feedback 1
+
+	It is not uncommon for people to try and predict award winners, which has been done before for Oscars, so going simply by that, I'd say the idea wasn't very novel. However, there is an aspect to the idea that, to my knowledge, makes it novel, which is that it uses properties of songs rather than of people's opinions to arrive at the winner, which also is not a person, but a record. While all the features that will be used seem helpful, I think the ones that are more music related rather than singer related may prove to be more useful. I'd be interested to see if any correlation can be found between those features and the winner. That would be really awesome! The project is definitely interesting, though I'm not so sure about its importance. Even if there are insights found, for a singer or producer to follow those insights to produce music that may win seems contrived and kind of counter-intuitive to how art/music is/ought to be created :)
+
+Feedback 2
+
+	Solid motivation and I like how you invented a relatively new task.
+
+
+Rubric 2:
+---------
+
+	Assign the Project Proposal a score based on the team's plan to acquire data (i.e., is the plan well thought out and feasible?) Provide a reasoning for the score and enter any other comments and/or suggestions.
+
+Score
+
+	0.875
+
+Feedback 1
+
+	Your data acquisition plan seems sound.
+
+Feedback 2
+
+	A little imprecise (see my question about negative examples) but overall, good).
+
+
+Rubric 3:
+---------
+
+	Assign the Project Proposal a score based on the project's likelihood of success based on initial approach. Provide a reasoning for the score and enter any other comments and/or suggestions.
+
+Score
+
+	0.875
+
+Feedback 1
+
+	It seems your results will hinge a lot on learning the parameters that will adjust for the changes in music over the years, namely the kernel, so the likelihood of success will depend on using enough data and enough interations of your algorithm to learn those parameters well withouth overfitting.
+
+Feedback 2
+
+	The one worrisome thing here -- there are only a few record of the year winners (about 50).  So that's 50 positive examples.  And how will you choose negative examples (just the nominees?  Seems like a reasonable choice, but you want to think about it).  I'm a little worried about whether the features will not be informative enough, and the data set will be too small.  But, it's worth a try.  Just make sure you leave time for iteration.
+
+
+Rubric 4:
+---------
+
+	Assign the Project Proposal a score based on its overall clarity. Provide a reasoning for the score and enter any other comments and/or suggestions.
+
+Score
+
+	1.0
+
+Feedback 1
+
+	The proposal is clearly written and provides enough detail despite being succinct. Good Job!
+
+Feedback 2
+
+	Very clear overall.  One thing, though, if you're predicting "grammy" or "not grammy," that's a classification rather than regression task.  So you're doing kernel-weighted nearest neighbor.  That's a good approach to start with, probably.  Leave time for experimentation.
