@@ -1,0 +1,6 @@
+title,spotify_id,artist,year,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+All I Have To Do Is Dream,7dblNGnRXEBrVJunazs2U5,Everly Brothers,1958,53,0.534,0.462,4,-8.172,1,0.0266,0.839,0,0.129,0.531,96.195,143333,4
+Claudette,632GESqggMN84rS3sRXy0K,Elvis Presley,1958,45,0.662,0.613,9,-7.553,1,0.189,0.0899,0,0.0831,0.404,83.015,231133,4
+Don't,1i1fxkWeaMmKEB4T7zqbzK,David Seville,1958,98,0.532,0.869,11,-5.094,1,0.172,0.157,0.00508,0.136,0.419,159.803,208373,4
+I Beg Of You,4ZEKOr73zGjE2FEdAbgULY,Perez Prado,1958,26,0.807,0.798,1,-6.237,1,0.239,0.0619,0,0.119,0.606,75.04,243173,4
+Witch Doctor,5oxoejdLvKgHDTN0ziHRBu,Billy Vaughn,1958,4,0.803,0.945,8,-5.995,0,0.0942,0.000326,0.886,0.409,0.0646,117.988,203392,4
