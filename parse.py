@@ -10,8 +10,8 @@ def parse(filename):
     # initialize variables
     array = []
     file = open(filename, "r")
-    file.readline()
-    for i in range(0, 5800):
+    # file.readline()
+    for i in range(0, 5855):
         line = file.readline()
         if " / " in line:
             line = line.split(" / ")

@@ -1,35 +1,46 @@
 Year,Position,Artist,Song Title
 1958,1,Domenico Modugno,Volare (Nel Blu Dipinto Di Blu)
-1958,2,Everly Brothers,All I Have To Do Is Dream / Claudette
-1958,3,Elvis Presley,Don't / I Beg Of You
+1958,2,Everly Brothers,All I Have To Do Is Dream
+1958,2,Everly Brothers,Claudette
+1958,3,Elvis Presley,Don't
+1958,3,Elvis Presley,I Beg Of You
 1958,4,David Seville,Witch Doctor
 1958,5,Perez Prado,Patricia
-1958,6,Billy Vaughn,Sail Along Silvery Moon / Raunchy
-1958,7,Perry Como,Catch A Falling Star / Magic Moments
+1958,6,Billy Vaughn,Sail Along Silvery Moon
+1958,6,Billy Vaughn,Raunchy
+1958,7,Perry Como,Catch A Falling Star
+1958,7,Perry Como,Magic Moments
 1958,8,Champs,Tequila
 1958,9,Tommy Edwards,It's All In The Game
 1958,10,Dean Martin,Return To Me
 1958,11,Conway Twitty,It's Only Make Believe
 1958,12,Sheb Wooley,The Purple People Eater
-1958,13,Everly Brothers,Bird Dog / Devoted To You
+1958,13,Everly Brothers,Bird Dog 
+1958,13,Everly Brothers,Devoted To You
 1958,14,Silhouettes,Get A Job
 1958,15,Elegants,Little Star
-1958,16,Ricky Nelson,Stood Up / Waitin' In School
+1958,16,Ricky Nelson,Stood Up
+1958,16,Ricky Nelson,Waitin' In School
 1958,17,Laurie London,He's Got The Whole World In His Hands
 1958,18,Platters,Twilight Time
 1958,19,Jimmie Rodgers,Secretly
 1958,20,Danny and The Juniors,At The Hop
 1958,21,Coasters,Yakety Yak
-1958,22,Elvis Presley,Wear My Ring Around Your Neck / Doncha' Think It's Time
+1958,22,Elvis Presley,Wear My Ring Around Your Neck
+1958,22,Elvis Presley,Doncha' Think It's Time
 1958,23,Ricky Nelson,Poor Little Fool
-1958,24,Pat Boone,Wonderful Time Up There / It's Too Soon To Know
+1958,24,Pat Boone,Wonderful Time Up There
+1958,24,Pat Boone,It's Too Soon To Know
 1958,25,Jimmy Clanton,Just A Dream
 1958,26,McGuire Sisters,Sugartime
-1958,27,Bobby Day,Rockin Robbin / Over And Over
+1958,27,Bobby Day,Rockin Robbin
+1958,27,Bobby Day,Over And Over
 1958,28,Kingston Trio,Tom Dooley
 1958,29,Chuck Berry,Sweet Little Sixteen
-1958,30,Cozy Cole,Topsy II / Topsy I
-1958,31,Nat King Cole,Looking Back / Do I Like It
+1958,30,Cozy Cole,Topsy II
+1958,30,Cozy Cole,Topsy I
+1958,31,Nat King Cole,Looking Back
+1958,31,Nat King Cole,Do I Like It
 1958,32,Monotones,Book Of Love
 1958,33,Tommy Dorsey Orch. and Warren Covington,Tea For Two Cha Cha
 1958,34,Little Anthony and The Imperials,Tears On My Pillow
@@ -38,7 +49,8 @@ Year,Position,Artist,Song Title
 1958,37,Chordettes,Lollipop
 1958,38,Bobby Darin,Splish Splash
 1958,39,Connie Francis,Who's Sorry Now
-1958,40,Jack Scott,My True Love / Leroy
+1958,40,Jack Scott,My True Love
+1958,40,Jack Scott,Leroy
 1958,41,Jody Reynolds,Endles Sleep
 1958,42,Bobby Freeman,Do You Want To Dance?
 1958,43,Kalin Twins,When
@@ -47,7 +59,8 @@ Year,Position,Artist,Song Title
 1958,46,Duane Eddy,Rebel-'Rouser
 1958,47,Crescendos,Oh Julie
 1958,48,Diamonds,The Stroll
-1958,49,Elvis Presley,Hard-Headed Woman / Don't Ask Me Why
+1958,49,Elvis Presley,Hard-Headed Woman
+1958,49,Elvis Presley,Don't Ask Me Why
 1958,50,Buddy Holly,Peggy Sue
 1958,51,Don Gibson,Oh Lonesome Me
 1958,52,Big Bopper,Chantilly Lace
@@ -1072,7 +1085,8 @@ Year,Position,Artist,Song Title
 1968,71,Cowsills,Indian Lake
 1968,72,Tommy Boyce and Bobby Hart,I Wonder What She's Doing Tonight
 1968,73,Gary Puckett and The Union Gap,Over You
-1968,74,Lettermen,Goin' Out Of My Head / Can't Take My Eyes Off You
+1968,74,Lettermen,Goin' Out Of My Head
+1968,74,Lettermen,Can't Take My Eyes Off You
 1968,75,Stevie Wonder,Shoo-Bee-Doo-Be-Doo-Da-Day
 1968,76,Irish Rovers,The Unicorn
 1968,77,Vanilla Fudge,(You Keep Me) Hangin' On
@@ -1087,7 +1101,8 @@ Year,Position,Artist,Song Title
 1968,86,Mills Brothers,Cab Driver
 1968,87,Chambers Brothers,Time Has Come Today
 1968,88,Dionne Warwick,Do You Know The Way To San Jose
-1968,89,Simon and Garfunkel,Scarborough Fair / Canticle
+1968,89,Simon and Garfunkel,Scarborough Fair
+1968,89,Simon and Garfunkel,Canticle
 1968,90,James Brown and The Famous Flames,Say It Loud I'm Black And I'm Proud
 1968,91,Manfred Mann,The Mighty Quinn
 1968,92,Shorty Long,Here Comes The Judge
@@ -1100,7 +1115,8 @@ Year,Position,Artist,Song Title
 1968,99,Jerry Butler,"Hey, Western Union Man"
 1968,100,Jerry Butler,Never Give You Up
 1969,1,Archies,"Sugar, Sugar"
-1969,2,Fifth Dimension,Aquarius / Let The Sunshine In
+1969,2,Fifth Dimension,Aquarius
+1969,2,Fifth Dimension,Let The Sunshine In
 1969,3,Temptations,I Can't Get Next To You
 1969,4,Rolling Stones,Honky Tonk Women
 1969,5,Sly and The Family Stone,Everyday People
@@ -1201,7 +1217,8 @@ Year,Position,Artist,Song Title
 1969,100,Box Tops,Sweet Cream Ladies
 1970,1,Simon and Garfunkel,Bridge Over Troubled Water
 1970,2,Carpenters,(They Long To Be) Close To You
-1970,3,Guess Who,American Woman / No Sugar Tonight
+1970,3,Guess Who,American Woman
+1970,3,Guess Who,No Sugar Tonight
 1970,4,B.J. Thomas,Raindrops Keep Fallin' On My Head
 1970,5,Edwin Starr,War
 1970,6,Diana Ross,Ain't No Mountain High Enough
@@ -1234,12 +1251,14 @@ Year,Position,Artist,Song Title
 1970,33,Shocking Blue,Venus
 1970,34,John Lennon,Instant Karma (We All Shine On)
 1970,35,Clarence Carter,Patches
-1970,36,Creedence Clearwater Revival,Lookin' Out My Back Door / Long As I Can See The Light
+1970,36,Creedence Clearwater Revival,Lookin' Out My Back Door
+1970,36,Creedence Clearwater Revival,Long As I Can See The Light
 1970,37,Brook Benton,Rainy Night In Georgia
 1970,38,Kenny Rogers and The First Edition,Something's Burning
 1970,39,Chairmen Of The Board,Give Me Just A Little More Time
 1970,40,Edison Lighthouse,Love Grows (Where My Rosemary Goes)
-1970,41,Beatles,The Long And Winding Road / For You Blue
+1970,41,Beatles,The Long And Winding Road
+1970,41,Beatles,For You Blue
 1970,42,Anne Murray,Snowbird
 1970,43,Marmalade,Reflections Of My Life
 1970,44,Eddie Holman,Hey There Lonely Girl
@@ -1270,8 +1289,10 @@ Year,Position,Artist,Song Title
 1970,69,Santana,Evil Ways
 1970,70,Guess Who,No Time
 1970,71,Delfonics,Didn't I (Blow Your Mind This Time)
-1970,72,Elvis Presley,The Wonder Of You / Mama Liked The Roses
-1970,73,Creedence Clearwater Revival,Up Around The Bend / Run Through The Jungle
+1970,72,Elvis Presley,The Wonder Of You
+1970,72,Elvis Presley,Mama Liked The Roses
+1970,73,Creedence Clearwater Revival,Up Around The Bend
+1970,73,Creedence Clearwater Revival,Run Through The Jungle
 1970,74,Ronnie Dyson,(If You Let Me Make Love To You Then) Why Can't I Touch You
 1970,75,B.J. Thomas,I Just Can't Help Believing
 1970,76,Spinners,It's A Shame
@@ -1287,7 +1308,8 @@ Year,Position,Artist,Song Title
 1970,86,Pipkins,Gimme Dat Ding
 1970,87,Robin McNamara,Lay A Little Lovin' On Me
 1970,88,Supremes,Up The Ladder To The Roof
-1970,89,Creedence Clearwater Revival,Travelin' Band / Who'll Stop The Rain
+1970,89,Creedence Clearwater Revival,Travelin' Band
+1970,89,Creedence Clearwater Revival,Who'll Stop The Rain
 1970,90,Sandpipers,Come Saturday Morning
 1970,91,Temptations,Psychedelic Shack
 1970,92,Tom Jones,Without Love (There Is Nothing)
@@ -1300,8 +1322,10 @@ Year,Position,Artist,Song Title
 1970,99,Glen Campbell,It's Only Make Believe
 1970,100,Aretha Franklin,Call Me
 1971,1,Three Dog Night,Joy To The World
-1971,2,Rod Stewart,Maggie May / (Find A) Reason To Believe
-1971,3,Carole King,It's Too Late / I Feel The Earth Move
+1971,2,Rod Stewart,Maggie May
+1971,2,Rod Stewart,Find A) Reason To Believe
+1971,3,Carole King,It's Too Late
+1971,3,Carole King,I Feel The Earth Move
 1971,4,Osmonds,One Bad Apple
 1971,5,Bee Gees,How Can You Mend A Broken Heart
 1971,6,Raiders,Indian Reservation
@@ -1329,7 +1353,8 @@ Year,Position,Artist,Song Title
 1971,28,Jerry Reed,Amos Moses
 1971,29,Grass Roots,Temptation Eyes
 1971,30,Carpenters,Superstar
-1971,31,George Harrison,My Sweet Lord / Isn't It A Pity
+1971,31,George Harrison,My Sweet Lord
+1971,31,George Harrison,Isn't It A Pity
 1971,32,Donny Osmond,Sweet And Innocent
 1971,33,Ocean,Put Your Hand In The Hand
 1971,34,Daddy Dewdrop,Chick-A-Boom (Don't Ya Jes' Love It)
@@ -1354,11 +1379,13 @@ Year,Position,Artist,Song Title
 1971,53,Partridge Family,Doesn't Somebody Want To Be Wanted
 1971,54,Tommy James,Draggin' The Line
 1971,55,Ike and Tina Turner,Proud Mary
-1971,56,Chicago,Beginnings / Color My World
+1971,56,Chicago,Beginnings
+1971,56,Chicago,Color My World
 1971,57,Bells,Stay Awhile
 1971,58,Stampeders,Sweet City Woman
 1971,59,Lobo,Me And You And A Dog Named Boo
-1971,60,Paul McCartney,"Another Day / Oh Woman, Oh Why"
+1971,60,Paul McCartney,Another Day
+1971,60,Paul McCartney,"Oh Woman, Oh Why"
 1971,61,Bread,If
 1971,62,Marvin Gaye,Mercy Mercy Me (The Ecology)
 1971,63,Brewer and Shipley,One Toke Over The Line
@@ -1492,7 +1519,8 @@ Year,Position,Artist,Song Title
 1972,91,Yes,Roundabout
 1972,92,Jackson Browne,Doctor My Eyes
 1972,93,New Seekers,I'd Like To Teach The World To Sing
-1972,94,Don Mclean,Vincent / Castles In The Air
+1972,94,Don Mclean,Vincent
+1972,94,Don Mclean,Castles In The Air
 1972,95,Detroit Emeralds,Baby Let Me Take You (In My Arms)
 1972,96,Rick Springfield,Speak To The Sky
 1972,97,Hillside Singers,I'd Like To Teach The World To Sing
@@ -1751,7 +1779,8 @@ Year,Position,Artist,Song Title
 1975,50,Linda Ronstadt,You're No Good
 1975,51,Bazuka,Dynomite
 1975,52,Blackbyrds,Walking In Rhythm
-1975,53,Gladys Knight and The Pips,The Way We Were / Try To Remember
+1975,53,Gladys Knight and The Pips,The Way We Were
+1975,53,Gladys Knight and The Pips,Try To Remember
 1975,54,Melissa Manchester,Midnight Blue
 1975,55,Sugarloaf,"Don't Call Us, We'll Call You"
 1975,56,Phoebe Snow,Poetry Man
@@ -1763,7 +1792,8 @@ Year,Position,Artist,Song Title
 1975,62,Alice Cooper,Only Women Bleed
 1975,63,Carol Douglas,Doctor's Orders
 1975,64,K.C. and The Sunshine Band,Get Down Tonight
-1975,65,Joe Cocker,You Are So Beautiful / It's A Sin When You Love Somebody
+1975,65,Joe Cocker,You Are So Beautiful
+1975,65,Joe Cocker,It's A Sin When You Love Somebody
 1975,66,Paul Anka and Odia Coates,One Man Woman-One Woman Man
 1975,67,Bad Company,Feel Like Makin' Love
 1975,68,James Taylor,How Sweet It Is (To Be Loved by You)
@@ -1775,7 +1805,8 @@ Year,Position,Artist,Song Title
 1975,74,Grand Funk,Some Kind Of Wonderful
 1975,75,Three Degrees,When Will I See You Again
 1975,76,Joe Simon,"Get Down, Get Down (Get On The Floor)"
-1975,77,John Denver,I'm Sorry / Calypso
+1975,77,John Denver,I'm Sorry
+1975,77,John Denver,Calypso
 1975,78,Queen,Killer Queen
 1975,79,Eddie Kendricks,Shoeshine Boy
 1975,80,B.T. Express,Do It (Til You're Satisfied)
@@ -1785,8 +1816,10 @@ Year,Position,Artist,Song Title
 1975,84,Rufus,You Got The Love
 1975,85,Mike Post,The Rockford Files
 1975,86,Tavares,It Only Takes A Minute
-1975,87,Ringo Starr,No No Song / Snookeroo
-1975,88,Paul McCartney and Wings,Junior's Farm / Sally G
+1975,87,Ringo Starr,No No Song
+1975,87,Ringo Starr,Snookeroo
+1975,88,Paul McCartney and Wings,Junior's Farm
+1975,88,Paul McCartney and Wings,Sally G
 1975,89,Jethro Tull,Bungle In The Jungle
 1975,90,Leo Sayer,Long Tall Glasses (I Can Dance)
 1975,91,Elton John,Someone Saved My Life Tonight
@@ -1796,7 +1829,8 @@ Year,Position,Artist,Song Title
 1975,95,Dwight Twilley Band,I'm On Fire
 1975,96,Ringo Starr,Only You
 1975,97,Amazing Rhythm Aces,Third Rate Romance
-1975,98,Bachman-Turner Overdrive,You Aint Seen Nothin' Yet / Free Wheelin'
+1975,98,Bachman-Turner Overdrive,You Aint Seen Nothin' Yet
+1975,98,Bachman-Turner Overdrive,Free Wheelin'
 1975,99,Frankie Valli,Swearin' To God
 1975,100,Disco Tex and The Sex-O-lettes,Get Dancin'
 1976,1,Wings,Silly Love Songs
@@ -2023,7 +2057,8 @@ Year,Position,Artist,Song Title
 1978,22,Nick Gilder,Hot Child In The City
 1978,23,Sweet,Love Is Like Oxygen
 1978,24,Bonnie Tyler,It's A Heartache
-1978,25,Queen,We Will Rock You / We Are The Champions
+1978,25,Queen,We Will Rock You
+1978,25,Queen,We Are The Champions
 1978,26,Gerry Rafferty,Baker Street
 1978,27,Barry Manilow,Can't Smile Without You
 1978,28,Johnny Mathis and Deniece Williams,"Too Much, Too Little, Too Late"
@@ -2590,7 +2625,7 @@ Year,Position,Artist,Song Title
 1983,89,Michael Jackson,Human Nature
 1983,90,Def Leppard,Photograph
 1983,91,Musical Youth,Pass The Dutchie
-1983,92,Spandau Ballet,True
+1983,92,Spandau Ballet,TRUE
 1983,93,Frank Stallone,Far From Over
 1983,94,Eric Clapton,I've Got A Rock 'N' Roll Heart
 1983,95,Stephen Bishop,It Might Be You
@@ -3614,7 +3649,8 @@ Year,Position,Artist,Song Title
 1994,13,Madonna,I'll Remember
 1994,14,Salt-N-Pepa,Whatta Man
 1994,15,John Mellencamp and Me'shell Ndegeocello,Wild Night
-1994,16,Mariah Carey,Without You / Never Forget You
+1994,16,Mariah Carey,Without You
+1994,16,Mariah Carey,Never Forget You
 1994,17,Toni Braxton,You Mean The World To Me
 1994,18,Elton John,Can You Feel The Love Tonight
 1994,19,Artist Formerly Known As Prince,The Most Beautiful Girl In The World
@@ -3628,7 +3664,8 @@ Year,Position,Artist,Song Title
 1994,27,Bryan Adams,Please Forgive Me
 1994,28,All-4-One,So Much In Love
 1994,29,Salt-N-Pepa,Shoop
-1994,30,Janet Jackson,"Any Time, Any Place / And On And On"
+1994,30,Janet Jackson,"Any Time, Any Place"
+1994,30,Janet Jackson,And On And On
 1994,31,Collective Soul,Shine
 1994,32,Michael Bolton,Said I Loved You...But I Lied
 1994,33,Enigma,Return To Innocence
@@ -3716,7 +3753,8 @@ Year,Position,Artist,Song Title
 1995,15,All-4-One,I Can Love You Like That
 1995,16,Bryan Adams,Have You Ever Really Loved A Woman?
 1995,17,Bon Jovi,Always
-1995,18,Shaggy,Boombastic / In The Summertime
+1995,18,Shaggy,Boombastic
+1995,18,Shaggy,In The Summertime
 1995,19,Nicki French,Total Eclipse Of The Heart
 1995,20,Des'ree,You Gotta Be
 1995,21,Michael Jackson,You Are Not Alone
@@ -3745,16 +3783,19 @@ Year,Position,Artist,Song Title
 1995,44,Melissa Etheridge,I'm The Only One
 1995,45,Soul For Real,Every Little Thing I Do
 1995,46,BLACKstreet,Before I Let You Go
-1995,47,Notorious B.I.G.,Big Poppa / Warning
+1995,47,Notorious B.I.G.,Big Poppa
+1995,47,Notorious B.I.G.,Warning
 1995,48,4 P.M.,Sukiyaki
 1995,49,Brandy,I Wanna Be Down
 1995,50,Boyz II Men,I'll Make Love To You
-1995,51,2Pac,Dear Mama / Old School
+1995,51,2Pac,Dear Mama
+1995,51,2Pac,Old School
 1995,52,Jamie Walters,Hold On
 1995,53,Dr. Dre,Keep Their Heads Ringin'
 1995,54,Corona,The Rhythm Of The Night
 1995,55,Del Amitri,Roll To Me
-1995,56,Michael Jackson and Janet Jackson,Scream / Childhood
+1995,56,Michael Jackson and Janet Jackson,Scream
+1995,56,Michael Jackson and Janet Jackson,Childhood
 1995,57,Jodeci,Freek'n You
 1995,58,Skee-lo,I Wish
 1995,59,Elton John,Believe
@@ -3762,7 +3803,8 @@ Year,Position,Artist,Song Title
 1995,61,Tom Petty,You Don't Know How It Feels
 1995,62,Take That,Back For Good
 1995,63,69 Boyz,Tootsee Roll
-1995,64,Janet Jackson,You Want This / 70's Love Groove
+1995,64,Janet Jackson,You Want This
+1995,64,Janet Jackson,70's Love Groove
 1995,65,Groove Theory,Tell Me
 1995,66,Total,Can't You See
 1995,67,Sheryl Crow,All I Wanna Do
@@ -3788,9 +3830,11 @@ Year,Position,Artist,Song Title
 1995,87,Gloria Estefan,Turn The Beat Around
 1995,88,After 7,'Til You Do Me Right
 1995,89,Bone Thugs-N-Harmony,1st Of Tha Month
-1995,90,Melissa Etheridge,Like The Way I Do-If I Wanted To
+1995,90,Melissa Etheridge,Like The Way I Do
+1995,90,Melissa Etheridge,If I Wanted To
 1995,91,Firehouse,I Live My Life For You
-1995,92,Stevie B,Dream About You-Funky Melody
+1995,92,Stevie B,Dream About You
+1995,92,Stevie B,Funky Melody
 1995,93,Rednex,Cotton Eye Joe
 1995,94,Boyz II Men,Thank You
 1995,95,Pretenders,I'll Stand By You
@@ -3807,15 +3851,18 @@ Year,Position,Artist,Song Title
 1996,6,Tracy Chapman,Give Me One Reason
 1996,7,Bone Thugs-N-Harmony,Tha Crossroads
 1996,8,Donna Lewis,I Love You Always Forever
-1996,9,Toni Braxton,You're Makin' Me High / Let It Flow
+1996,9,Toni Braxton,You're Makin' Me High
+1996,9,Toni Braxton,Let It Flow
 1996,10,Keith Sweat,Twisted
 1996,11,Quad City DJ's,C'mon N' Ride It (The Train)
 1996,12,Everything But The Girl,Missing
 1996,13,Alanis Morissette,Ironic
 1996,14,Whitney Houston,Exhale (Shoop Shoop)
-1996,15,Gin Blossoms,Follow You Down / Til I Hear It From You
+1996,15,Gin Blossoms,Follow You Down
+1996,15,Gin Blossoms,Til I Hear It From You
 1996,16,Brandy,Sittin' Up In My Room
-1996,17,2Pac,How Do U Want It / California Love
+1996,17,2Pac,How Do U Want It
+1996,17,2Pac,California Love
 1996,18,Celine Dion,It's All Coming Back To Me Now
 1996,19,Eric Clapton,Change The World
 1996,20,LL Cool J,Hey Lover
@@ -3827,7 +3874,8 @@ Year,Position,Artist,Song Title
 1996,26,No Mercy,Where Do You Go
 1996,27,R. Kelly,I Can't Sleep Baby (If I)
 1996,28,Dishwalla,Counting Blue Cars
-1996,29,Alanis Morissette,You Learn / You Oughta Know
+1996,29,Alanis Morissette,You Learn
+1996,29,Alanis Morissette,You Oughta Know
 1996,30,Joan Osborne,One Of Us
 1996,31,Natalie Merchant,Wonder
 1996,32,Mary J. Blige,Not Gon' Cry
@@ -3836,7 +3884,8 @@ Year,Position,Artist,Song Title
 1996,35,R. Kelly,Down Low (Nobody Has To Know)
 1996,36,SWV,You're The One
 1996,37,La Bouche,Sweet Dreams
-1996,38,Monica,Before You Walk Out Of My Life / Like This And Like That
+1996,38,Monica,Before You Walk Out Of My Life
+1996,38,Monica,Like This And Like That
 1996,39,Deep Blue Something,Breakfast At Tiffany's
 1996,40,Coolio,"1, 2, 3, 4 (Sumpin' New)"
 1996,41,Collective Soul,The World I Know
@@ -3844,7 +3893,8 @@ Year,Position,Artist,Song Title
 1996,43,3t,Anything
 1996,44,Smashing Pumpkins,1979
 1996,45,TLC,Diggin' On You
-1996,46,Monica,Why I Love You So Much / Ain't Nobody
+1996,46,Monica,Why I Love You So Much
+1996,46,Monica,Ain't Nobody
 1996,47,Total,Kissin' You
 1996,48,Whitney Houston and Cece Winans,Count On Me
 1996,49,Mariah Carey,Fantasy
@@ -3855,7 +3905,8 @@ Year,Position,Artist,Song Title
 1996,54,Color Me Badd,"The Earth, The Sun, The Rain"
 1996,55,Joe,All The Things (Your Man Won't Do)
 1996,56,Oasis,Wonderwall
-1996,57,Busta Rhymes,Woo-hah!! Got You All In Check / Everything Remains Raw
+1996,57,Busta Rhymes,Woo-hah!! Got You All In Check
+1996,57,Busta Rhymes,Everything Remains Raw
 1996,58,Groove Theory,Tell Me
 1996,59,Outkast,Elevators (Me and You)
 1996,60,Blues Traveler,Hook
@@ -3894,13 +3945,16 @@ Year,Position,Artist,Song Title
 1996,93,Crucial Conflict,Hay
 1996,94,Ace Of Base,Beautiful Life
 1996,95,Take That,Back For Good
-1996,96,Pearl Jam,I Got Id / Long Road
+1996,96,Pearl Jam,I Got Id
+1996,96,Pearl Jam,Long Road
 1996,97,Faith Evans,Soon As I Get Home
 1996,98,Los Del Rio,Macarena
 1996,99,Hootie and The Blowfish,Only Wanna Be With You
 1996,100,Seal,Don't Cry
-1997,1,Elton John,Candle In The Wind 1997 / Something About The Way You Look Tonight
-1997,2,Jewel,Foolish Games / You Were Meant For Me
+1997,1,Elton John,Candle In The Wind 1997
+1997,1,Elton John,Something About The Way You Look Tonight
+1997,2,Jewel,Foolish Games
+1997,2,Jewel,You Were Meant For Me
 1997,3,Puff Daddy and Faith Evans,I'll Be Missing You
 1997,4,Toni Braxton,Un-Break My Heart
 1997,5,Puff Daddy,Can't Nobody Hold Me Down
@@ -3957,7 +4011,8 @@ Year,Position,Artist,Song Title
 1997,56,Dru Hill,Never Make A Promise
 1997,57,Journey,When You Love A Woman
 1997,58,Magoo And Timbaland,Up Jumps Da Boogie
-1997,59,Toni Braxton,I Don't Want To / I Love Me Some Him
+1997,59,Toni Braxton,I Don't Want To
+1997,59,Toni Braxton,I Love Me Some Him
 1997,60,Sheryl Crow,Everyday Is A Winding Road
 1997,61,Mc Lyte,Cold Rock A Party
 1997,62,Ginuwine,Pony
@@ -3993,10 +4048,12 @@ Year,Position,Artist,Song Title
 1997,92,Mr. President,Coco Jamboo
 1997,93,Keith Sweat,Twisted
 1997,94,Aqua,Barbie Girl
-1997,95,Cranberries,When You're Gone / Free To Decide
+1997,95,Cranberries,When You're Gone
+1997,95,Cranberries,Free To Decide
 1997,96,DJ Kool,Let Me Clear My Throat
 1997,97,Blackout Allstars,I Like It
-1997,98,Toni Braxton,You're Makin' Me High / Let It Flow
+1997,98,Toni Braxton,You're Makin' Me High
+1997,98,Toni Braxton,Let It Flow
 1997,99,Madonna,You Must Love Me
 1997,100,Ray J,Let It Go
 1998,1,Next,Too Close
@@ -4006,7 +4063,6 @@ Year,Position,Artist,Song Title
 1998,5,LeAnn Rimes,How Do I Live
 1998,6,Janet,Together Again
 1998,7,K-Ci and JoJo,All My Life
-1998,8,Elton John,Candle In The Wind 1997 / Something About The Way You Look Tonight
 1998,9,Usher,Nice and Slow
 1998,10,Paula Cole,I Don't Want To Wait
 1998,11,Third Eye Blind,How's It Going To Be
@@ -4071,7 +4127,8 @@ Year,Position,Artist,Song Title
 1998,70,Pras Feat. Ol' Dirty Bastard and Mya,Ghetto Supastar (That Is What You Are)
 1998,71,Dru Hill feat. Redman,How Deep Is Your Love
 1998,72,Kelly Price,Friend Of Mine
-1998,73,Busta Rhymes,Turn It Up [Remix] / Fire It Up
+1998,73,Busta Rhymes,Turn It Up [Remix]
+1998,73,Busta Rhymes,Fire It Up
 1998,74,Edwin McCain,I'll Be
 1998,75,Madonna,Ray Of Light
 1998,76,Sister Hazel,All For You
@@ -4085,7 +4142,6 @@ Year,Position,Artist,Song Title
 1998,84,Allure feat. 112,All Cried Out
 1998,85,Big Punisher feat. Joe,Still Not A Player
 1998,86,Aaliyah,The One I Gave My Heart To
-1998,87,Jewel,Foolish Games / You Were Meant For Me
 1998,88,Inoj,Love You Down
 1998,89,2Pac,Do For Love
 1998,90,Luke,Raise The Roof
@@ -4920,7 +4976,7 @@ Year,Position,Artist,Song Title
 2007,19,Fergie,Fergalicious
 2007,20,Soulja Boy Tell'em,Crank That (Soulja Boy)
 2007,21,Timbaland feat. Nelly Furtado and Justin Timberlake,Give It To Me
-2007,22,Justin Timberlake,What Goes Around…Comes Around
+2007,22,Justin Timberlake,What Goes Around Comes Around
 2007,23,Gym Class Heroes feat. Patrick Stump,Cupid's Chokehold/Breakfast In America
 2007,24,Fray,How To Save A Life
 2007,25,Daughtry,Home
@@ -5267,7 +5323,6 @@ Year,Position,Artist,Song Title
 2010,66,Nicki Minaj,Your Love
 2010,67,Miley Cyrus,Party In The U.S.A.
 2010,68,Chris Brown feat. Tyga and Kevin McCall,Deuces
-2010,69,Britney Spears,3
 2010,70,Shontelle,Impossible
 2010,71,"Drake feat. Kanye West, Lil Wayne and Eminem",Forever
 2010,72,Boys Like Girls feat. Taylor Swift,Two Is Better Than One
@@ -5695,7 +5750,7 @@ Year,Position,Artist,Song Title
 2014,94,Zedd feat. Hayley Williams,Stay The Night
 2014,95,Beyonce,Partition
 2014,96,Schoolboy Q feat. BJ The Chicago Kid,Studio
-2014,97,Drake,0 To 100 / The Catch Up
+2014,97,Drake,0 To 100/The Catch Up
 2014,98,Lee Brice,I Don't Dance
 2014,99,Miranda Lambert and Carrie Underwood,Somethin' Bad
 2014,100,Miley Cyrus,Adore You
