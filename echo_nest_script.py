@@ -12,16 +12,16 @@ def persistent_request(url, headers):
 		except:
 			call_attempts += 1
 
-	if r.status_code == 401:
-		print "Need new authorization code"
-		raise Exception
+	# if r.status_code == 401:
+	# 	print "Need new authorization code"
+	# 	raise Exception
 	print "damn"
 	return
 
 def add_songs(range_begin, range_end):
-	songs_list = p.parse("./song_titles.csv")
-	song_years = p.parse("./years.csv")
-	song_artist = p.parse("./artists.csv")
+	songs_list = p.parse("./Song_titles_supplement.csv")
+	song_years = p.parse("./years_supplement.csv")
+	song_artist = p.parse("./artists_supplement.csv")
 
 	song_data_headers = ["title", "spotify_id", "artist", "year", "popularity", "danceability", "energy", "key", "loudness", "mode", "speechiness", "acousticness", "instrumentalness", "liveness", "valence", "tempo", "duration_ms", "time_signature"]
 	song_data = []
@@ -30,7 +30,7 @@ def add_songs(range_begin, range_end):
 		print (i + 1)
 		query = "search?q="+songs_list[i]+ " " + song_artist[i] +"&type=track"
 		url = "https://api.spotify.com/v1/"+query
-		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQBnzJZWXmlfH3dZ1qugmisod_JuLniew6rP_CqitAxvuEa0eSm_7U7ikRk2cQoi2hypyXFhKEUFZyW78UAffYsRUgh8fudYn_3MP3sjUjgnauPqn_8r5dURfa0wlBCJuZGXkxeazQxTjL8"}
+		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQACmoLPW018izqe_CkSm9-Dv75iXU9o75yuey5BxReGCRuLHk04IAPIE3VgfgdW0q47aEv_E7goe1uDP0AfEOy-UXSlsUmaHHApGCn2ddBkVuDPosN8LC371OE4BpVWTDtStzWuVGiqMBU"}
 
 		data = persistent_request(url, req_headers)
 		if data == None:
@@ -66,8 +66,8 @@ def add_songs(range_begin, range_end):
 			song_data.append(row)
 
 	filename = "output.csv"
-	file = open(filename, "a")
-	# file.write(",".join(song_data_headers)+"\n")
+	file = open(filename, "w")
+	file.write(",".join(song_data_headers)+"\n")
 	for song in song_data:
 		file.write(",".join(song)+"\n")
 	file.close()
@@ -75,8 +75,8 @@ def add_songs(range_begin, range_end):
 
 
 range_start = 0
-range_end = 1
-while range_end <= 1:
+range_end = 49
+while range_end <= 49:
 	add_songs(range_start, range_end)
 	print "songs added from " + str(range_start) + " to " + str(range_end)
 	range_start += 100
