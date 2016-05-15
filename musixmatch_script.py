@@ -1,7 +1,8 @@
 import json, requests
 import parse as p
 import xmltodict
-# obj = untangle.parse('path/to/file.xml')
+from textstat.textstat import textstat
+songs_without_lyrics = 0
 def persistent_request(url):
 	"""Function that makes up to 5 api calls and returns the json object"""
 	call_attempts = 0
@@ -23,30 +24,43 @@ def persistent_request(url):
 songs_list = p.parse("./song_titles.csv")
 songs_artist = p.parse("./artists.csv")
 
-song_data_headers = ["song", "artist", "lyrics"]
-song_data = []
-for i in range(0, len(songs_list)):
-	print (i + 1)
+song_data_headers = ["song", "artist", "word_count", "reading_ease_scores"]
+lyric_word_counts = []
+lyric_reading_scores = []
+for i in range(0, 5399):
+	print (i+1)
 	query = "artist=" + songs_artist[i]+ "&song=" + songs_list[i]
 	url = "http://api.chartlyrics.com/apiv1.asmx/SearchLyricDirect?"+query
 	data = persistent_request(url)
-	print data["GetLyricResult"]['Lyric']
-	# print data.root()
+	if data == None:
+		songs_without_lyrics = songs_without_lyrics + 1
+		Lyric = None
+		lyric_word_counts.append("?")
+		lyric_reading_scores.append("?")
+		continue
+	Lyric = data["GetLyricResult"]['Lyric']
+	if Lyric == None:
+		songs_without_lyrics = songs_without_lyrics + 1
+		Lyric = None
+		lyric_word_counts.append("?")
+		lyric_reading_scores.append("?")
+		continue
+	else:
+		Lyric = Lyric.replace("\n", ".\n")
+		lyric_word_counts.append(len(Lyric.split()))
+		try:
+			Reading_Ease = textstat.flesch_reading_ease(Lyric)
+		except:
+			lyric_reading_scores.append("?")
+		
+		lyric_reading_scores.append(Reading_Ease)
 
-	# if data == None:
-	# 	continue
-	# elif not "tracks" in data.keys():
-	# 	continue
-	# elif not len(data["tracks"]["items"]) == 0:
-	# 	#actually getting the attribute's for each instance now
-	# 	song_id = data["tracks"]["items"][0]["id"]
+print lyric_reading_scores
+print lyric_word_counts
 
-	# 	attr_query = "audio-features/" + song_id
-	# 	attr_url = "https://api.spotify.com/v1/" + attr_query
-	# 	attr_data = persistent_request(attr_url, req_headers)
-
-	# 	pop_query = "tracks/" + song_id + "?market=US"
-	# 	pop_url = "https://api.spotify.com/v1/" + pop_query
-	# 	pop_data = persistent_request(pop_url, req_headers)
-
-	# 	row = [songs_list[i], song_id, song_artist[i], str(song_years[i])]
+filename = "output.csv"
+file = open(filename, "w")
+file.write(",".join(song_data_headers)+"\n")
+for i in range(5399):
+	file.write(songs_list[i] + "," + songs_artist[i] + "," + str(lyric_word_counts[i]) + "," + str(lyric_reading_scores[i]) +"\n")
+file.close()

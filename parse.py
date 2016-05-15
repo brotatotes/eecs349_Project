@@ -11,7 +11,7 @@ def parse(filename):
     array = []
     file = open(filename, "r")
     # file.readline()
-    for i in range(0, 5855):
+    for i in range(0, 5399):
         line = file.readline()
         if " / " in line:
             line = line.split(" / ")
