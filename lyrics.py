@@ -1,8 +1,24 @@
-import requests, re
+import requests, re, os
 from bs4 import BeautifulSoup, SoupStrainer
 import parse as p
 from textblob import TextBlob
 from textstat.textstat import textstat
+
+def persistent_request(url):
+	"""Function that makes up to 5 api calls and returns the json object"""
+	call_attempts = 0
+	call_succeeded = False
+	while (not call_succeeded) and (call_attempts < 5):
+		try:
+			html_doc = requests.get(url)
+			return html_doc
+		except:
+			call_attempts += 1
+	if html_doc.status_code == 401:
+		print "Need new authorization code"
+		raise Exception
+	print "damn"
+	return
 
 songs_list = p.parse("./song_titles.csv")
 songs_artist = p.parse("./artists.csv")
@@ -14,16 +30,16 @@ sentiments = []
 for i in range(0, 5399):
 	artist = songs_artist[i].replace(" ","-")
 	song = songs_list[i].replace(" ","-")
-	query = "http://www.metrolyrics.com/" + song + "-lyrics-" + artist
-	print query
-	html_doc = requests.get(query)
-	page = BeautifulSoup(html_doc.text, 'html.parser')
+	url = "http://www.metrolyrics.com/" + song + "-lyrics-" + artist
+	print url
+	html_doc = persistent_request(url)
+	page = BeautifulSoup(html_doc.text, 'html.parser')	
 	verses = page.find_all("div", id="lyrics-body-text")
 	if len(verses) > 0:
 		lyric = str(verses[0])
 		lyric = re.sub(r'\<[^>]*\>', '', lyric)
+		lyric = re.sub("\n\s*\n*", "\n", lyric)
 		lyric = lyric.replace("\n", ".\n")
-		lyric_word_counts.append(len(lyric.split()))
 		try:
 			sentiments.append(TextBlob(lyric).sentiment)
 		except:
@@ -32,17 +48,19 @@ for i in range(0, 5399):
 			lyric_reading_scores.append(textstat.flesch_reading_ease(lyric))
 		except:
 			lyric_reading_scores.append("?")
+		print lyric
 	else:		
-		query = "http://www.songlyrics.com/" +artist + "/" + song +"-lyrics/"
-		print query
-		html_doc = requests.get(query)
+		url = "http://www.songlyrics.com/" +artist + "/" + song +"-lyrics/"
+		print url
+		html_doc = persistent_request(url)
 		page = BeautifulSoup(html_doc.text, 'html.parser')
 		verses = page.find_all("div", id="songLyricsDiv-outer")
 		if len(verses) > 0:
 			lyric = str(verses[0])
 			lyric = re.sub(r'\<[^>]*\>', '', lyric)
+			lyric = re.sub("\n\s*\n*", "\n", lyric)
 			lyric = lyric.replace("\n", ".\n")
-			if lyric[2:19] != "Sorry, we have no":
+			if "Sorry, we have no" not in lyric:
 				try:
 					sentiments.append(TextBlob(lyric).sentiment)
 				except:
@@ -52,6 +70,7 @@ for i in range(0, 5399):
 				except:
 					lyric_reading_scores.append("?")
 				lyric_word_counts.append(len(lyric.split()))
+				print lyric
 			else:
 				lyric = ""
 				print "404"
@@ -59,8 +78,7 @@ for i in range(0, 5399):
 			lyric = ""
 			print "404"
 			sentiments.append(["?", "?"])
-print lyric_reading_scores
-print sentiments
+			
 filename = "lyric_attributes.csv"
 file = open(filename, "w")
 file.write(",".join(song_data_headers)+"\n")
