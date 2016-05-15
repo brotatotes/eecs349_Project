@@ -29,31 +29,39 @@ def get_top_tags(track_name, artist):
 	r = persistent_request(request_url)
 	data = json.loads(r.text)
 	try:
-		return map(lambda x: x["name"], data["toptags"]["tag"][0:5])
+		return map(lambda x: x["name"], data["toptags"]["tag"][:])
 	except:
 		[]
 
 songs_list = p.parse("./song_titles.csv")
 songs_artist = p.parse("./artists.csv")
 genres = ["oldies", "rock", "classic rock", "jazz", "soul", "instrumental", "folk", "country", "pop", "blues", "reggae", "Hip-Hop", "rnb" ,"rap", "indie", "funk", "latin", "electronic", "punk", "Disco"]
-song_data_headers = ["song", "artist", "word_count", "reading_ease_scores"]
+song_data_headers = ["song", "artist", "genre"]
 lyric_word_counts = []
 lyric_reading_scores = []
 song_genres = []
 for i in range(0, 5399):
-	data = get_top_tags(songs_list[i*50], songs_artist[i*50])
+	data = get_top_tags(songs_list[i], songs_artist[i])
 	if data == None or len(data) == 0:
 		print data
 		song_genres.append("?")	
 	else:
-		for i in range(0, len(data)):
-			if data[i] in genres:
-				song_genres.append(data[i])
+		for j in range(0, len(data)):
+			if data[j] in genres:
+				song_genres.append(data[j])
 				break
-			elif i == len(data)-1:
+			elif j == len(data)-1:
 				print data
 				song_genres.append("?")
 			else:
 				continue
+	print i
 print song_genres
 print len(song_genres)
+
+filename = "genres.csv"
+file = open(filename, "w")
+file.write(",".join(song_data_headers)+"\n")
+for i in range(5399):
+	file.write(songs_list[i] + "," + songs_artist[i] + "," + song_genres[i] + "\n")
+file.close()
