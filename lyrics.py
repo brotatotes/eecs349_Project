@@ -5,83 +5,126 @@ from textblob import TextBlob
 from textstat.textstat import textstat
 
 def persistent_request(url):
-	"""Function that makes up to 5 api calls and returns the json object"""
+	"""Function that makes up to 10 api calls and returns the json object"""
 	call_attempts = 0
 	call_succeeded = False
-	while (not call_succeeded) and (call_attempts < 5):
+	while (not call_succeeded) and (call_attempts < 10):
 		try:
 			html_doc = requests.get(url)
 			return html_doc
 		except:
 			call_attempts += 1
-	if html_doc.status_code == 401:
-		print "Need new authorization code"
-		raise Exception
 	print "damn"
 	return
 
-songs_list = p.parse("./song_titles.csv")
-songs_artist = p.parse("./artists.csv")
-song_data_headers = ["song", "artist", "word_count", "reading_ease", "polarity", "subjectivity"]
-lyric_word_counts = []
-lyric_reading_scores = []
-sentiments = []
+def add_lyric_data(range_start, range_end, restart=False):
+	songs_list = p.parse("./song_titles.csv")
+	songs_artist = p.parse("./artists.csv")
+	song_data_headers = ["song", "artist", "word_count", "reading_ease", "polarity", "subjectivity"]
+	lyric_word_counts = []
+	lyric_reading_scores = []
+	sentiments = []
 
-for i in range(0, 5399):
-	artist = songs_artist[i].replace(" ","-")
-	song = songs_list[i].replace(" ","-")
-	url = "http://www.metrolyrics.com/" + song + "-lyrics-" + artist
-	print url
-	html_doc = persistent_request(url)
-	page = BeautifulSoup(html_doc.text, 'html.parser')	
-	verses = page.find_all("div", id="lyrics-body-text")
-	if len(verses) > 0:
-		lyric = str(verses[0])
-		lyric = re.sub(r'\<[^>]*\>', '', lyric)
-		lyric = re.sub("\n\s*\n*", "\n", lyric)
-		lyric = lyric.replace("\n", ".\n")
-		try:
-			sentiments.append(TextBlob(lyric).sentiment)
-		except:
-			sentiments.append(["?", "?"])
-		try:
-			lyric_reading_scores.append(textstat.flesch_reading_ease(lyric))
-		except:
-			lyric_reading_scores.append("?")
-		print lyric
-	else:		
-		url = "http://www.songlyrics.com/" +artist + "/" + song +"-lyrics/"
-		print url
+	for i in range(range_start, range_end):
+		print (i+1)
+		artist = songs_artist[i].replace(" ","-")
+		song = songs_list[i].replace(" ","-")
+		url = "http://www.metrolyrics.com/" + song + "-lyrics-" + artist
+		# print url
 		html_doc = persistent_request(url)
-		page = BeautifulSoup(html_doc.text, 'html.parser')
-		verses = page.find_all("div", id="songLyricsDiv-outer")
+
+		if html_doc == None:
+			lyric_word_counts.append("?")
+			lyric_reading_scores.append("?")
+			sentiments.append(["?", "?"])
+			print songs_list[i] + "," + songs_artist[i] + "," + str(lyric_word_counts[i - range_start]) + "," + str(lyric_reading_scores[i - range_start]) + "," +str(sentiments[i - range_start][0]) + "," + str(sentiments[i - range_start][1])
+			continue
+
+		page = BeautifulSoup(html_doc.text, 'html.parser')	
+		verses = page.find_all("div", id="lyrics-body-text")
 		if len(verses) > 0:
 			lyric = str(verses[0])
 			lyric = re.sub(r'\<[^>]*\>', '', lyric)
 			lyric = re.sub("\n\s*\n*", "\n", lyric)
 			lyric = lyric.replace("\n", ".\n")
-			if "Sorry, we have no" not in lyric:
-				try:
-					sentiments.append(TextBlob(lyric).sentiment)
-				except:
-					sentiments.append(["?", "?"])
-				try:
-					lyric_reading_scores.append(textstat.flesch_reading_ease(lyric))
-				except:
+			try:
+				sentiments.append(TextBlob(lyric).sentiment)
+			except:
+				sentiments.append(["?", "?"])
+			try:
+				lyric_reading_scores.append(textstat.flesch_reading_ease(lyric))
+			except:
+				lyric_reading_scores.append("?")
+			lyric_word_counts.append(len(lyric.split()))
+			# print lyric
+		else:		
+			url = "http://www.songlyrics.com/" +artist + "/" + song +"-lyrics/"
+			# print url
+			html_doc = persistent_request(url)
+
+
+			if html_doc == None:
+				lyric_word_counts.append("?")
+				lyric_reading_scores.append("?")
+				sentiments.append(["?", "?"])
+				print songs_list[i] + "," + songs_artist[i] + "," + str(lyric_word_counts[i - range_start]) + "," + str(lyric_reading_scores[i - range_start]) + "," +str(sentiments[i - range_start][0]) + "," + str(sentiments[i - range_start][1])
+				continue
+
+			page = BeautifulSoup(html_doc.text, 'html.parser')
+			verses = page.find_all("div", id="songLyricsDiv-outer")
+			if len(verses) > 0:
+				lyric = str(verses[0])
+				lyric = re.sub(r'\<[^>]*\>', '', lyric)
+				lyric = re.sub("\n\s*\n*", "\n", lyric)
+				lyric = lyric.replace("\n", ".\n")
+				if "Sorry, we have no" not in lyric:
+					try:
+						sentiments.append(TextBlob(lyric).sentiment)
+					except:
+						sentiments.append(["?", "?"])
+					try:
+						lyric_reading_scores.append(textstat.flesch_reading_ease(lyric))
+					except:
+						lyric_reading_scores.append("?")
+					lyric_word_counts.append(len(lyric.split()))
+					# print lyric
+				else:
+					lyric = ""
+					lyric_word_counts.append("?")
 					lyric_reading_scores.append("?")
-				lyric_word_counts.append(len(lyric.split()))
-				print lyric
+					sentiments.append(["?", "?"])
+					# print "404"
 			else:
 				lyric = ""
-				print "404"
-		else:
-			lyric = ""
-			print "404"
-			sentiments.append(["?", "?"])
-			
-filename = "lyric_attributes.csv"
-file = open(filename, "w")
-file.write(",".join(song_data_headers)+"\n")
-for i in range(5399):
-	file.write(songs_list[i] + "," + songs_artist[i] + "," + str(lyric_word_counts[i]) + "," + str(lyric_reading_scores[i]) + "," +str(sentiments[i][0]) + "," + str(sentiments[i][1]) + "\n")
-file.close()
+				# print "404"
+				lyric_word_counts.append("?")
+				lyric_reading_scores.append("?")
+				sentiments.append(["?", "?"])
+		print songs_list[i] + "," + songs_artist[i] + "," + str(lyric_word_counts[i - range_start]) + "," + str(lyric_reading_scores[i - range_start]) + "," +str(sentiments[i - range_start][0]) + "," + str(sentiments[i - range_start][1])
+				
+	filename = "lyric_attributes.csv"
+	
+	if restart:
+		file = open(filename, "w")
+		file.write(",".join(song_data_headers)+"\n")
+	else:
+		file = open(filename, "a")
+
+	for i in range(len(lyric_word_counts)):
+		row = songs_list[range_start + i] + "," + songs_artist[range_start + i] + "," + str(lyric_word_counts[i]) + "," + str(lyric_reading_scores[i]) + "," +str(sentiments[i][0]) + "," + str(sentiments[i][1]) + "\n"
+		file.write(row)
+	file.close()
+
+
+
+# add_lyric_data(0, 100, restart=True)
+
+range_start = 1500
+range_end = 1600
+while range_end <= 5300:
+	add_lyric_data(range_start, range_end)
+	print "songs added from " + str(range_start) + " to " + str(range_end)
+	range_start += 100
+	range_end += 100
+
+add_lyric_data(5300, 5399)
