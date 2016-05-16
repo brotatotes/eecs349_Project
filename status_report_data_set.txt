@@ -1,0 +1,7 @@
+Describe the data set you have utilized to date. What types of attributes are there, how many attributes, how many examples, and how have you partitioned the data for the purpose of development/training/validation/testing.
+
+We spent a lot of time writing scripts, using various APIs, and scouring the web to scrape data from various sites to obtain various attributes. The big data set we have compiled so far includes 5800 songs from 1958 to 2015. All of these songs were part of the Billboard Year-End Top 100 list. We can easily improve this data set by including songs not necessarily on that list in the near future. They also include all Record-Of-The-Year Grammy winners and nominees. Some example attributes out of the 20 we have collected include popularity, genre, word_count, and even danceability. We ran 10-fold cross validation on the entire data set for now. 
+
+
+song_title,spotify_id,artist,year,popularity,genre,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,word_count,reading_ease,polarity,subjectivity,is_winner,is_nominee
+
