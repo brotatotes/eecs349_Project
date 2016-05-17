@@ -80,12 +80,3 @@ file.write(",".join(song_data_headers)+"\n")
 for i in range(5399):
 	file.write(str(songs_list[i]) + "," + str(songs_artist[i]) + "," + str(ages[i]) + "\n")
 file.close()
-
-# yahoo birthplace
-# <a class=" fz-4xl fw-s lh-m "
-# wikipedia birthplace
-# <span class="birthplace">
-
-
-# wikipedia labels
-# <div class="hlist">
