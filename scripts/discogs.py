@@ -20,20 +20,25 @@ def persistent_request(url):
 	return
 
 
-songs_years = p.parse("../data/years.csv")
 songs_artist = p.parse("../data/artists.csv")
 songs_list = p.parse("../data/song_titles.csv")
 song_data_headers = ["song", "artist", "labels"]
 labels = []
 
 for i in range(5399):
-	url = "https://api.discogs.com/database/search?release_title=" +str(songs_list[i])+"&artist="+ str(songs_artist[i])+"&token=wijuIjjAhxEdvPVotElLdycDEosgTyAKkVdiigVD"
+	url = "https://api.discogs.com/database/search?release_title=" +str(songs_list[i])+"&token=wijuIjjAhxEdvPVotElLdycDEosgTyAKkVdiigVD"
 	print url
 	data = persistent_request(url)
-	if len(data["results"]) > 0:
-		label = data["results"][0]["label"]
-		labels.append(label[0])
-	else:
+	try:
+		if len(data["results"]) > 0:
+			try:
+				label = data["results"][0]["label"]
+				labels.append(label[0])
+			except:
+				labels.append("?")
+		else:
+			labels.append("?")
+	except:
 		labels.append("?")
 print labels
 
