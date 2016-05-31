@@ -1,0 +1,2134 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.2 -M 0.2 -N 300 -V 0 -S 0 -E 20 -H "a, 4" -G -R
+Relation:     training_data_numerical_prediction_log_weights
+Instances:    4955
+Attributes:   20
+              popularity
+              genre
+              danceability
+              energy
+              key
+              loudness
+              mode
+              speechiness
+              acousticness
+              instrumentalness
+              liveness
+              valence
+              tempo
+              duration_ms
+              time_signature
+              word_count
+              reading_ease
+              polarity
+              subjectivity
+              winner_score
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -0.4720278400987834
+    Node 28    -0.5469132573086283
+    Node 29    -0.5567205257122594
+    Node 30    -0.562972179781531
+    Node 31    -0.6424646350550259
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.04098021627563718
+    Attrib popularity    0.00903929981928888
+    Attrib genre=Disco    0.023123066379749077
+    Attrib genre=Hip-Hop    0.018946419224000994
+    Attrib genre=RNB    0.003026709592606698
+    Attrib genre=blues    -0.03484190179087449
+    Attrib genre=classic_rock    0.0497421166944184
+    Attrib genre=country    0.05023900373424179
+    Attrib genre=electronic    0.031924568684705876
+    Attrib genre=folk    0.014106281326000248
+    Attrib genre=funk    -0.00476015567008713
+    Attrib genre=indie    -0.019228698311838162
+    Attrib genre=instrumental    0.012605380898245897
+    Attrib genre=jazz    0.010932390838274368
+    Attrib genre=latin    -0.0331132933447786
+    Attrib genre=oldies    0.02728632646823021
+    Attrib genre=pop    -0.002231384529666762
+    Attrib genre=punk    0.02485821048684642
+    Attrib genre=rap    0.002765724675120254
+    Attrib genre=reggae    0.028663715560880335
+    Attrib genre=rnb    0.026225894059534283
+    Attrib genre=rock    -0.03448904950116386
+    Attrib genre=soul    0.0014596395583651638
+    Attrib danceability    -0.06384182951416753
+    Attrib energy    0.017680586152509933
+    Attrib key=0    0.02630131054843567
+    Attrib key=1    0.03534748357994847
+    Attrib key=2    0.03674621430844267
+    Attrib key=3    -0.01870804769804406
+    Attrib key=4    0.03908991209426761
+    Attrib key=5    -0.016479010343464325
+    Attrib key=6    0.04346378165652915
+    Attrib key=7    0.010291331208075533
+    Attrib key=8    0.04976120268175257
+    Attrib key=9    0.046962852405177634
+    Attrib key=10    -0.008303722179546896
+    Attrib key=11    0.01767342103553145
+    Attrib loudness    -0.018466419817411282
+    Attrib mode    -0.043195331141474884
+    Attrib speechiness    0.01958411747087705
+    Attrib acousticness    0.03085011220595139
+    Attrib instrumentalness    -0.0066298826490024075
+    Attrib liveness    -0.018979287781683483
+    Attrib valence    0.03151472730490564
+    Attrib tempo    0.04153257023668487
+    Attrib duration_ms    0.032276881116178435
+    Attrib time_signature=1    -0.031037749244277265
+    Attrib time_signature=3    0.042021609902855556
+    Attrib time_signature=4    -0.039420009729338644
+    Attrib time_signature=5    0.027924273454974745
+    Attrib word_count    0.03854865527973979
+    Attrib reading_ease    0.0036559473673521458
+    Attrib polarity    -0.02829557489093116
+    Attrib subjectivity    0.021368062792757516
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.05069549865387478
+    Attrib popularity    0.03296746389266506
+    Attrib genre=Disco    0.03806847084908163
+    Attrib genre=Hip-Hop    -0.045325698685123504
+    Attrib genre=RNB    -0.00719345883312471
+    Attrib genre=blues    0.032374704628522474
+    Attrib genre=classic_rock    0.04761836319423962
+    Attrib genre=country    0.015748146426196666
+    Attrib genre=electronic    0.02657640490934545
+    Attrib genre=folk    0.043673596295832756
+    Attrib genre=funk    0.007619764653541286
+    Attrib genre=indie    -0.0495263182476295
+    Attrib genre=instrumental    0.0191900273765295
+    Attrib genre=jazz    -0.018910113424739514
+    Attrib genre=latin    0.030856553843798252
+    Attrib genre=oldies    0.053481949602511875
+    Attrib genre=pop    -0.03052878085154875
+    Attrib genre=punk    0.016483508099656406
+    Attrib genre=rap    0.03961393884997604
+    Attrib genre=reggae    -5.782720761696664E-4
+    Attrib genre=rnb    0.023568989841537994
+    Attrib genre=rock    0.07086818246260547
+    Attrib genre=soul    0.12544576336650887
+    Attrib danceability    -0.04970783657369764
+    Attrib energy    -0.05553897077690233
+    Attrib key=0    0.048966627858757404
+    Attrib key=1    -0.025014833380051036
+    Attrib key=2    0.018785109594241373
+    Attrib key=3    -0.07028691388457792
+    Attrib key=4    -0.012333001152366962
+    Attrib key=5    -0.0505409086033082
+    Attrib key=6    -0.010854669264181006
+    Attrib key=7    -0.026077155986857146
+    Attrib key=8    0.04154843072384313
+    Attrib key=9    0.08874781021605321
+    Attrib key=10    0.06452860214491793
+    Attrib key=11    0.015694550060994975
+    Attrib loudness    -0.03266271298662792
+    Attrib mode    -0.02474763321061411
+    Attrib speechiness    -0.08466523683105244
+    Attrib acousticness    0.06155201039523567
+    Attrib instrumentalness    0.036367171039106076
+    Attrib liveness    0.03935308127554485
+    Attrib valence    -0.02412701960309561
+    Attrib tempo    -0.023105229075120446
+    Attrib duration_ms    -2.338195519471505E-4
+    Attrib time_signature=1    -0.0013837656498152098
+    Attrib time_signature=3    -0.07392755049303824
+    Attrib time_signature=4    0.030550353130980368
+    Attrib time_signature=5    -0.06194705732143589
+    Attrib word_count    0.01573142998841277
+    Attrib reading_ease    -0.02880156501553548
+    Attrib polarity    6.583802340632441E-4
+    Attrib subjectivity    -0.022773151951001113
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.04106937214099922
+    Attrib popularity    0.1223865787497059
+    Attrib genre=Disco    0.01629844221417569
+    Attrib genre=Hip-Hop    -0.014818668876918595
+    Attrib genre=RNB    0.056799074206501876
+    Attrib genre=blues    0.03714438976286841
+    Attrib genre=classic_rock    0.030142757666114912
+    Attrib genre=country    -0.016404934242627026
+    Attrib genre=electronic    0.001757337711137038
+    Attrib genre=folk    0.01152423325732342
+    Attrib genre=funk    0.00754470730158071
+    Attrib genre=indie    -0.03988482611953433
+    Attrib genre=instrumental    0.054038173885367365
+    Attrib genre=jazz    -0.006106439700450928
+    Attrib genre=latin    -0.0059654818161044435
+    Attrib genre=oldies    0.005680408572613709
+    Attrib genre=pop    -0.02599923642117411
+    Attrib genre=punk    0.024784625762931094
+    Attrib genre=rap    -0.0437228254641835
+    Attrib genre=reggae    0.0352542884191059
+    Attrib genre=rnb    -0.05751731300438505
+    Attrib genre=rock    0.09679140601706993
+    Attrib genre=soul    0.08471471992081447
+    Attrib danceability    -0.11293163444091407
+    Attrib energy    -0.04298532545560244
+    Attrib key=0    0.030812602202138377
+    Attrib key=1    -0.03434801145103111
+    Attrib key=2    -0.0333288757211186
+    Attrib key=3    -0.019937264621973608
+    Attrib key=4    3.4626933577304957E-4
+    Attrib key=5    -0.038328851672118726
+    Attrib key=6    0.062419495699402146
+    Attrib key=7    0.05406106235187701
+    Attrib key=8    -0.01980980105464937
+    Attrib key=9    0.07537115828109814
+    Attrib key=10    0.0344314930476614
+    Attrib key=11    -0.012175165665447171
+    Attrib loudness    -0.051382012629809876
+    Attrib mode    -0.010290138705328382
+    Attrib speechiness    -0.061278637042323995
+    Attrib acousticness    0.09894507190843128
+    Attrib instrumentalness    -4.470361349621216E-4
+    Attrib liveness    0.02062077224088632
+    Attrib valence    0.0034509334375461475
+    Attrib tempo    -0.04222810498162056
+    Attrib duration_ms    0.013920949495975977
+    Attrib time_signature=1    0.06505145586789969
+    Attrib time_signature=3    -0.05201440922484131
+    Attrib time_signature=4    0.03230272887022632
+    Attrib time_signature=5    -0.00789818465774713
+    Attrib word_count    -0.042703347761053556
+    Attrib reading_ease    -0.08036474662026406
+    Attrib polarity    0.029635981296785775
+    Attrib subjectivity    -0.08051657800492766
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.004256689905613572
+    Attrib popularity    0.01813218716465082
+    Attrib genre=Disco    0.03896635549922643
+    Attrib genre=Hip-Hop    -0.013915224842457122
+    Attrib genre=RNB    0.006193545604918245
+    Attrib genre=blues    0.04371031558726635
+    Attrib genre=classic_rock    -0.036973235587683784
+    Attrib genre=country    -0.0038373905463564705
+    Attrib genre=electronic    -0.017503900440568373
+    Attrib genre=folk    0.029980612121520644
+    Attrib genre=funk    0.0018418791963291077
+    Attrib genre=indie    0.01900648714293475
+    Attrib genre=instrumental    -0.024014013751450486
+    Attrib genre=jazz    0.03409041520151107
+    Attrib genre=latin    0.033243758728456606
+    Attrib genre=oldies    -0.017100595746494446
+    Attrib genre=pop    -0.02048186004262117
+    Attrib genre=punk    0.04832454276038582
+    Attrib genre=rap    0.014203012118001294
+    Attrib genre=reggae    -0.022424374251436067
+    Attrib genre=rnb    0.023199622328794002
+    Attrib genre=rock    0.07084997614478719
+    Attrib genre=soul    0.07526580153389141
+    Attrib danceability    -0.00957513044186314
+    Attrib energy    0.01036370598145781
+    Attrib key=0    3.631241041349808E-4
+    Attrib key=1    -0.02102978290791203
+    Attrib key=2    -0.024194207788314426
+    Attrib key=3    -0.04409528767851308
+    Attrib key=4    0.03817571626695374
+    Attrib key=5    6.663644939526224E-4
+    Attrib key=6    0.051424486864856546
+    Attrib key=7    0.04475564031671043
+    Attrib key=8    0.03610956827449744
+    Attrib key=9    0.05030491697696676
+    Attrib key=10    0.044087467179700454
+    Attrib key=11    -0.003098010169704408
+    Attrib loudness    -0.0020650561626923214
+    Attrib mode    0.014006556583074268
+    Attrib speechiness    -0.07598114570264042
+    Attrib acousticness    0.011557677381955131
+    Attrib instrumentalness    -0.039691270350040185
+    Attrib liveness    0.04003988765404331
+    Attrib valence    0.021612901372928418
+    Attrib tempo    0.002541154874836239
+    Attrib duration_ms    0.02838243683978339
+    Attrib time_signature=1    0.01191011900650795
+    Attrib time_signature=3    -0.033920224586300424
+    Attrib time_signature=4    -0.02111422444199264
+    Attrib time_signature=5    -0.0036129484535913333
+    Attrib word_count    0.00874713947298418
+    Attrib reading_ease    6.290007029880736E-4
+    Attrib polarity    -0.03225367811980384
+    Attrib subjectivity    -0.04089027163334476
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.06108431847944924
+    Attrib popularity    0.10008146058444925
+    Attrib genre=Disco    -0.03021077549537371
+    Attrib genre=Hip-Hop    0.003788299155394001
+    Attrib genre=RNB    -0.005616451766459036
+    Attrib genre=blues    0.020447964260971445
+    Attrib genre=classic_rock    0.027478529940485674
+    Attrib genre=country    -0.014016712690290862
+    Attrib genre=electronic    0.011454124009887892
+    Attrib genre=folk    0.028872733431124446
+    Attrib genre=funk    0.055346692183417937
+    Attrib genre=indie    0.0049635260671157784
+    Attrib genre=instrumental    0.0012103043287329492
+    Attrib genre=jazz    0.04391396181386091
+    Attrib genre=latin    0.045780103198113736
+    Attrib genre=oldies    0.004352257717300112
+    Attrib genre=pop    -0.015387532871230332
+    Attrib genre=punk    0.03948775348057623
+    Attrib genre=rap    0.014510348215203556
+    Attrib genre=reggae    -0.026062652145798417
+    Attrib genre=rnb    7.678518791175892E-4
+    Attrib genre=rock    0.02358851619988459
+    Attrib genre=soul    0.10921714293146695
+    Attrib danceability    -0.15119296839406524
+    Attrib energy    -0.05844873526369039
+    Attrib key=0    0.11613265206414224
+    Attrib key=1    -0.009107782976085435
+    Attrib key=2    -0.020195234775838008
+    Attrib key=3    -0.09133489937438279
+    Attrib key=4    0.04153933316818778
+    Attrib key=5    -0.023325054455468876
+    Attrib key=6    -0.010999797678319103
+    Attrib key=7    0.006044081002677329
+    Attrib key=8    0.005126367267543
+    Attrib key=9    0.07466246324424643
+    Attrib key=10    0.021896349307754054
+    Attrib key=11    0.016598259355100814
+    Attrib loudness    -0.02031929780733736
+    Attrib mode    -0.03958343837276089
+    Attrib speechiness    -0.03435396864956144
+    Attrib acousticness    0.1065252488704558
+    Attrib instrumentalness    -0.048046851045171375
+    Attrib liveness    -0.0215674537513538
+    Attrib valence    0.005957418860136137
+    Attrib tempo    0.007474692876867963
+    Attrib duration_ms    0.06000400673122632
+    Attrib time_signature=1    0.04150458180364529
+    Attrib time_signature=3    -0.07929500331271835
+    Attrib time_signature=4    0.09642023717446038
+    Attrib time_signature=5    0.003768630005561367
+    Attrib word_count    -0.014011600617053298
+    Attrib reading_ease    -0.07851964677663692
+    Attrib polarity    -2.5787441789854027E-4
+    Attrib subjectivity    -0.12044727414866908
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.008541626966595581
+    Attrib popularity    -0.047795967216328145
+    Attrib genre=Disco    0.007380775279189529
+    Attrib genre=Hip-Hop    0.04805701706403533
+    Attrib genre=RNB    0.047858156059027386
+    Attrib genre=blues    -0.011698504814623494
+    Attrib genre=classic_rock    -0.004697320372179579
+    Attrib genre=country    0.036532709780757705
+    Attrib genre=electronic    -0.01801639055404211
+    Attrib genre=folk    0.01732301624790237
+    Attrib genre=funk    -0.012612545302483402
+    Attrib genre=indie    0.028479527410324317
+    Attrib genre=instrumental    -0.022325006342775792
+    Attrib genre=jazz    0.0291151457401831
+    Attrib genre=latin    0.05045137517234627
+    Attrib genre=oldies    0.018866416550144365
+    Attrib genre=pop    0.044892638717471574
+    Attrib genre=punk    -0.02967189994215967
+    Attrib genre=rap    0.049730255088679905
+    Attrib genre=reggae    0.04806317599819667
+    Attrib genre=rnb    0.03381194113167879
+    Attrib genre=rock    -0.03105438421698352
+    Attrib genre=soul    0.05051627041811435
+    Attrib danceability    0.013344643687945456
+    Attrib energy    0.01076570875012635
+    Attrib key=0    -0.0025822205296408872
+    Attrib key=1    -0.0347982533404476
+    Attrib key=2    -0.023487465205195686
+    Attrib key=3    0.012342651714702588
+    Attrib key=4    0.04902401033585262
+    Attrib key=5    0.01871043575852437
+    Attrib key=6    0.05736502348844606
+    Attrib key=7    0.04096592561809001
+    Attrib key=8    -0.032368843236843255
+    Attrib key=9    -0.03658987309549487
+    Attrib key=10    0.0033802067406164342
+    Attrib key=11    -0.0404131680272581
+    Attrib loudness    -0.05631370119143384
+    Attrib mode    -0.04529296103369065
+    Attrib speechiness    -0.03330621079994333
+    Attrib acousticness    0.004530339035735659
+    Attrib instrumentalness    -0.015761427190798108
+    Attrib liveness    -0.014719867586733998
+    Attrib valence    0.01997352997642893
+    Attrib tempo    -0.04186321166975012
+    Attrib duration_ms    -0.01119694340190299
+    Attrib time_signature=1    0.05413153423981809
+    Attrib time_signature=3    -0.010410766305125984
+    Attrib time_signature=4    -0.006903993835170871
+    Attrib time_signature=5    0.02509129482114885
+    Attrib word_count    -0.03230329142469084
+    Attrib reading_ease    -0.05078124126615686
+    Attrib polarity    0.015096475375048997
+    Attrib subjectivity    -0.038863840854123505
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.017056321388947374
+    Attrib popularity    0.03899264306675348
+    Attrib genre=Disco    0.06161548013172911
+    Attrib genre=Hip-Hop    0.041896284921251414
+    Attrib genre=RNB    -0.03234236226918636
+    Attrib genre=blues    0.05412127800158491
+    Attrib genre=classic_rock    0.001260759329618414
+    Attrib genre=country    0.017127668010721166
+    Attrib genre=electronic    0.04856091276809788
+    Attrib genre=folk    0.059640834141904936
+    Attrib genre=funk    0.05784931819520117
+    Attrib genre=indie    0.04856941032067466
+    Attrib genre=instrumental    0.02154662353603065
+    Attrib genre=jazz    -0.005733924093754494
+    Attrib genre=latin    0.046204854211446794
+    Attrib genre=oldies    -0.0010890721965197275
+    Attrib genre=pop    -0.06060823064376149
+    Attrib genre=punk    -0.021121552438644036
+    Attrib genre=rap    0.01460682802376487
+    Attrib genre=reggae    0.03129832569529803
+    Attrib genre=rnb    0.010746692368980001
+    Attrib genre=rock    0.04333330619681143
+    Attrib genre=soul    0.009438340978207735
+    Attrib danceability    -0.01093705954072952
+    Attrib energy    0.013475112075243973
+    Attrib key=0    0.06822446724706853
+    Attrib key=1    -0.016536495144829817
+    Attrib key=2    0.001614815589496701
+    Attrib key=3    -0.03935315194666745
+    Attrib key=4    0.004824129878530329
+    Attrib key=5    -0.04292690264499288
+    Attrib key=6    0.05555180383235403
+    Attrib key=7    0.015346665220617022
+    Attrib key=8    -0.018806657003519803
+    Attrib key=9    0.040218400126466124
+    Attrib key=10    -7.924890839297859E-4
+    Attrib key=11    0.021159118924535175
+    Attrib loudness    -0.014162542318962884
+    Attrib mode    0.040112408880519236
+    Attrib speechiness    -0.04563212857588519
+    Attrib acousticness    0.07038431605685859
+    Attrib instrumentalness    -0.026556434837878583
+    Attrib liveness    0.02317813897991482
+    Attrib valence    -0.010216159079525758
+    Attrib tempo    0.03301509812521074
+    Attrib duration_ms    0.005296035804404476
+    Attrib time_signature=1    -0.007001639910797614
+    Attrib time_signature=3    0.03655516950718512
+    Attrib time_signature=4    0.03138782907890126
+    Attrib time_signature=5    0.022621745585413428
+    Attrib word_count    -0.041997617846242404
+    Attrib reading_ease    -0.0024153789585830126
+    Attrib polarity    -0.04828803021252007
+    Attrib subjectivity    -0.03921197769709272
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.06349302769380108
+    Attrib popularity    0.0711126694010833
+    Attrib genre=Disco    0.00174307493959585
+    Attrib genre=Hip-Hop    -0.014073813770936259
+    Attrib genre=RNB    0.024671080894939256
+    Attrib genre=blues    0.07516544105368268
+    Attrib genre=classic_rock    0.05429284910928929
+    Attrib genre=country    -0.03251157706063507
+    Attrib genre=electronic    -0.016034843877266405
+    Attrib genre=folk    -0.003211247385376037
+    Attrib genre=funk    0.06450603364687221
+    Attrib genre=indie    0.03910289029167277
+    Attrib genre=instrumental    0.016410482176385993
+    Attrib genre=jazz    -0.0015584592005798415
+    Attrib genre=latin    0.025308922780393192
+    Attrib genre=oldies    0.01282651865925029
+    Attrib genre=pop    -0.0766815862284183
+    Attrib genre=punk    0.055962323708367505
+    Attrib genre=rap    -0.003105928440635276
+    Attrib genre=reggae    0.008848739576531898
+    Attrib genre=rnb    0.014402212908580663
+    Attrib genre=rock    0.09508705794576576
+    Attrib genre=soul    0.13311865978659193
+    Attrib danceability    -0.16191198140179017
+    Attrib energy    -0.08091764613045851
+    Attrib key=0    0.10177753392011367
+    Attrib key=1    -0.04896088476352369
+    Attrib key=2    -0.014238345428180164
+    Attrib key=3    -0.06231895006744458
+    Attrib key=4    0.05496281403337443
+    Attrib key=5    0.020254464711812588
+    Attrib key=6    0.0326733066119964
+    Attrib key=7    0.06271181959178145
+    Attrib key=8    -0.03647179214456287
+    Attrib key=9    0.10390832365739554
+    Attrib key=10    0.0359943393298835
+    Attrib key=11    0.00708526568489325
+    Attrib loudness    -0.11694303042363452
+    Attrib mode    0.0331231487372677
+    Attrib speechiness    -0.08859029750350914
+    Attrib acousticness    0.09331672209247849
+    Attrib instrumentalness    -0.022082074198720887
+    Attrib liveness    0.0467406377364625
+    Attrib valence    -0.06333521486673042
+    Attrib tempo    0.023196712512013894
+    Attrib duration_ms    0.021916750558970036
+    Attrib time_signature=1    0.00282724178115638
+    Attrib time_signature=3    -0.04712119709950516
+    Attrib time_signature=4    0.019919739093710566
+    Attrib time_signature=5    0.034098828495155324
+    Attrib word_count    -0.043365195162499384
+    Attrib reading_ease    -0.09828508123665043
+    Attrib polarity    -0.04760094357361677
+    Attrib subjectivity    -0.14495289091806438
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.04774816630898122
+    Attrib popularity    0.09563118503807828
+    Attrib genre=Disco    -0.006233640155026456
+    Attrib genre=Hip-Hop    -0.005972095109286424
+    Attrib genre=RNB    0.025207399019761892
+    Attrib genre=blues    0.03574788330590994
+    Attrib genre=classic_rock    0.04199551676912306
+    Attrib genre=country    0.05226481963374394
+    Attrib genre=electronic    0.02632295180378571
+    Attrib genre=folk    0.0602436379384419
+    Attrib genre=funk    0.02118514353810745
+    Attrib genre=indie    -0.05078690340761768
+    Attrib genre=instrumental    -0.009145586238283281
+    Attrib genre=jazz    -0.02540570428081855
+    Attrib genre=latin    0.006183154327290371
+    Attrib genre=oldies    0.012823390537329707
+    Attrib genre=pop    0.010979928201117118
+    Attrib genre=punk    0.02422938623381739
+    Attrib genre=rap    -0.011038881073901734
+    Attrib genre=reggae    0.007059822742905391
+    Attrib genre=rnb    -0.05818072506338132
+    Attrib genre=rock    0.09511742685501184
+    Attrib genre=soul    0.10366687238520403
+    Attrib danceability    -0.12993786510685504
+    Attrib energy    -0.03762746771317497
+    Attrib key=0    0.11788963987086991
+    Attrib key=1    0.0327343614312508
+    Attrib key=2    0.0351281394516919
+    Attrib key=3    -0.12568477768647926
+    Attrib key=4    0.028934378004475743
+    Attrib key=5    -0.013982438952037431
+    Attrib key=6    0.022265765772393836
+    Attrib key=7    0.03533613858072316
+    Attrib key=8    -0.016006645000717242
+    Attrib key=9    0.05188577799159715
+    Attrib key=10    0.04734782623933211
+    Attrib key=11    0.055432537152008785
+    Attrib loudness    -0.11588416182844553
+    Attrib mode    -0.0018983670248689008
+    Attrib speechiness    -0.12633680927215712
+    Attrib acousticness    0.07425938694028754
+    Attrib instrumentalness    -0.040878969582515585
+    Attrib liveness    0.05056070487177767
+    Attrib valence    0.01387700737328353
+    Attrib tempo    -0.005443481026087939
+    Attrib duration_ms    0.0242429236730058
+    Attrib time_signature=1    -0.003673483943166941
+    Attrib time_signature=3    -0.05653517897764763
+    Attrib time_signature=4    0.09223262710618307
+    Attrib time_signature=5    -0.011890407972132654
+    Attrib word_count    -0.03147301503110484
+    Attrib reading_ease    -0.06882032024543373
+    Attrib polarity    0.033726641038613905
+    Attrib subjectivity    -0.1523411522044803
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.07683436498253897
+    Attrib popularity    0.06188925227238838
+    Attrib genre=Disco    0.03781231654559159
+    Attrib genre=Hip-Hop    0.05432248471734557
+    Attrib genre=RNB    0.04860842454915067
+    Attrib genre=blues    0.05537711592565337
+    Attrib genre=classic_rock    0.010071835875888332
+    Attrib genre=country    -0.0020731568184002348
+    Attrib genre=electronic    0.00811115994033473
+    Attrib genre=folk    0.02977271308624516
+    Attrib genre=funk    0.07364249996753446
+    Attrib genre=indie    -0.039978196317118346
+    Attrib genre=instrumental    0.007377492091161501
+    Attrib genre=jazz    0.05031987151956794
+    Attrib genre=latin    0.043426453729829236
+    Attrib genre=oldies    0.07957763105785946
+    Attrib genre=pop    -0.17253481997149328
+    Attrib genre=punk    0.032656861502894804
+    Attrib genre=rap    0.061156075678820185
+    Attrib genre=reggae    -0.001677936202619646
+    Attrib genre=rnb    -0.05017069511596617
+    Attrib genre=rock    0.23072829030824935
+    Attrib genre=soul    0.18038382217193358
+    Attrib danceability    -0.19874876759612303
+    Attrib energy    -0.17591301421363426
+    Attrib key=0    0.23157316225458718
+    Attrib key=1    -0.0498480195749774
+    Attrib key=2    -0.0462825347733268
+    Attrib key=3    -0.1319671410755931
+    Attrib key=4    0.0713054716915764
+    Attrib key=5    -0.03138087957216145
+    Attrib key=6    0.12495413601281942
+    Attrib key=7    0.03410106997556019
+    Attrib key=8    -0.06855469890001495
+    Attrib key=9    0.1798687039656304
+    Attrib key=10    0.06963531441359494
+    Attrib key=11    0.08514109571839497
+    Attrib loudness    -0.09228997264462002
+    Attrib mode    0.08948383499306214
+    Attrib speechiness    -0.043391427775614076
+    Attrib acousticness    0.16265935841618878
+    Attrib instrumentalness    0.0552348893190084
+    Attrib liveness    0.06721000900469001
+    Attrib valence    -0.06621728277718512
+    Attrib tempo    0.019090104835764534
+    Attrib duration_ms    0.11663714625017436
+    Attrib time_signature=1    0.023933999393649784
+    Attrib time_signature=3    -0.05987658531165099
+    Attrib time_signature=4    0.08622156760327782
+    Attrib time_signature=5    0.04086609026932627
+    Attrib word_count    -0.02706168079699407
+    Attrib reading_ease    -0.16980327089718814
+    Attrib polarity    -0.06561405350477947
+    Attrib subjectivity    -0.1629893733111804
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.01370636603965666
+    Attrib popularity    0.10021603177038092
+    Attrib genre=Disco    0.01645179498497786
+    Attrib genre=Hip-Hop    0.04031412118997461
+    Attrib genre=RNB    0.04671781211208887
+    Attrib genre=blues    -0.01628023747860056
+    Attrib genre=classic_rock    0.05920185964452225
+    Attrib genre=country    -0.00196224745414446
+    Attrib genre=electronic    0.022921597461587534
+    Attrib genre=folk    0.0291117120010187
+    Attrib genre=funk    -0.032318436031174895
+    Attrib genre=indie    -0.051029923723513046
+    Attrib genre=instrumental    -0.03531625091149662
+    Attrib genre=jazz    0.05382457252612296
+    Attrib genre=latin    0.04730908513448152
+    Attrib genre=oldies    -0.03121033857168062
+    Attrib genre=pop    -0.035940640546612584
+    Attrib genre=punk    0.019848769883035196
+    Attrib genre=rap    -0.01447049260944263
+    Attrib genre=reggae    -0.03689344224655908
+    Attrib genre=rnb    -0.024178533489491606
+    Attrib genre=rock    0.04165228722933012
+    Attrib genre=soul    0.07514267831763483
+    Attrib danceability    -0.08040192886175657
+    Attrib energy    -0.062190437212025274
+    Attrib key=0    0.03412448819943085
+    Attrib key=1    0.015065179451063329
+    Attrib key=2    -0.04117795921084739
+    Attrib key=3    -0.020413314753158662
+    Attrib key=4    0.03991339834666439
+    Attrib key=5    -0.004598057448375366
+    Attrib key=6    0.03670053293523714
+    Attrib key=7    -0.03317237042360655
+    Attrib key=8    -0.04539657070761291
+    Attrib key=9    0.08426991049297755
+    Attrib key=10    0.05494208999181724
+    Attrib key=11    0.05499194143019514
+    Attrib loudness    -0.056410053220391165
+    Attrib mode    -0.03939990482765966
+    Attrib speechiness    -0.08337174347984416
+    Attrib acousticness    0.0774490454280079
+    Attrib instrumentalness    0.04395331634884074
+    Attrib liveness    0.004783952956207708
+    Attrib valence    0.02600628857421323
+    Attrib tempo    -0.010961306389228737
+    Attrib duration_ms    -0.017791436953934182
+    Attrib time_signature=1    0.03669981227582183
+    Attrib time_signature=3    -0.018428412601682022
+    Attrib time_signature=4    -0.0016193036356272697
+    Attrib time_signature=5    0.009276768410471474
+    Attrib word_count    -0.04650639569622424
+    Attrib reading_ease    -0.06894342251090374
+    Attrib polarity    0.02597682626216576
+    Attrib subjectivity    -0.04177083806990742
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.029593695700432274
+    Attrib popularity    0.057954217636710846
+    Attrib genre=Disco    0.0013411904143762615
+    Attrib genre=Hip-Hop    0.05133580179681952
+    Attrib genre=RNB    0.025372185500525363
+    Attrib genre=blues    0.01676661561574029
+    Attrib genre=classic_rock    -0.003628552456909669
+    Attrib genre=country    -0.010547893901510853
+    Attrib genre=electronic    -0.00866825731824053
+    Attrib genre=folk    -0.022668878815119385
+    Attrib genre=funk    -0.016937877244571235
+    Attrib genre=indie    0.0237904547332894
+    Attrib genre=instrumental    -0.038399361687864245
+    Attrib genre=jazz    -0.010766616619964602
+    Attrib genre=latin    -0.017361073824701964
+    Attrib genre=oldies    0.045456298651507646
+    Attrib genre=pop    0.005578293094464526
+    Attrib genre=punk    0.05922491106350216
+    Attrib genre=rap    -0.030947515956712086
+    Attrib genre=reggae    0.03476656814827462
+    Attrib genre=rnb    -0.043615530367610456
+    Attrib genre=rock    -0.0036203470842913355
+    Attrib genre=soul    0.07696511232659144
+    Attrib danceability    -0.024742073524426436
+    Attrib energy    -0.06608515389547892
+    Attrib key=0    -0.009909723355606187
+    Attrib key=1    -0.024379177092000697
+    Attrib key=2    0.005790154283841236
+    Attrib key=3    3.4483994729560815E-5
+    Attrib key=4    -0.0013382851376052911
+    Attrib key=5    0.01014790573934662
+    Attrib key=6    0.0032787748102607473
+    Attrib key=7    0.03513152577060876
+    Attrib key=8    0.030895926677586182
+    Attrib key=9    0.03698815819906979
+    Attrib key=10    0.06027769059854256
+    Attrib key=11    -0.02984810425691506
+    Attrib loudness    -0.009579189712948107
+    Attrib mode    -0.031201184460279256
+    Attrib speechiness    0.023787323750178543
+    Attrib acousticness    0.01038650362295596
+    Attrib instrumentalness    0.0466207805377229
+    Attrib liveness    0.04196309755472221
+    Attrib valence    0.022661506056398086
+    Attrib tempo    -0.040781918509893836
+    Attrib duration_ms    -0.006952037896064401
+    Attrib time_signature=1    -0.03118125766622755
+    Attrib time_signature=3    -0.006361998764503705
+    Attrib time_signature=4    0.008518085941583984
+    Attrib time_signature=5    0.04638840370976894
+    Attrib word_count    -0.03983897588698481
+    Attrib reading_ease    -0.01201483401254284
+    Attrib polarity    0.010374354702881181
+    Attrib subjectivity    -0.004761058620748153
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    0.005537669091392735
+    Attrib popularity    0.10758870545488332
+    Attrib genre=Disco    -0.0022235082457324517
+    Attrib genre=Hip-Hop    0.022232841501670073
+    Attrib genre=RNB    0.06486875864021482
+    Attrib genre=blues    0.03895329636257331
+    Attrib genre=classic_rock    0.04538234265980095
+    Attrib genre=country    -0.018930992774868857
+    Attrib genre=electronic    0.016745506744327184
+    Attrib genre=folk    -0.008371318614150691
+    Attrib genre=funk    -0.015822658152182825
+    Attrib genre=indie    -0.0535833080010072
+    Attrib genre=instrumental    0.06722330527461066
+    Attrib genre=jazz    -0.016829848413501207
+    Attrib genre=latin    0.06885023232648847
+    Attrib genre=oldies    0.028851496543063126
+    Attrib genre=pop    -0.03401738465858648
+    Attrib genre=punk    -0.028344260237971944
+    Attrib genre=rap    0.0019959554450814762
+    Attrib genre=reggae    -0.0105427994266153
+    Attrib genre=rnb    -0.005111879686437896
+    Attrib genre=rock    0.10808957515899648
+    Attrib genre=soul    0.123191307169748
+    Attrib danceability    -0.14124617780259446
+    Attrib energy    -0.12342397158988398
+    Attrib key=0    0.06063466535743414
+    Attrib key=1    0.03443657644357942
+    Attrib key=2    -0.058933057979806164
+    Attrib key=3    -0.11205183447348104
+    Attrib key=4    0.06701227022089767
+    Attrib key=5    0.014774039332350138
+    Attrib key=6    -0.01708484440859901
+    Attrib key=7    0.05393429259793892
+    Attrib key=8    -0.003280996802084354
+    Attrib key=9    0.03562761572587616
+    Attrib key=10    -0.007962397461183079
+    Attrib key=11    0.015528959838036144
+    Attrib loudness    -0.09448995824122144
+    Attrib mode    -0.03591904002977577
+    Attrib speechiness    -0.07738073721366719
+    Attrib acousticness    0.09378598987380439
+    Attrib instrumentalness    0.035870569276522615
+    Attrib liveness    -0.015564219161508226
+    Attrib valence    -0.07279379107829843
+    Attrib tempo    0.012510921298002662
+    Attrib duration_ms    0.013068120374515728
+    Attrib time_signature=1    0.0324659524354989
+    Attrib time_signature=3    0.012890263844467757
+    Attrib time_signature=4    0.05142754235674997
+    Attrib time_signature=5    -0.035173341566840516
+    Attrib word_count    -0.010378901385574684
+    Attrib reading_ease    -0.10977043175754829
+    Attrib polarity    0.022169739061752018
+    Attrib subjectivity    -0.14926606237830833
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.024767087047350554
+    Attrib popularity    0.06471670336838412
+    Attrib genre=Disco    -0.022704783964308806
+    Attrib genre=Hip-Hop    -0.04428643694514605
+    Attrib genre=RNB    -0.017502971804722656
+    Attrib genre=blues    0.044120786984618465
+    Attrib genre=classic_rock    9.561442544558197E-4
+    Attrib genre=country    0.014614821398975976
+    Attrib genre=electronic    0.029013794137796447
+    Attrib genre=folk    0.06226360275673805
+    Attrib genre=funk    0.013037291416756353
+    Attrib genre=indie    -0.0518427248322025
+    Attrib genre=instrumental    0.0069940341710402155
+    Attrib genre=jazz    -0.028458195545458597
+    Attrib genre=latin    0.06059361900734246
+    Attrib genre=oldies    0.06255706309815477
+    Attrib genre=pop    -0.060271122103582334
+    Attrib genre=punk    0.044672448292956135
+    Attrib genre=rap    -0.027451267178887392
+    Attrib genre=reggae    0.02395940282360375
+    Attrib genre=rnb    -0.024091656060637043
+    Attrib genre=rock    0.09441839266500042
+    Attrib genre=soul    0.05978343094400965
+    Attrib danceability    -0.07834025517653835
+    Attrib energy    -0.05005868771869473
+    Attrib key=0    0.08947446817974486
+    Attrib key=1    0.0040702324644302556
+    Attrib key=2    -0.03905501969952543
+    Attrib key=3    -0.04674216412878638
+    Attrib key=4    0.03707870361267077
+    Attrib key=5    -0.023005823712169433
+    Attrib key=6    0.011892187814470202
+    Attrib key=7    -0.021996883282376846
+    Attrib key=8    0.03701354173784404
+    Attrib key=9    0.05477143464132057
+    Attrib key=10    0.01928358047708057
+    Attrib key=11    0.017143555599984383
+    Attrib loudness    -0.001564648038472157
+    Attrib mode    -0.07152899595471544
+    Attrib speechiness    -0.0031156335503230576
+    Attrib acousticness    0.05516402230080461
+    Attrib instrumentalness    -0.03362865039105062
+    Attrib liveness    0.040216402576916006
+    Attrib valence    -0.024005119429603965
+    Attrib tempo    -0.011078136630443618
+    Attrib duration_ms    0.003427750158787335
+    Attrib time_signature=1    0.019756323868341436
+    Attrib time_signature=3    -0.011587092165750126
+    Attrib time_signature=4    0.07310896875923897
+    Attrib time_signature=5    -0.013698107394677285
+    Attrib word_count    0.02398721287688972
+    Attrib reading_ease    -0.026986881097060267
+    Attrib polarity    0.01580708546704679
+    Attrib subjectivity    -0.047128999575212764
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.014269303098260154
+    Attrib popularity    0.027837629902991164
+    Attrib genre=Disco    -0.038480548630970675
+    Attrib genre=Hip-Hop    -0.007900345246346691
+    Attrib genre=RNB    0.02351059124602334
+    Attrib genre=blues    -0.019595135236209014
+    Attrib genre=classic_rock    0.0017358846065598625
+    Attrib genre=country    -0.017907613352135743
+    Attrib genre=electronic    0.029376600973762313
+    Attrib genre=folk    0.017047939933845804
+    Attrib genre=funk    -0.03924053855930604
+    Attrib genre=indie    -0.02992099394256366
+    Attrib genre=instrumental    0.04859753611164265
+    Attrib genre=jazz    0.016015714880625236
+    Attrib genre=latin    0.0246022869728968
+    Attrib genre=oldies    -0.0033720693178504136
+    Attrib genre=pop    -0.04883305434043588
+    Attrib genre=punk    0.051631869172722306
+    Attrib genre=rap    0.0050409630111054714
+    Attrib genre=reggae    -0.016135541103053423
+    Attrib genre=rnb    0.022013125960495008
+    Attrib genre=rock    0.02920247279809153
+    Attrib genre=soul    0.06300992270474846
+    Attrib danceability    -0.10023561670355279
+    Attrib energy    -0.027568676116785203
+    Attrib key=0    0.06130343837817367
+    Attrib key=1    -0.04867491697417981
+    Attrib key=2    0.025843800076302423
+    Attrib key=3    -0.026128082490202358
+    Attrib key=4    0.011556442853518742
+    Attrib key=5    -0.012579200788123539
+    Attrib key=6    0.035239830478989945
+    Attrib key=7    0.05225223960498994
+    Attrib key=8    -8.59022293960888E-4
+    Attrib key=9    0.022024887418397924
+    Attrib key=10    -3.32026290041376E-4
+    Attrib key=11    -0.003174009304401299
+    Attrib loudness    -0.07722421028517687
+    Attrib mode    -0.05051661798408438
+    Attrib speechiness    -0.03391463885094485
+    Attrib acousticness    0.08173010563068363
+    Attrib instrumentalness    0.028610101538574205
+    Attrib liveness    0.05339957935163783
+    Attrib valence    -9.869368159545514E-4
+    Attrib tempo    0.04128041278222994
+    Attrib duration_ms    0.049070083763747614
+    Attrib time_signature=1    0.05620427511887578
+    Attrib time_signature=3    7.06462677637925E-4
+    Attrib time_signature=4    -0.002151581683129624
+    Attrib time_signature=5    0.030491483771290944
+    Attrib word_count    -0.0520583452596024
+    Attrib reading_ease    -0.06283502767524823
+    Attrib polarity    -0.04727497511818687
+    Attrib subjectivity    -0.08705181957544318
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    0.011677485663876382
+    Attrib popularity    0.10823298551623098
+    Attrib genre=Disco    0.05439637598342269
+    Attrib genre=Hip-Hop    -0.05253036831117737
+    Attrib genre=RNB    -0.007729649839637357
+    Attrib genre=blues    -0.003976303448388078
+    Attrib genre=classic_rock    0.0643708802933881
+    Attrib genre=country    0.03696363839261774
+    Attrib genre=electronic    -0.022816138211776728
+    Attrib genre=folk    -0.01834441968411035
+    Attrib genre=funk    0.004138725247011121
+    Attrib genre=indie    0.03435559022888409
+    Attrib genre=instrumental    0.023058479648327464
+    Attrib genre=jazz    0.05661799090276869
+    Attrib genre=latin    0.0756383570936499
+    Attrib genre=oldies    -0.009809755014611777
+    Attrib genre=pop    3.0561276155128804E-4
+    Attrib genre=punk    0.05520467724230804
+    Attrib genre=rap    -0.039872415866851064
+    Attrib genre=reggae    0.005114662033922018
+    Attrib genre=rnb    -0.06193068665906304
+    Attrib genre=rock    0.05704684934585738
+    Attrib genre=soul    0.16299580228461938
+    Attrib danceability    -0.1936664255418026
+    Attrib energy    -0.1353041839529828
+    Attrib key=0    0.11012413469269253
+    Attrib key=1    -0.03598672369834648
+    Attrib key=2    -0.04868084841764761
+    Attrib key=3    -0.1390525355818421
+    Attrib key=4    0.049892886272027065
+    Attrib key=5    -0.041860927773912336
+    Attrib key=6    -0.004278868583553472
+    Attrib key=7    -0.016174311745354348
+    Attrib key=8    0.032132965006663884
+    Attrib key=9    0.12173428956778888
+    Attrib key=10    0.041259558337653664
+    Attrib key=11    0.044962506146290826
+    Attrib loudness    -0.11580538330511138
+    Attrib mode    -0.06557175824593349
+    Attrib speechiness    -0.0708341186754944
+    Attrib acousticness    0.1077337828407982
+    Attrib instrumentalness    0.01842363460303316
+    Attrib liveness    0.064510977383118
+    Attrib valence    -0.0569047421726275
+    Attrib tempo    -0.018510347730489214
+    Attrib duration_ms    0.05942839144637201
+    Attrib time_signature=1    0.034038407300092305
+    Attrib time_signature=3    -0.028968403781469546
+    Attrib time_signature=4    0.0943348896638244
+    Attrib time_signature=5    -0.046198308761468694
+    Attrib word_count    -0.0865622818588413
+    Attrib reading_ease    -0.14294650417628268
+    Attrib polarity    -0.019517608833910547
+    Attrib subjectivity    -0.1539005792863391
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.014371757797103363
+    Attrib popularity    0.10522105968008928
+    Attrib genre=Disco    -0.004984279992904845
+    Attrib genre=Hip-Hop    -0.04042354240028198
+    Attrib genre=RNB    0.08406266186618491
+    Attrib genre=blues    0.05105428360015741
+    Attrib genre=classic_rock    0.0028494439264421596
+    Attrib genre=country    0.0026736354563144968
+    Attrib genre=electronic    -0.03395178167224877
+    Attrib genre=folk    0.03303589524566583
+    Attrib genre=funk    -0.0015892234310852143
+    Attrib genre=indie    -0.0014896594760739636
+    Attrib genre=instrumental    -0.007454979442570666
+    Attrib genre=jazz    -0.009391228011258452
+    Attrib genre=latin    0.0323252461851301
+    Attrib genre=oldies    0.06552163953482075
+    Attrib genre=pop    -0.05459586714351165
+    Attrib genre=punk    0.07659882923910474
+    Attrib genre=rap    -0.009395929608689875
+    Attrib genre=reggae    0.020263205236571945
+    Attrib genre=rnb    0.024305820521093015
+    Attrib genre=rock    0.12578238805018166
+    Attrib genre=soul    0.17007340308225746
+    Attrib danceability    -0.14503696091223267
+    Attrib energy    -0.07545188154642632
+    Attrib key=0    0.13841708770934807
+    Attrib key=1    -0.03360951047951967
+    Attrib key=2    -0.04394221189230225
+    Attrib key=3    -0.06502825086140362
+    Attrib key=4    0.036290511952664244
+    Attrib key=5    -0.03940650551014839
+    Attrib key=6    0.0507313264198565
+    Attrib key=7    5.4896827858516E-4
+    Attrib key=8    0.06442045442325092
+    Attrib key=9    0.11721449220982523
+    Attrib key=10    0.007731644292158943
+    Attrib key=11    0.028120743970909017
+    Attrib loudness    -0.08557715492046156
+    Attrib mode    -0.05599061476841352
+    Attrib speechiness    -0.05687686352951223
+    Attrib acousticness    0.15108793394783712
+    Attrib instrumentalness    0.019622943123925596
+    Attrib liveness    0.02661102884475806
+    Attrib valence    -0.05429490974048064
+    Attrib tempo    -0.003709223649887622
+    Attrib duration_ms    0.047993393298154975
+    Attrib time_signature=1    0.04088916268194343
+    Attrib time_signature=3    -0.06763182181025022
+    Attrib time_signature=4    0.09874205244778443
+    Attrib time_signature=5    -0.020010119499623016
+    Attrib word_count    -0.06297351301368821
+    Attrib reading_ease    -0.1282943886432582
+    Attrib polarity    -0.04159353450683716
+    Attrib subjectivity    -0.16754936777821197
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.0044746383504806935
+    Attrib popularity    0.13796346180218733
+    Attrib genre=Disco    0.07799438473129147
+    Attrib genre=Hip-Hop    0.0542149278680632
+    Attrib genre=RNB    0.01730950802761816
+    Attrib genre=blues    -0.009161100949331553
+    Attrib genre=classic_rock    -0.008204690134135733
+    Attrib genre=country    0.03799593221978103
+    Attrib genre=electronic    -0.042584743001256614
+    Attrib genre=folk    0.011859401495272625
+    Attrib genre=funk    0.05870582075767896
+    Attrib genre=indie    -0.024312637349950234
+    Attrib genre=instrumental    0.01729459849644962
+    Attrib genre=jazz    -0.0019800880470004036
+    Attrib genre=latin    -0.0011161118305020434
+    Attrib genre=oldies    0.039345049673195895
+    Attrib genre=pop    -0.058082979935363106
+    Attrib genre=punk    0.013381909119791447
+    Attrib genre=rap    0.004210566450221622
+    Attrib genre=reggae    0.02202475761646973
+    Attrib genre=rnb    -0.062131855991110624
+    Attrib genre=rock    0.08114921547705174
+    Attrib genre=soul    0.17752815288918117
+    Attrib danceability    -0.2026161547955494
+    Attrib energy    -0.07446965042829806
+    Attrib key=0    0.1666063284965997
+    Attrib key=1    -0.03403562042598641
+    Attrib key=2    0.03275753982358343
+    Attrib key=3    -0.132614157041847
+    Attrib key=4    0.05936615832016592
+    Attrib key=5    0.02027449827290304
+    Attrib key=6    0.06267712450665852
+    Attrib key=7    0.07778872546612453
+    Attrib key=8    0.041762161387115325
+    Attrib key=9    0.08407665450388847
+    Attrib key=10    0.1045192477380467
+    Attrib key=11    -0.002263728849440477
+    Attrib loudness    -0.07822800442520594
+    Attrib mode    -0.002083724015754452
+    Attrib speechiness    -0.0817150998080393
+    Attrib acousticness    0.17187124401412468
+    Attrib instrumentalness    0.02993342168399222
+    Attrib liveness    0.030412081947530006
+    Attrib valence    -0.0263084068653717
+    Attrib tempo    -0.056008177746732654
+    Attrib duration_ms    0.0137383836231674
+    Attrib time_signature=1    3.2729217708524975E-4
+    Attrib time_signature=3    -0.06814170437203329
+    Attrib time_signature=4    0.07230313789480008
+    Attrib time_signature=5    0.016349454992078814
+    Attrib word_count    -0.027096041529773008
+    Attrib reading_ease    -0.1137944968397824
+    Attrib polarity    -0.0634191106920605
+    Attrib subjectivity    -0.175501520315987
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.0329633115499827
+    Attrib popularity    0.0881740775363994
+    Attrib genre=Disco    0.035328314625469925
+    Attrib genre=Hip-Hop    0.006304500771364453
+    Attrib genre=RNB    0.07238090727040378
+    Attrib genre=blues    0.028077715061969526
+    Attrib genre=classic_rock    0.08091634761627572
+    Attrib genre=country    0.006599507836066163
+    Attrib genre=electronic    -0.017233548471174323
+    Attrib genre=folk    0.05427001062090985
+    Attrib genre=funk    0.0242297142770111
+    Attrib genre=indie    0.009408555685504307
+    Attrib genre=instrumental    0.032320691676746185
+    Attrib genre=jazz    0.016448174771868912
+    Attrib genre=latin    0.06103006613353989
+    Attrib genre=oldies    0.08616787390720773
+    Attrib genre=pop    -0.047893022723953425
+    Attrib genre=punk    0.02104919937358138
+    Attrib genre=rap    -0.020849779036309267
+    Attrib genre=reggae    0.030532598506850826
+    Attrib genre=rnb    -0.014595791938493743
+    Attrib genre=rock    0.17800093219491325
+    Attrib genre=soul    0.2043232875057099
+    Attrib danceability    -0.23681992762829657
+    Attrib energy    -0.12177498917021289
+    Attrib key=0    0.15499857687855703
+    Attrib key=1    0.017554009483268303
+    Attrib key=2    -0.044789949295833104
+    Attrib key=3    -0.11603321504929862
+    Attrib key=4    0.014349459689904876
+    Attrib key=5    -0.05883625718196549
+    Attrib key=6    0.06185208645383277
+    Attrib key=7    -0.003292631732442657
+    Attrib key=8    -0.029669236229017196
+    Attrib key=9    0.1191958576740846
+    Attrib key=10    0.0763038720187028
+    Attrib key=11    0.024387521899808078
+    Attrib loudness    -0.14302751348883103
+    Attrib mode    0.040357426383341354
+    Attrib speechiness    -0.10866435470654737
+    Attrib acousticness    0.13913168763358016
+    Attrib instrumentalness    -0.026656888247155817
+    Attrib liveness    0.08384736407576535
+    Attrib valence    -0.1023173334462358
+    Attrib tempo    0.028724784897374653
+    Attrib duration_ms    0.056846110229074744
+    Attrib time_signature=1    0.011814524054662323
+    Attrib time_signature=3    -0.021899000593749246
+    Attrib time_signature=4    0.0997419323264176
+    Attrib time_signature=5    0.04009430587690709
+    Attrib word_count    3.7185221013747506E-4
+    Attrib reading_ease    -0.1205661376763314
+    Attrib polarity    0.007298367845547313
+    Attrib subjectivity    -0.1880935050301034
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.027823664869947015
+    Attrib popularity    0.07435382643797685
+    Attrib genre=Disco    0.0028254774022602957
+    Attrib genre=Hip-Hop    0.03840831345994254
+    Attrib genre=RNB    0.048882117902439536
+    Attrib genre=blues    -0.02098379447154481
+    Attrib genre=classic_rock    0.051279585985264414
+    Attrib genre=country    0.016231238388999605
+    Attrib genre=electronic    -0.003561972342431042
+    Attrib genre=folk    -0.014828984885388032
+    Attrib genre=funk    0.018474169764900905
+    Attrib genre=indie    -0.023282433169828805
+    Attrib genre=instrumental    0.02485362236427522
+    Attrib genre=jazz    -0.01613535309273648
+    Attrib genre=latin    -0.007124129400247628
+    Attrib genre=oldies    -0.019728129754059156
+    Attrib genre=pop    0.0046838094018058374
+    Attrib genre=punk    -0.029049279551723914
+    Attrib genre=rap    -0.020777312793096785
+    Attrib genre=reggae    -0.0297695058091569
+    Attrib genre=rnb    -0.005234652900192216
+    Attrib genre=rock    0.08449433436245068
+    Attrib genre=soul    0.09579310071814412
+    Attrib danceability    -0.07532390837722161
+    Attrib energy    -0.0952701342089765
+    Attrib key=0    0.09327450393468793
+    Attrib key=1    -0.007604560543496262
+    Attrib key=2    -0.017498441859859867
+    Attrib key=3    -0.055184451896443436
+    Attrib key=4    0.023901415970375074
+    Attrib key=5    -0.05653214081907453
+    Attrib key=6    0.03816555636624864
+    Attrib key=7    0.04470177558058662
+    Attrib key=8    0.036662370487413325
+    Attrib key=9    0.06509887440704229
+    Attrib key=10    0.014101402627603348
+    Attrib key=11    0.004635468312760704
+    Attrib loudness    -0.10828310082627003
+    Attrib mode    -0.034666564004104665
+    Attrib speechiness    -0.07242699433996326
+    Attrib acousticness    0.09728700620031155
+    Attrib instrumentalness    -0.005399004936793348
+    Attrib liveness    0.05570711072627611
+    Attrib valence    -0.06516915925866514
+    Attrib tempo    0.034964140455944114
+    Attrib duration_ms    0.07466404608583158
+    Attrib time_signature=1    0.024623144113365265
+    Attrib time_signature=3    0.004976600730033321
+    Attrib time_signature=4    0.021240666538014482
+    Attrib time_signature=5    -0.00811375665630452
+    Attrib word_count    -0.026161063885871666
+    Attrib reading_ease    -0.09588803049331106
+    Attrib polarity    0.02305840968709468
+    Attrib subjectivity    -0.06440107670314528
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -0.03731284093626472
+    Attrib popularity    0.12085766714086477
+    Attrib genre=Disco    0.02937906538750429
+    Attrib genre=Hip-Hop    -0.032537112339612574
+    Attrib genre=RNB    -0.016528094014372215
+    Attrib genre=blues    0.02533042895125118
+    Attrib genre=classic_rock    -0.011059820579030362
+    Attrib genre=country    0.035138655731389065
+    Attrib genre=electronic    0.04445705605224894
+    Attrib genre=folk    -0.010691115021563464
+    Attrib genre=funk    0.039265517731667275
+    Attrib genre=indie    0.017240525771043128
+    Attrib genre=instrumental    0.01862568909335178
+    Attrib genre=jazz    0.007954378576137008
+    Attrib genre=latin    -0.019216284107221024
+    Attrib genre=oldies    0.04530869004228824
+    Attrib genre=pop    -0.00432470001487838
+    Attrib genre=punk    -0.008645575806025738
+    Attrib genre=rap    0.04097504381659695
+    Attrib genre=reggae    -0.006656654093934262
+    Attrib genre=rnb    -0.030451146453379783
+    Attrib genre=rock    0.0779773634730199
+    Attrib genre=soul    0.14955912114225556
+    Attrib danceability    -0.04767095222087554
+    Attrib energy    -0.09649958163919778
+    Attrib key=0    0.0919430487966871
+    Attrib key=1    -0.03830903873365677
+    Attrib key=2    -0.05378008554582627
+    Attrib key=3    -0.09306807841853248
+    Attrib key=4    0.017534237382516086
+    Attrib key=5    0.013411615978100097
+    Attrib key=6    -0.025309796255155594
+    Attrib key=7    -0.008896801038135059
+    Attrib key=8    0.007884609101198205
+    Attrib key=9    0.03394255829885753
+    Attrib key=10    0.030911518298779035
+    Attrib key=11    0.006772284345789214
+    Attrib loudness    -0.07535656537488038
+    Attrib mode    -0.042672787131109446
+    Attrib speechiness    -0.03771860681237303
+    Attrib acousticness    0.0367755514330133
+    Attrib instrumentalness    0.023536878963235808
+    Attrib liveness    0.05013982433326069
+    Attrib valence    -0.01850748096593601
+    Attrib tempo    -0.011102719772526935
+    Attrib duration_ms    0.0754975697885026
+    Attrib time_signature=1    0.04377554997103296
+    Attrib time_signature=3    -0.023897090432406957
+    Attrib time_signature=4    0.06787541397227445
+    Attrib time_signature=5    -0.026685327848039408
+    Attrib word_count    -0.0466913936177942
+    Attrib reading_ease    -0.05937671917616308
+    Attrib polarity    -0.03831680946696583
+    Attrib subjectivity    -0.11115757550687516
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -0.055898843343166
+    Attrib popularity    0.0763463756929329
+    Attrib genre=Disco    0.05895653205461135
+    Attrib genre=Hip-Hop    -0.04541421476482979
+    Attrib genre=RNB    0.04192734540283272
+    Attrib genre=blues    0.029967004821539234
+    Attrib genre=classic_rock    -0.011376659196733377
+    Attrib genre=country    -0.005008338444438379
+    Attrib genre=electronic    -0.0073345599418609825
+    Attrib genre=folk    0.049491942251242704
+    Attrib genre=funk    -0.024780188906541475
+    Attrib genre=indie    -0.005807347424525537
+    Attrib genre=instrumental    0.024483988281281344
+    Attrib genre=jazz    0.020448612983773203
+    Attrib genre=latin    0.059141135934890655
+    Attrib genre=oldies    0.03612880721460158
+    Attrib genre=pop    -0.0559309761691704
+    Attrib genre=punk    0.03540022215784474
+    Attrib genre=rap    0.007526348849872051
+    Attrib genre=reggae    -0.009053409230723982
+    Attrib genre=rnb    -0.07329224609202757
+    Attrib genre=rock    0.037281139269489186
+    Attrib genre=soul    0.13916905948111877
+    Attrib danceability    -0.11737697889623964
+    Attrib energy    -0.09602441810431317
+    Attrib key=0    0.05038205055845321
+    Attrib key=1    -0.01346073551257945
+    Attrib key=2    0.025004246457166632
+    Attrib key=3    -0.13776504109769253
+    Attrib key=4    0.01048085990186013
+    Attrib key=5    -0.007292390154302192
+    Attrib key=6    0.04136343029628508
+    Attrib key=7    0.0021806687525182207
+    Attrib key=8    0.005631084907008392
+    Attrib key=9    0.06000787672744159
+    Attrib key=10    -0.011121277253630714
+    Attrib key=11    0.05917287692005044
+    Attrib loudness    -0.1047474111393442
+    Attrib mode    0.011956065232928114
+    Attrib speechiness    -0.10988435601402756
+    Attrib acousticness    0.11984203443660228
+    Attrib instrumentalness    0.036120930343894464
+    Attrib liveness    -0.020399043491962494
+    Attrib valence    -0.009277048482413142
+    Attrib tempo    -0.054919205175836115
+    Attrib duration_ms    -0.003595128747674982
+    Attrib time_signature=1    0.04976002757798576
+    Attrib time_signature=3    -0.05914696439336942
+    Attrib time_signature=4    0.035189834822286666
+    Attrib time_signature=5    -0.06550484198325213
+    Attrib word_count    5.181623257671392E-4
+    Attrib reading_ease    -0.05248886080881417
+    Attrib polarity    -0.03100806881110239
+    Attrib subjectivity    -0.12545924395523783
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.02252878321471753
+    Attrib popularity    0.07985013792733599
+    Attrib genre=Disco    0.00886300552940964
+    Attrib genre=Hip-Hop    0.03993899127708666
+    Attrib genre=RNB    0.03930570767377561
+    Attrib genre=blues    -0.025955787499039065
+    Attrib genre=classic_rock    -0.007297160616217872
+    Attrib genre=country    -0.007506097828600675
+    Attrib genre=electronic    0.022915506598485996
+    Attrib genre=folk    0.05631524221838086
+    Attrib genre=funk    0.03174155592942007
+    Attrib genre=indie    0.014175913531406318
+    Attrib genre=instrumental    0.04175079125258918
+    Attrib genre=jazz    0.01542812472101772
+    Attrib genre=latin    0.0010080004961423303
+    Attrib genre=oldies    0.006648223907470914
+    Attrib genre=pop    0.012265079686790085
+    Attrib genre=punk    0.02287902171428226
+    Attrib genre=rap    -0.042775760410755245
+    Attrib genre=reggae    0.03419157343829382
+    Attrib genre=rnb    0.005757294556402522
+    Attrib genre=rock    0.07066821383203609
+    Attrib genre=soul    0.040129788112812315
+    Attrib danceability    -0.10084206331744709
+    Attrib energy    -0.01674776604778246
+    Attrib key=0    0.016618357199273664
+    Attrib key=1    -0.03420706540122266
+    Attrib key=2    0.01618217012516132
+    Attrib key=3    -0.04153098651291709
+    Attrib key=4    -0.0023019427141127515
+    Attrib key=5    0.008427796737288022
+    Attrib key=6    -2.554638680957462E-4
+    Attrib key=7    0.03356611458193216
+    Attrib key=8    0.00753540335189587
+    Attrib key=9    0.04082200655740517
+    Attrib key=10    0.027401164306777654
+    Attrib key=11    0.05039088002896811
+    Attrib loudness    -0.031663714418045816
+    Attrib mode    -0.05661186469153487
+    Attrib speechiness    -0.07221961831585401
+    Attrib acousticness    0.001532206782940769
+    Attrib instrumentalness    0.029373631317495322
+    Attrib liveness    -0.03504555507888517
+    Attrib valence    -0.01797635455287956
+    Attrib tempo    -0.012852117792467909
+    Attrib duration_ms    0.001198070791490938
+    Attrib time_signature=1    0.04945138361232096
+    Attrib time_signature=3    -0.05981778459191657
+    Attrib time_signature=4    0.0637165864884386
+    Attrib time_signature=5    0.010231568611373257
+    Attrib word_count    0.004087544497508278
+    Attrib reading_ease    -0.019696273304243412
+    Attrib polarity    -0.0273008094892072
+    Attrib subjectivity    -0.013525348007659728
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    -0.027733320486781655
+    Attrib popularity    0.10715657771811678
+    Attrib genre=Disco    0.002211384019203211
+    Attrib genre=Hip-Hop    0.005242960079495401
+    Attrib genre=RNB    7.158082813085584E-4
+    Attrib genre=blues    0.05847294235824614
+    Attrib genre=classic_rock    -0.017941745451330694
+    Attrib genre=country    0.04668419589402805
+    Attrib genre=electronic    -0.018252084347222607
+    Attrib genre=folk    0.03820494973029449
+    Attrib genre=funk    0.026969170241269654
+    Attrib genre=indie    0.00908010484988803
+    Attrib genre=instrumental    -0.03003058481914532
+    Attrib genre=jazz    0.05145151068257806
+    Attrib genre=latin    -0.018290089175975813
+    Attrib genre=oldies    0.06737604972350503
+    Attrib genre=pop    -0.006532543515814228
+    Attrib genre=punk    0.05762171238638091
+    Attrib genre=rap    -0.012738721540220802
+    Attrib genre=reggae    0.04981270025855934
+    Attrib genre=rnb    -0.023416619173892365
+    Attrib genre=rock    0.11260561487821731
+    Attrib genre=soul    0.17554700558053934
+    Attrib danceability    -0.08141063974405792
+    Attrib energy    -0.052627030339068494
+    Attrib key=0    0.08909144860167958
+    Attrib key=1    -0.03662965317046218
+    Attrib key=2    -0.023082822550401547
+    Attrib key=3    -0.05727538233779345
+    Attrib key=4    0.04343795881867831
+    Attrib key=5    -0.03172763954792016
+    Attrib key=6    0.04095546683981135
+    Attrib key=7    -0.00465975315540819
+    Attrib key=8    -0.009351455941766753
+    Attrib key=9    0.12323804517996689
+    Attrib key=10    0.004963782540608942
+    Attrib key=11    0.06277332914437239
+    Attrib loudness    -0.10374000299190067
+    Attrib mode    -0.06873550864285224
+    Attrib speechiness    -0.06515244459519584
+    Attrib acousticness    0.048107245789810474
+    Attrib instrumentalness    -0.0012198588639597211
+    Attrib liveness    0.021386851350962778
+    Attrib valence    -0.07584801664937478
+    Attrib tempo    -0.01790007970490012
+    Attrib duration_ms    0.04110436382577775
+    Attrib time_signature=1    -0.024194778537719744
+    Attrib time_signature=3    -0.05822901639279432
+    Attrib time_signature=4    0.1153184613512532
+    Attrib time_signature=5    -0.06203605708637115
+    Attrib word_count    -0.037546888929667774
+    Attrib reading_ease    -0.11524346994121175
+    Attrib polarity    0.02935753863726572
+    Attrib subjectivity    -0.08979913633440013
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    0.018629483798893638
+    Attrib popularity    0.05113289627868861
+    Attrib genre=Disco    0.014891538243872722
+    Attrib genre=Hip-Hop    0.019694799819322074
+    Attrib genre=RNB    -0.02276297227928312
+    Attrib genre=blues    0.05315676007371573
+    Attrib genre=classic_rock    0.04363118509461492
+    Attrib genre=country    -0.010097312277901777
+    Attrib genre=electronic    -0.017095683559420413
+    Attrib genre=folk    -0.029032444311261726
+    Attrib genre=funk    0.027554998964506566
+    Attrib genre=indie    0.02574836910648856
+    Attrib genre=instrumental    -0.006850130437344394
+    Attrib genre=jazz    0.04232224960920862
+    Attrib genre=latin    -0.0380375919851398
+    Attrib genre=oldies    0.024463296518178843
+    Attrib genre=pop    -0.02596114296561391
+    Attrib genre=punk    -0.02107297757652974
+    Attrib genre=rap    0.0151768862779216
+    Attrib genre=reggae    0.03551833876516871
+    Attrib genre=rnb    0.021601757301362982
+    Attrib genre=rock    0.051694867483067425
+    Attrib genre=soul    0.058896582511190905
+    Attrib danceability    -0.021816736840367293
+    Attrib energy    -0.03454502964547153
+    Attrib key=0    0.019793961585475164
+    Attrib key=1    -0.016578183596677558
+    Attrib key=2    -0.03803901451884612
+    Attrib key=3    0.005567952014915554
+    Attrib key=4    0.028599978436852434
+    Attrib key=5    -0.02579915324235242
+    Attrib key=6    0.01487914960007116
+    Attrib key=7    0.021652202091603328
+    Attrib key=8    0.030696696880337746
+    Attrib key=9    0.018851060975175617
+    Attrib key=10    0.027219213001595164
+    Attrib key=11    -4.413559903374262E-4
+    Attrib loudness    0.017676476647194374
+    Attrib mode    -0.05075313267193907
+    Attrib speechiness    0.010525709976722215
+    Attrib acousticness    0.032055869488354614
+    Attrib instrumentalness    0.02697573141292796
+    Attrib liveness    -0.014625514284172109
+    Attrib valence    0.029909203314764023
+    Attrib tempo    -0.0328682497471894
+    Attrib duration_ms    0.039423189081947835
+    Attrib time_signature=1    0.04403447021570417
+    Attrib time_signature=3    0.038000232925858586
+    Attrib time_signature=4    0.020382226165843582
+    Attrib time_signature=5    -0.0479731200493063
+    Attrib word_count    0.027299239528091455
+    Attrib reading_ease    -0.019320400289771923
+    Attrib polarity    -0.008013708464367608
+    Attrib subjectivity    -0.03617166091049042
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    -0.02847989938780061
+    Attrib popularity    0.09640871307802952
+    Attrib genre=Disco    0.055255879256048315
+    Attrib genre=Hip-Hop    0.037746269832044634
+    Attrib genre=RNB    -0.011035123100551368
+    Attrib genre=blues    -0.032403305878258015
+    Attrib genre=classic_rock    0.0536970726871033
+    Attrib genre=country    0.008195082399928215
+    Attrib genre=electronic    0.009259605135152957
+    Attrib genre=folk    0.04607792963764945
+    Attrib genre=funk    0.0391906741533418
+    Attrib genre=indie    -0.012083304696095542
+    Attrib genre=instrumental    0.01604951113707373
+    Attrib genre=jazz    0.04692096235228958
+    Attrib genre=latin    -0.03594415990829642
+    Attrib genre=oldies    0.03771133667250343
+    Attrib genre=pop    -0.00623508855698973
+    Attrib genre=punk    0.03172079878150284
+    Attrib genre=rap    -0.003976626507685056
+    Attrib genre=reggae    -0.0050656659544755225
+    Attrib genre=rnb    -0.011884533796785657
+    Attrib genre=rock    0.0027521045532032376
+    Attrib genre=soul    0.05521210754460783
+    Attrib danceability    -0.053632780694311134
+    Attrib energy    -0.014989495734379807
+    Attrib key=0    0.07580907959077669
+    Attrib key=1    -0.016873188276033436
+    Attrib key=2    0.03396450366328932
+    Attrib key=3    -0.08563838218185203
+    Attrib key=4    0.04515287277423493
+    Attrib key=5    -0.030584339101306375
+    Attrib key=6    -0.004635011774567351
+    Attrib key=7    0.02985976060865045
+    Attrib key=8    -0.035573069320209524
+    Attrib key=9    0.020211945150818294
+    Attrib key=10    -0.0020671756584414902
+    Attrib key=11    0.057765944463691016
+    Attrib loudness    -0.0839965530759407
+    Attrib mode    0.03063528319770885
+    Attrib speechiness    -0.05573316048304105
+    Attrib acousticness    0.05959688476321502
+    Attrib instrumentalness    -0.029225488871713123
+    Attrib liveness    0.026109187805952082
+    Attrib valence    -0.06621171997119661
+    Attrib tempo    -0.0020690058356339354
+    Attrib duration_ms    -0.009632392662591758
+    Attrib time_signature=1    -0.003315036289995531
+    Attrib time_signature=3    -0.008635483650529381
+    Attrib time_signature=4    -0.009759077614655947
+    Attrib time_signature=5    0.0037605602153032774
+    Attrib word_count    -0.024221247028874533
+    Attrib reading_ease    -0.0651356637255749
+    Attrib polarity    -0.01608687583125109
+    Attrib subjectivity    -0.07220795343521072
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    0.018765318706762547
+    Attrib popularity    0.08036684242149146
+    Attrib genre=Disco    0.008359134934365563
+    Attrib genre=Hip-Hop    -0.012642325225875337
+    Attrib genre=RNB    -0.019358691859228148
+    Attrib genre=blues    0.026838673228816196
+    Attrib genre=classic_rock    0.016446057340620962
+    Attrib genre=country    -0.037412192870857834
+    Attrib genre=electronic    2.2044311536066535E-4
+    Attrib genre=folk    -0.003203231859751325
+    Attrib genre=funk    -0.0028423222377272554
+    Attrib genre=indie    0.005917932960478235
+    Attrib genre=instrumental    0.053240345710908694
+    Attrib genre=jazz    0.05363404548415699
+    Attrib genre=latin    0.02902358508985104
+    Attrib genre=oldies    -0.030634053610978818
+    Attrib genre=pop    -0.026453530788018983
+    Attrib genre=punk    0.027545102380852844
+    Attrib genre=rap    -0.020741451380125932
+    Attrib genre=reggae    -0.0035048114293242285
+    Attrib genre=rnb    -0.056243211695423144
+    Attrib genre=rock    0.09172534067056369
+    Attrib genre=soul    0.07559459912861881
+    Attrib danceability    -0.06932081914253806
+    Attrib energy    -0.04387992453326759
+    Attrib key=0    0.07439195210877136
+    Attrib key=1    -0.04096822721245291
+    Attrib key=2    0.02727226684059229
+    Attrib key=3    -0.06864939177856587
+    Attrib key=4    0.025190304445339994
+    Attrib key=5    0.047183431833773305
+    Attrib key=6    0.024071104371928862
+    Attrib key=7    0.0038403618714311204
+    Attrib key=8    -0.022091693394832156
+    Attrib key=9    0.04431096088913513
+    Attrib key=10    0.026054842763840014
+    Attrib key=11    0.047680174730738725
+    Attrib loudness    -0.05608600059686679
+    Attrib mode    -0.0044419020699179345
+    Attrib speechiness    -0.04796817024453289
+    Attrib acousticness    0.05059376013306579
+    Attrib instrumentalness    -0.03772338779249253
+    Attrib liveness    -0.025786500497364688
+    Attrib valence    -0.009740414980160303
+    Attrib tempo    0.016784183675745693
+    Attrib duration_ms    0.07842118603064942
+    Attrib time_signature=1    0.019957082836202497
+    Attrib time_signature=3    0.021981911657528174
+    Attrib time_signature=4    0.04275117921513078
+    Attrib time_signature=5    0.023872387786850933
+    Attrib word_count    -2.9732937703704797E-5
+    Attrib reading_ease    -0.09049970402932833
+    Attrib polarity    0.02940546815188585
+    Attrib subjectivity    -0.038501243956121915
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -0.13884393980544305
+    Node 1    -0.057794752410482965
+    Node 2    -0.10761471800088543
+    Node 3    -0.15721942656192503
+    Node 4    -0.029200104003389894
+    Node 5    -0.15054075515910684
+    Node 6    0.008797989522312342
+    Node 7    -0.08161760835415219
+    Node 8    -0.18981775776999155
+    Node 9    -0.20942401393165425
+    Node 10    -0.26972957552140403
+    Node 11    -0.044718938552480936
+    Node 12    -0.036980003383361215
+    Node 13    -0.11975045522915467
+    Node 14    -0.12396791109423032
+    Node 15    -0.09365693127465688
+    Node 16    -0.22112656451106738
+    Node 17    -0.21650745237461275
+    Node 18    -0.15104938425349027
+    Node 19    -0.2299587550448658
+    Node 20    -0.13422792018756305
+    Node 21    -0.09255689947300419
+    Node 22    -0.17230728550525207
+    Node 23    -0.12430137345804187
+    Node 24    -0.15189729391700088
+    Node 25    -0.049677537585892335
+    Node 26    -0.13659846581556598
+    Node 27    -0.08261554627308923
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    -0.10116058013867994
+    Node 1    -0.04290819897342591
+    Node 2    -0.08343014493689685
+    Node 3    -0.11703845382895922
+    Node 4    -0.08413883337353714
+    Node 5    -0.1711993283275122
+    Node 6    -0.0610417635219084
+    Node 7    -0.025557825580716058
+    Node 8    -0.17992634589510573
+    Node 9    -0.1386893477956884
+    Node 10    -0.24169810225409719
+    Node 11    -0.12364951025501524
+    Node 12    -0.05171498819574712
+    Node 13    -0.1858599530613518
+    Node 14    -0.059386517432387834
+    Node 15    -0.11913128799228984
+    Node 16    -0.23288491036928363
+    Node 17    -0.23777413218629148
+    Node 18    -0.23323258219538728
+    Node 19    -0.22310482351796998
+    Node 20    -0.14236114991791735
+    Node 21    -0.16359421979891367
+    Node 22    -0.14318585482488902
+    Node 23    -0.08533841300101921
+    Node 24    -0.11927734043248663
+    Node 25    -0.06736376187764964
+    Node 26    -0.0893243908858674
+    Node 27    -0.09174387538414189
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    -0.07752483119631154
+    Node 1    0.004781097725485919
+    Node 2    -0.09796162102652692
+    Node 3    -0.09643669159130472
+    Node 4    -0.06748372103540932
+    Node 5    -0.1614552196270512
+    Node 6    -0.013553950636833035
+    Node 7    -0.0507758854671567
+    Node 8    -0.18631650807034217
+    Node 9    -0.21087130596595638
+    Node 10    -0.21239067862425917
+    Node 11    -0.1152417640502154
+    Node 12    -0.07079516255666696
+    Node 13    -0.1846577634362651
+    Node 14    -0.1510195193169937
+    Node 15    -0.07262340424092334
+    Node 16    -0.22646494677750734
+    Node 17    -0.18630514745959217
+    Node 18    -0.20870918208131561
+    Node 19    -0.2535840193739675
+    Node 20    -0.1590209586905785
+    Node 21    -0.10784768125693941
+    Node 22    -0.16114757864277998
+    Node 23    -0.06835679067683409
+    Node 24    -0.2081433397526257
+    Node 25    -0.0634007749349246
+    Node 26    -0.08461048066857081
+    Node 27    -0.08809132621526851
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    -0.04160135392250425
+    Node 1    0.05008126307621823
+    Node 2    -0.12358642744772148
+    Node 3    -0.1523532400579162
+    Node 4    -0.04763535280890493
+    Node 5    -0.13374309673464754
+    Node 6    0.02003195487651769
+    Node 7    -0.04589187505185003
+    Node 8    -0.1473784380323696
+    Node 9    -0.15467404375110777
+    Node 10    -0.3249003487754793
+    Node 11    -0.1286222221699509
+    Node 12    -0.003917785489089282
+    Node 13    -0.19582280808598498
+    Node 14    -0.07277194153488539
+    Node 15    -0.07595278730359595
+    Node 16    -0.2070653527279497
+    Node 17    -0.20547501367994625
+    Node 18    -0.2727120571840527
+    Node 19    -0.28557576329409384
+    Node 20    -0.1127356393819887
+    Node 21    -0.18023299876701784
+    Node 22    -0.18181343998498148
+    Node 23    -0.05232925371306392
+    Node 24    -0.1900919667262664
+    Node 25    -0.010137441743063037
+    Node 26    -0.06795422186905863
+    Node 27    -0.1563690397700276
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 213.56 seconds
+
+=== Predictions on test split ===
+
+inst#,    actual, predicted, error
+     1      0          0.105      0.105
+     2      1          0.04      -0.96 
+     3      0         -0.008     -0.008
+     4      0         -0.003     -0.003
+     5      0          0.017      0.017
+     6      0         -0.001     -0.001
+     7      0          0.045      0.045
+     8      0          0.01       0.01 
+     9      0          0.005      0.005
+    10      0          0.014      0.014
+    11      0.2        0.065     -0.135
+    12      0          0.007      0.007
+    13      0          0.017      0.017
+    14      0         -0.004     -0.004
+    15      0         -0.012     -0.012
+    16      0.2        0.002     -0.198
+    17      0         -0.002     -0.002
+    18      0.2        0.047     -0.153
+    19      0         -0.017     -0.017
+    20      0         -0.008     -0.008
+    21      0         -0.006     -0.006
+    22      0          0.017      0.017
+    23      0         -0.008     -0.008
+    24      0          0.03       0.03 
+    25      0         -0.006     -0.006
+    26      0         -0.023     -0.023
+    27      0          0.001      0.001
+    28      0          0.018      0.018
+    29      0         -0.006     -0.006
+    30      0          0.034      0.034
+    31      0         -0.007     -0.007
+    32      0         -0.004     -0.004
+    33      0          0.001      0.001
+    34      0          0          0    
+    35      0          0.023      0.023
+    36      0         -0.009     -0.009
+    37      0          0.023      0.023
+    38      0          0.005      0.005
+    39      0          0.013      0.013
+    40      0         -0.012     -0.012
+    41      0         -0.001     -0.001
+    42      0         -0.024     -0.024
+    43      0         -0.013     -0.013
+    44      0          0.002      0.002
+    45      0         -0.025     -0.025
+    46      0.2       -0.002     -0.202
+    47      0         -0.019     -0.019
+    48      0         -0.036     -0.036
+    49      0         -0.022     -0.022
+    50      0         -0.022     -0.022
+    51      0          0.022      0.022
+    52      0         -0.006     -0.006
+    53      0          0.013      0.013
+    54      0          0.008      0.008
+    55      0         -0.006     -0.006
+    56      0         -0.004     -0.004
+    57      0          0.01       0.01 
+    58      0         -0.024     -0.024
+    59      0         -0.002     -0.002
+    60      0         -0.026     -0.026
+    61      0         -0.021     -0.021
+    62      0         -0.003     -0.003
+    63      0          0.005      0.005
+    64      0         -0.025     -0.025
+    65      0          0.009      0.009
+    66      0          0.006      0.006
+    67      0.2        0.038     -0.162
+    68      0          0          0    
+    69      0         -0.001     -0.001
+    70      0          0.002      0.002
+    71      0          0.041      0.041
+    72      0         -0.006     -0.006
+    73      0          0.003      0.003
+    74      0         -0.023     -0.023
+    75      0          0.019      0.019
+    76      0          0.007      0.007
+    77      0         -0.026     -0.026
+    78      0         -0.012     -0.012
+    79      0         -0.019     -0.019
+    80      0          0.065      0.065
+    81      0         -0.01      -0.01 
+    82      0          0.054      0.054
+    83      0          0.012      0.012
+    84      0          0.001      0.001
+    85      0         -0.004     -0.004
+    86      0          0.001      0.001
+    87      0          0.007      0.007
+    88      0         -0.043     -0.043
+    89      0          0.005      0.005
+    90      0          0.021      0.021
+    91      0          0.014      0.014
+    92      0          0.043      0.043
+    93      0          0.064      0.064
+    94      0          0.018      0.018
+    95      0          0.004      0.004
+    96      0         -0.01      -0.01 
+    97      0          0.002      0.002
+    98      0         -0.012     -0.012
+    99      0          0          0    
+   100      0         -0.002     -0.002
+   101      0         -0.011     -0.011
+   102      0          0.044      0.044
+   103      0          0.027      0.027
+   104      0          0.017      0.017
+   105      0          0.001      0.001
+   106      0         -0.025     -0.025
+   107      0          0.008      0.008
+   108      0          0.06       0.06 
+   109      0         -0.011     -0.011
+   110      0          0.041      0.041
+   111      0          0.006      0.006
+   112      0         -0.034     -0.034
+   113      0          0.036      0.036
+   114      0          0.044      0.044
+   115      0         -0.007     -0.007
+   116      0          0.002      0.002
+   117      0         -0.006     -0.006
+   118      0          0.022      0.022
+   119      0         -0.001     -0.001
+   120      0.2        0.049     -0.151
+   121      0          0.033      0.033
+   122      0.2        0.021     -0.179
+   123      0          0.005      0.005
+   124      1          0.017     -0.983
+   125      0         -0.004     -0.004
+   126      0          0.007      0.007
+   127      0          0.06       0.06 
+   128      0         -0.009     -0.009
+   129      0          0.006      0.006
+   130      0          0.022      0.022
+   131      0          0.002      0.002
+   132      0          0.015      0.015
+   133      0          0.032      0.032
+   134      0         -0.008     -0.008
+   135      0          0.005      0.005
+   136      0         -0.016     -0.016
+   137      0          0.017      0.017
+   138      0         -0.023     -0.023
+   139      0          0.038      0.038
+   140      0         -0.001     -0.001
+   141      0         -0.022     -0.022
+   142      0          0.022      0.022
+   143      0.2        0.017     -0.183
+   144      0          0.015      0.015
+   145      0          0.02       0.02 
+   146      0          0.018      0.018
+   147      0          0.029      0.029
+   148      0          0.06       0.06 
+   149      0          0.04       0.04 
+   150      0          0.032      0.032
+   151      0          0.035      0.035
+   152      0          0.059      0.059
+   153      0         -0.017     -0.017
+   154      0         -0.024     -0.024
+   155      0          0.015      0.015
+   156      0         -0.001     -0.001
+   157      0          0.001      0.001
+   158      0         -0.026     -0.026
+   159      0         -0.001     -0.001
+   160      0         -0.018     -0.018
+   161      0         -0.021     -0.021
+   162      0         -0.009     -0.009
+   163      0          0.054      0.054
+   164      0          0.026      0.026
+   165      0         -0.043     -0.043
+   166      0         -0.024     -0.024
+   167      0          0.005      0.005
+   168      0         -0.01      -0.01 
+   169      0         -0.007     -0.007
+   170      0         -0.048     -0.048
+   171      0         -0.021     -0.021
+   172      0          0.035      0.035
+   173      0.2        0.03      -0.17 
+   174      0.2        0.036     -0.164
+   175      0          0.028      0.028
+   176      0         -0.01      -0.01 
+   177      0         -0.022     -0.022
+   178      0          0.024      0.024
+   179      0         -0.008     -0.008
+   180      0          0.003      0.003
+   181      0          0.025      0.025
+   182      0         -0.002     -0.002
+   183      0         -0.011     -0.011
+   184      0          0.001      0.001
+   185      0         -0.002     -0.002
+   186      0         -0.038     -0.038
+   187      0          0.01       0.01 
+   188      0          0.011      0.011
+   189      0         -0.016     -0.016
+   190      0          0.003      0.003
+   191      0          0.011      0.011
+   192      0          0.06       0.06 
+   193      0          0.022      0.022
+   194      0          0.011      0.011
+   195      0          0.065      0.065
+   196      0.2       -0.012     -0.212
+   197      0         -0.017     -0.017
+   198      0          0.023      0.023
+   199      0         -0.016     -0.016
+   200      0          0.005      0.005
+   201      0          0.006      0.006
+   202      1          0.029     -0.971
+   203      0          0.052      0.052
+   204      0         -0.004     -0.004
+   205      0          0.003      0.003
+   206      0          0.002      0.002
+   207      0          0.05       0.05 
+   208      0          0.01       0.01 
+   209      0         -0.023     -0.023
+   210      0          0.054      0.054
+   211      0          0.013      0.013
+   212      0          0.039      0.039
+   213      0          0.048      0.048
+   214      0         -0.01      -0.01 
+   215      0          0.001      0.001
+   216      0         -0.017     -0.017
+   217      0.2        0.041     -0.159
+   218      0          0.02       0.02 
+   219      0          0.009      0.009
+   220      0          0.012      0.012
+   221      0         -0.006     -0.006
+   222      0         -0.012     -0.012
+   223      0          0.011      0.011
+   224      0         -0.003     -0.003
+   225      0          0.006      0.006
+   226      0          0.009      0.009
+   227      0          0.003      0.003
+   228      0          0.029      0.029
+   229      0         -0.008     -0.008
+   230      0         -0.005     -0.005
+   231      0          0.003      0.003
+   232      0.2        0.01      -0.19 
+   233      0          0.016      0.016
+   234      0          0.001      0.001
+   235      0          0.022      0.022
+   236      0         -0.005     -0.005
+   237      0          0.015      0.015
+   238      0         -0.009     -0.009
+   239      0         -0.011     -0.011
+   240      0          0.018      0.018
+   241      0         -0.005     -0.005
+   242      0          0.019      0.019
+   243      0          0.015      0.015
+   244      0          0.008      0.008
+   245      0          0.039      0.039
+   246      0         -0.02      -0.02 
+   247      0          0.032      0.032
+   248      0          0.006      0.006
+   249      0         -0.018     -0.018
+   250      0          0.014      0.014
+   251      0          0.042      0.042
+   252      0          0.024      0.024
+   253      0         -0.015     -0.015
+   254      0          0          0    
+   255      0         -0.011     -0.011
+   256      0          0.053      0.053
+   257      0.2       -0.021     -0.221
+   258      0         -0.001     -0.001
+   259      0          0.003      0.003
+   260      0         -0.006     -0.006
+   261      0          0.001      0.001
+   262      0          0.021      0.021
+   263      0          0.002      0.002
+   264      0          0.015      0.015
+   265      0          0.021      0.021
+   266      0          0.018      0.018
+   267      0          0.005      0.005
+   268      0         -0.003     -0.003
+   269      0          0.005      0.005
+   270      0          0.033      0.033
+   271      0          0.053      0.053
+   272      0         -0.006     -0.006
+   273      0         -0.021     -0.021
+   274      0         -0.008     -0.008
+   275      0          0.007      0.007
+   276      0          0.026      0.026
+   277      0         -0.004     -0.004
+   278      0          0.032      0.032
+   279      0          0.008      0.008
+   280      0          0.009      0.009
+   281      0          0.016      0.016
+   282      0          0.02       0.02 
+   283      0         -0.009     -0.009
+   284      0         -0.026     -0.026
+   285      0          0.008      0.008
+   286      0          0.019      0.019
+   287      0          0.032      0.032
+   288      0          0.029      0.029
+   289      0          0.011      0.011
+   290      0          0.032      0.032
+   291      0         -0.011     -0.011
+   292      0         -0.016     -0.016
+   293      0         -0.004     -0.004
+   294      0          0.019      0.019
+   295      0         -0.02      -0.02 
+   296      0         -0.011     -0.011
+   297      0          0.006      0.006
+   298      0         -0.009     -0.009
+   299      0          0.02       0.02 
+   300      0.2        0.01      -0.19 
+   301      0          0.004      0.004
+   302      0          0.027      0.027
+   303      0          0.021      0.021
+   304      0          0.026      0.026
+   305      0         -0.004     -0.004
+   306      0          0.029      0.029
+   307      0         -0.02      -0.02 
+   308      0          0.026      0.026
+   309      0          0.047      0.047
+   310      0         -0.009     -0.009
+   311      0         -0.005     -0.005
+   312      0         -0.005     -0.005
+   313      0          0.015      0.015
+   314      0          0.004      0.004
+   315      0          0.045      0.045
+   316      0          0.013      0.013
+   317      0          0.015      0.015
+   318      0          0.029      0.029
+   319      0          0.008      0.008
+   320      0          0.007      0.007
+   321      0          0          0    
+   322      0         -0.021     -0.021
+   323      0          0.024      0.024
+   324      0         -0.007     -0.007
+   325      0          0.037      0.037
+   326      0.2        0.001     -0.199
+   327      0         -0.022     -0.022
+   328      0         -0.006     -0.006
+   329      0          0.032      0.032
+   330      0          0.003      0.003
+   331      0         -0.019     -0.019
+   332      0          0          0    
+   333      0          0.015      0.015
+   334      0         -0.002     -0.002
+   335      0         -0.018     -0.018
+   336      0         -0.013     -0.013
+   337      0          0.048      0.048
+   338      0         -0.01      -0.01 
+   339      0          0.023      0.023
+   340      0          0.005      0.005
+   341      0         -0.01      -0.01 
+   342      0          0.032      0.032
+   343      1          0.1       -0.9  
+   344      0         -0.03      -0.03 
+   345      0         -0.015     -0.015
+   346      0.2       -0.022     -0.222
+   347      0          0.001      0.001
+   348      0.2       -0.025     -0.225
+   349      0          0.012      0.012
+   350      0          0.03       0.03 
+   351      0         -0.012     -0.012
+   352      0          0.035      0.035
+   353      0         -0.019     -0.019
+   354      0          0.071      0.071
+   355      0          0.081      0.081
+   356      0          0.014      0.014
+   357      0          0.01       0.01 
+   358      0          0.03       0.03 
+   359      0          0.03       0.03 
+   360      0          0.027      0.027
+   361      0          0.009      0.009
+   362      0          0.003      0.003
+   363      0         -0.022     -0.022
+   364      0.2        0.08      -0.12 
+   365      0          0.003      0.003
+   366      0         -0.001     -0.001
+   367      0          0.005      0.005
+   368      0          0.011      0.011
+   369      0         -0.008     -0.008
+   370      0          0.038      0.038
+   371      0.2        0.053     -0.147
+   372      0          0.006      0.006
+   373      0          0.036      0.036
+   374      0          0.023      0.023
+   375      0          0.051      0.051
+   376      0          0.052      0.052
+   377      0          0          0    
+   378      0          0.007      0.007
+   379      0          0.003      0.003
+   380      0         -0.021     -0.021
+   381      0         -0.007     -0.007
+   382      0          0.011      0.011
+   383      0          0.039      0.039
+   384      0          0.032      0.032
+   385      0         -0.002     -0.002
+   386      0          0.021      0.021
+   387      0          0.03       0.03 
+   388      0         -0.03      -0.03 
+   389      0          0          0    
+   390      0          0.009      0.009
+   391      0          0.003      0.003
+   392      0          0.051      0.051
+   393      0          0.002      0.002
+   394      0          0.005      0.005
+   395      1          0.054     -0.946
+   396      0         -0.017     -0.017
+   397      0          0.024      0.024
+   398      0         -0.007     -0.007
+   399      0         -0.014     -0.014
+   400      0          0.032      0.032
+   401      0          0.008      0.008
+   402      0         -0.024     -0.024
+   403      0          0.004      0.004
+   404      0          0.025      0.025
+   405      0          0.006      0.006
+   406      0         -0.022     -0.022
+   407      0          0.018      0.018
+   408      0          0          0    
+   409      0          0.012      0.012
+   410      0          0.002      0.002
+   411      0          0.026      0.026
+   412      0          0.027      0.027
+   413      0         -0.031     -0.031
+   414      0          0.025      0.025
+   415      0          0.01       0.01 
+   416      0          0.005      0.005
+   417      0         -0.001     -0.001
+   418      0          0.01       0.01 
+   419      0          0.034      0.034
+   420      0          0.012      0.012
+   421      0          0.001      0.001
+   422      0          0.1        0.1  
+   423      0          0.056      0.056
+   424      0          0.009      0.009
+   425      0          0          0    
+   426      0          0.004      0.004
+   427      0          0.029      0.029
+   428      0         -0.005     -0.005
+   429      0          0.036      0.036
+   430      0          0.009      0.009
+   431      0          0.035      0.035
+   432      0.2        0.031     -0.169
+   433      0         -0.008     -0.008
+   434      0          0.006      0.006
+   435      0          0.042      0.042
+   436      0          0.014      0.014
+   437      0          0.017      0.017
+   438      0          0.023      0.023
+   439      0          0          0    
+   440      0          0.034      0.034
+   441      0         -0.012     -0.012
+   442      0.2        0.028     -0.172
+   443      0          0.037      0.037
+   444      0          0.023      0.023
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correlation coefficient                  0.211 
+Mean absolute error                      0.0362
+Root mean squared error                  0.1112
+Relative absolute error                104.6597 %
+Root relative squared error             98.18   %
+Total Number of Instances              444     
+
