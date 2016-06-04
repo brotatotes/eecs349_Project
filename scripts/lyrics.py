@@ -1,4 +1,4 @@
-import requests, re, os
+import requests, re, os, pickle
 from bs4 import BeautifulSoup, SoupStrainer
 import parse as p
 from textblob import TextBlob
@@ -18,8 +18,16 @@ def persistent_request(url):
 	return
 
 def add_lyric_data(range_start, range_end, restart=False):
-	songs_list = p.parse("./song_titles.csv")
-	songs_artist = p.parse("./artists.csv")
+
+	with open('grammy_candidates.pickle', 'r') as handle:
+  		SA = pickle.load(handle)
+
+	songs_artist = []
+	songs_list = []
+	for i in range(0, len(SA)):
+	 	songs_list.append(SA[i][0])
+	 	songs_artist.append(SA[i][1])
+
 	song_data_headers = ["song", "artist", "word_count", "reading_ease", "polarity", "subjectivity"]
 	lyric_word_counts = []
 	lyric_reading_scores = []
@@ -102,7 +110,7 @@ def add_lyric_data(range_start, range_end, restart=False):
 				sentiments.append(["?", "?"])
 		print songs_list[i] + "," + songs_artist[i] + "," + str(lyric_word_counts[i - range_start]) + "," + str(lyric_reading_scores[i - range_start]) + "," +str(sentiments[i - range_start][0]) + "," + str(sentiments[i - range_start][1])
 				
-	filename = "lyric_attributes.csv"
+	filename = "candidates_lyric_attributes.csv"
 	
 	if restart:
 		file = open(filename, "w")
@@ -119,12 +127,4 @@ def add_lyric_data(range_start, range_end, restart=False):
 
 # add_lyric_data(0, 100, restart=True)
 
-range_start = 1500
-range_end = 1600
-while range_end <= 5300:
-	add_lyric_data(range_start, range_end)
-	print "songs added from " + str(range_start) + " to " + str(range_end)
-	range_start += 100
-	range_end += 100
-
-add_lyric_data(5300, 5399)
+add_lyric_data(0, 421)

@@ -50,10 +50,8 @@ for i in range(0, len(urllist)):
 	if i == 12:
 		myartists.insert(11, "Fifth Harmony Featuring Ty Dolla $ign")
 		myartists.insert(78, "Flo Rida Featuring Jason Derulo")
-		print myartists
 	elif i ==13:
 		myartists.insert(95, "Desiigner")
-		print myartists
 	S.append(mysongs)
 	A.append(myartists)
 S = [item for sublist in S for item in sublist]
@@ -66,7 +64,6 @@ SA = list(set(SA))
 with open('grammy_candidates.pickle', 'wb') as handle:
   pickle.dump(SA, handle)
 
-print SA
 filename = "../data/59th_grammy_song_candidates.csv"
 file = open(filename, "w")
 for i in range(0, len(SA)):

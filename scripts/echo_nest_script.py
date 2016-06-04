@@ -1,4 +1,4 @@
-import json, requests
+import json, requests, pickle
 import parse as p
 
 def persistent_request(url, headers):
@@ -19,11 +19,17 @@ def persistent_request(url, headers):
 	return
 
 def add_songs(range_begin, range_end):
-	songs_list = p.parse("./Song_titles_supplement.csv")
-	song_years = p.parse("./years_supplement.csv")
-	song_artist = p.parse("./artists_supplement.csv")
+	with open('grammy_candidates.pickle', 'r') as handle:
+		SA = pickle.load(handle)
 
-	song_data_headers = ["title", "spotify_id", "artist", "year", "popularity", "danceability", "energy", "key", "loudness", "mode", "speechiness", "acousticness", "instrumentalness", "liveness", "valence", "tempo", "duration_ms", "time_signature"]
+	song_artist = []
+	songs_list = []
+	for i in range(0, len(SA)):
+	 	songs_list.append(SA[i][0])
+	 	song_artist.append(SA[i][1])
+
+
+	song_data_headers = ["title", "spotify_id", "artist", "popularity", "danceability", "energy", "key", "loudness", "mode", "speechiness", "acousticness", "instrumentalness", "liveness", "valence", "tempo", "duration_ms", "time_signature"]
 	song_data = []
 
 	for i in range(range_begin, range_end):
@@ -49,7 +55,7 @@ def add_songs(range_begin, range_end):
 			pop_url = "https://api.spotify.com/v1/" + pop_query
 			pop_data = persistent_request(pop_url, req_headers)
 
-			row = [songs_list[i], song_id, song_artist[i], str(song_years[i])]
+			row = [songs_list[i], song_id, song_artist[i]]
 
 
 
@@ -65,7 +71,7 @@ def add_songs(range_begin, range_end):
 			print row
 			song_data.append(row)
 
-	filename = "output.csv"
+	filename = "candidate_echo_nest.csv"
 	file = open(filename, "w")
 	file.write(",".join(song_data_headers)+"\n")
 	for song in song_data:
@@ -74,13 +80,8 @@ def add_songs(range_begin, range_end):
 
 
 
-range_start = 0
-range_end = 49
-while range_end <= 49:
-	add_songs(range_start, range_end)
-	print "songs added from " + str(range_start) + " to " + str(range_end)
-	range_start += 100
-	range_end += 100
+add_songs(0, 421)
+
 
 
 
