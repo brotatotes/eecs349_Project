@@ -36,13 +36,13 @@ def add_songs(range_begin, range_end):
 		print (i + 1)
 		query = "search?q="+songs_list[i]+ " " + song_artist[i] +"&type=track"
 		url = "https://api.spotify.com/v1/"+query
-		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQACmoLPW018izqe_CkSm9-Dv75iXU9o75yuey5BxReGCRuLHk04IAPIE3VgfgdW0q47aEv_E7goe1uDP0AfEOy-UXSlsUmaHHApGCn2ddBkVuDPosN8LC371OE4BpVWTDtStzWuVGiqMBU"}
+		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQB3cM6s9PWKyVfxcySw_zgKKR3JEh0BHmYMpMBdtjxtdB5NxOZXX3ghaTpzCFvCJE3b-Ha5nIv6limuWcp4j5VkcTa-MPn9tlHi53rWt6NmWNpucFToIOtvvSBhSdhcP8071JXCBBvzlEp-haM0GmELwj6lSGc"}
 
 		data = persistent_request(url, req_headers)
 		if data == None:
-			continue
+			song_data.append([songs_list[i], '?', song_artist[i],'?', '?','?', '?','?', '?','?', '?','?', '?','?', '?','?', '?'])
 		elif not "tracks" in data.keys():
-			continue
+			song_data.append([songs_list[i], '?', song_artist[i],'?', '?','?', '?','?', '?','?', '?','?', '?','?', '?','?', '?'])
 		elif not len(data["tracks"]["items"]) == 0:
 			#actually getting the attribute's for each instance now
 			song_id = data["tracks"]["items"][0]["id"]
@@ -70,7 +70,10 @@ def add_songs(range_begin, range_end):
 					row.append("?")
 			print row
 			song_data.append(row)
+		else:
+			song_data.append([songs_list[i], '?', song_artist[i],'?', '?','?', '?','?', '?','?', '?','?', '?','?', '?','?', '?'])
 
+	print song_data
 	filename = "candidate_echo_nest.csv"
 	file = open(filename, "w")
 	file.write(",".join(song_data_headers)+"\n")

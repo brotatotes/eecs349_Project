@@ -1,1 +1,422 @@
 title,spotify_id,artist,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+Hit The Quan,4OjuzM3rTWp3q60mEldNSF,iLoveMemphis,70,0.488,8,-8.253,1,0.362,0.000235,0,0.0488,0.624,160.018,181081,4
+El Perdon (Forgiveness),4uNIeEAy1CRUHRJZRjTHRo,Nicky Jam & Enrique Iglesias,65,0.719,8,-3.839,1,0.0357,0.256,0,0.0909,0.666,90.013,206667,4
+Never Forget You,6WLS56xiRrXjSm9RSdL3zD,Zara Larsson & MNEK,93,0.732,11,-5.728,0,0.0457,0.00312,9.86e-06,0.269,0.292,145.992,213428,4
+I Got The Boy,6VZCuvHwk3xmjwgKga0bNi,Jana Kramer,65,0.569,0,-5.954,1,0.0271,0.26,0,0.127,0.364,149.987,201013,4
+Love Myself,36phXHOKx8rO7CMp2vNX4x,Hailee Steinfeld,76,0.762,0,-6.737,0,0.0811,0.00296,0,0.435,0.282,122.91,218773,4
+Me, Myself & I,0KMYgSe9JWHloFeEVBU6qq,G-Eazy x Bebe Rexha,87,0.686,0,-6.106,0,0.0869,0.0174,0,0.11,0.384,111.977,252142,4
+Noise,3tBSdTfZuCzgA2PfQrqKpk,Kenny Chesney,75,0.803,0,-4.064,1,0.0279,0.0081,0,0.0789,0.569,109.967,206533,4
+Don't Let Me Down,?,The Chainsmokers Featuring Daya,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+No Sense,?,Justin Bieber Featuring Travi$ Scott,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Down In The DM,?,Yo Gotti Featuring Nicki Minaj,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+I'll Show You,0SNIAtRCPVVLoGEPcuHSIc,Justin Bieber,75,0.611,9,-6.691,0,0.129,0.0427,6.28e-05,0.184,0.0679,191.447,199947,4
+Jugg,?,Fetty Wap Featuring Monty,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Every Breath You Take,4hZu7IefxrjzuoGjhWmhOu,Hannah Huston,29,0.464,4,-5.767,0,0.0309,0.426,0.00119,0.151,0.113,163.548,191693,4
+T-Shirt,1zWZvrk13cL8Sl3VLeG57F,Thomas Rhett,78,0.857,2,-5.381,1,0.0397,0.0318,0,0.0212,0.757,95.996,227693,4
+Play No Games,?,Big Sean Featuring Chris Brown & Ty Dolla $ign,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Back To Sleep,4wM4c5ly3GR4YYgWSePlSG,Chris Brown,76,0.675,9,-6.308,0,0.213,0.119,0,0.483,0.794,92.832,267156,4
+Little More (Royalty),4lvQiZUhHgG8Oldd8S97hd,Chris Brown,68,0.516,6,-8.088,1,0.035,0.0195,0,0.139,0.329,133.71,260453,4
+7 Years,5kqIPrATaCc2LqxVWzQGbk,Lukas Graham,96,0.473,10,-5.829,1,0.0514,0.287,0,0.391,0.343,119.992,237300,4
+Trap Queen,2d8JP84HNLKhmd6IYOoupQ,Fetty Wap,82,0.873,7,-3.803,1,0.128,0.0244,0,0.354,0.808,148.075,222093,4
+We Are,?,Justin Bieber Featuring Nas,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Exchange,43PuMrRfbyyuz4QpZ3oAwN,Bryson Tiller,86,0.433,6,-10.598,1,0.185,0.108,0,0.135,0.272,160.14,194613,4
+White Iverson,2N0NifjyXAdMOB4KBGvBJ6,Post Malone,82,0.521,7,-8.732,1,0.0366,0.236,0,0.0802,0.324,130.071,255173,4
+Zero,0j4giTw6pwgbFEHwMm4VWe,Chris Brown,67,0.792,1,-4.64,0,0.0706,0.0645,0,0.0703,0.834,122.003,213876,4
+Best Friend,33JcUj9qQDayKswunZP9ar,Young Thug,78,0.598,8,-5.534,1,0.0713,0.0358,0,0.358,0.424,127.029,213000,4
+No Problem,?,Chance The Rapper Featuring Lil Wayne & 2 Chainz,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Trust,00IH8ZjI9ZGB51WRX1Oesj,Justin Bieber,66,0.487,7,-8.444,0,0.168,0.067,0,0.166,0.452,72.674,203613,3
+Make Me Like You,2WIxwn8LZRI7knO1VbwdaE,Gwen Stefani,68,0.72,5,-4.702,0,0.0486,0.0334,1e-05,0.128,0.825,118.031,216947,4
+Hold Up,2vXniiJEKL8yOQbXCjlG8K,Beyonce,0,0.18,0,-19.741,1,0.0851,0.994,0.963,0.102,0.155,164.936,210000,4
+Pop Style,?,Drake Featuring The Throne,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Levels,6pf9datdAtxQj4EU8UYHSx,Nick Jonas,68,0.664,5,-4.667,1,0.437,0.0493,0,0.267,0.647,200.33,167693,4
+Hit The Quan,4OjuzM3rTWp3q60mEldNSF,iHeartMemphis,70,0.488,8,-8.253,1,0.362,0.000235,0,0.0488,0.624,160.018,181081,4
+Faithful,?,Drake Featuring Pimp C & dvsn,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+About You,2ssYQKMqVUkoQgi02PmDPB,Trey Songz,66,0.564,0,-4.066,0,0.0837,0.0959,0,0.26,0.692,204.002,196900,4
+Try Everything,4THhG6r7WNnh5j8AtiUiSI,Shakira,64,0.614,1,-4.866,1,0.0304,0.0198,0,0.0903,0.536,115.481,196707,4
+Bet You Can't Do It Like Me,?,DLOW,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Saved,?,Ty Dolla $ign Featuring E-40,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+John Cougar, John Deere, John 3:16,1MLiJQozVUdCCNudp1cDbn,Keith Urban,70,0.777,0,-6.971,1,0.0997,0.0621,1.83e-06,0.0792,0.598,170.021,221599,4
+Mr. Misunderstood,79dlQxvdsCDApoM8XChkpy,Eric Church,74,0.802,7,-6.602,1,0.0429,0.0494,0,0.326,0.568,129.405,319240,4
+Might Be,7KLB6Jptw9wyQXkSLiO8qh,Luke Nasty,73,0.782,9,-6.766,0,0.458,0.378,0,0.114,0.699,74.037,210704,4
+Love Yourself,50kpGaPAhYJ3sGmk6vplg0,Justin Bieber,87,0.376,4,-9.954,1,0.453,0.856,0,0.285,0.559,102.541,233720,4
+No Pressure,?,Justin Bieber Featuring Big Sean,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Rockin' Around The Christmas Tree,09OojFvtrM9YRzRjnXqJjA,Brenda Lee,34,0.641,8,-8.915,1,0.0386,0.568,0,0.224,0.831,141.002,126146,4
+Love Drought,?,Beyonce,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Daddy,?,PSY Featuring CL,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Too Good,?,Drake Featuring Rihanna,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Fast Car,?,Jonas Blue Featuring Dakota,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Snapback,7I5fYc4qKJddht8Ozhqqdx,Old Dominion,78,0.793,5,-3.577,1,0.0333,0.305,3.23e-06,0.1,0.672,100.991,206507,4
+I'm Sorry,1LWgoxKUgZIeodlLY7n3vA,Adam Wakefield,30,0.47,1,-4.655,1,0.0287,0.643,1.22e-06,0.111,0.292,139.904,208720,4
+Strip It Down,3PqpjQPv4ciXBsPBT6rRtm,Luke Bryan,73,0.867,9,-3.563,1,0.0455,0.407,0,0.0829,0.732,137.958,241667,4
+New Romantics,1ANrGOhBxCQQssOZQrrVlt,Taylor Swift,34,0.919,7,-5.984,1,0.243,0.0182,0,0.12,0.264,121.998,217021,4
+Emperor's New Clothes,3px2rAPu74ltbkf9eZsZ8h,Panic! At The Disco,77,0.904,1,-4.947,1,0.0807,0.00302,0,0.0433,0.64,94.481,158667,4
+Jam,?,Kevin Gates Featuring Trey Songz, Ty Dolla $ign &  Jamie Foxx,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+The Sound Of Silence,1Cj2vqUwlJVG27gJrun92y,Disturbed,83,0.28,6,-9.367,0,0.0281,0.468,1.1e-06,0.102,0.164,85.794,248467,4
+Somewhere On A Beach,6zDaopn1sO8WUDTNdV8EdT,Dierks Bentley,78,0.642,7,-6.396,1,0.0277,0.000699,0,0.0801,0.468,144.019,199893,4
+30 For 30 Freestyle,1DmnEYXa4WfbdhAPwNzgD8,Drake,67,0.612,4,-9.151,0,0.434,0.654,0,0.124,0.284,91.47,253935,4
+I Hate U I Love U,?,gnash Featuring Olivia O'Brien,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Youth,1cOyWWUr3oXJIxY0AjJEx9,Troye Sivan,86,0.743,7,-4.398,1,0.0422,0.0667,0,0.0822,0.585,91.51,185194,4
+Hotline Bling,1OAYKfE0YdrN7C1yLWaLJo,Drake,80,0.62,2,-8.124,1,0.0595,0.00343,0.000249,0.0504,0.526,134.969,267067,4
+Ride,2Z8WuEywRWYTKe1NybPQEW,twenty one pilots,91,0.713,6,-5.355,1,0.0393,0.00835,0,0.113,0.58,74.989,214507,4
+Lean & Dabb,4vS8VaBwJJV5Ry7UFIQuoo,iLoveMemphis,83,0.809,7,-3.081,0,0.0625,0.00346,0.00123,0.565,0.271,98.007,176561,4
+Middle,?,DJ Snake Featuring Bipolar Sunshine,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Pray You Catch Me,?,Beyonce,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Locked Away,?,R. City Featuring Adam Levine,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+A.M.,3NLnwwAQbbFKcEcV8hDItk,One Direction,80,0.823,2,-5.231,1,0.0762,0.0598,0,0.119,0.4,99.933,230333,4
+Powerful,?,Major Lazer Featuring Ellie Goulding & Tarrus Riley,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Pillowtalk,0IKK48xF4eEdfofyaeKWWO,Zayn,92,0.702,11,-4.271,1,0.0496,0.104,0,0.089,0.41,124.909,203686,4
+History,0HMjXBAZmSYOTTi33WpMso,One Direction,83,0.699,11,-4.421,1,0.0493,0.0352,0,0.064,0.801,86.704,187427,4
+Again,53Y0kdCa1CZ9gRqEuknfwy,Fetty Wap,91,0.869,0,-3.697,1,0.0789,0.0525,0.00719,0.103,0.603,108.061,193333,4
+Used To Love You,7dhB1xznh2bbCWrFjCSH5x,Gwen Stefani,64,0.658,8,-5.398,1,0.085,0.0201,1.27e-06,0.408,0.203,94.678,227680,4
+All I Ask,7atMzvqi0RZk6zVJGxLhWa,Adele,0,0.158,4,-18.262,1,0.0421,0.933,0.839,0.319,0.285,121.889,229403,4
+Rich $ex,2onCHFrhTinyUc6OawwU4Z,Future,67,0.482,6,-11.202,0,0.168,0.148,6.88e-06,0.135,0.0924,111.896,240160,4
+Head Over Boots,1R9FxlRkvKtt36dtTHs93X,Jon Pardi,76,0.669,7,-4.608,1,0.0237,0.0919,0,0.103,0.645,108.078,205120,4
+Little Red Corvette,4reRa9oggVNyZjkceS7LaH,Prince,31,0.0764,1,-19.628,1,0.13,0.965,0.911,0.089,0.967,122.952,133013,4
+Down In The DM,1LxKKYsJNPeBdOwdudsJzv,Yo Gotti,81,0.662,1,-7.016,0,0.0489,0.00157,2.1e-05,0.0887,0.329,152.927,182733,4
+You Should Be Here,38gZVjeaeR3gcnCzziAxBm,Cole Swindell,69,0.746,11,-4.228,1,0.0329,0.0972,0,0.102,0.314,139.788,226307,4
+Great Is Thy Faithfulness,0wIXZ4dPhQn1GYQBSC1Pkh,Jordan Smith,37,0.379,7,-6.29,1,0.0292,0.919,9.15e-05,0.191,0.328,83.828,214147,3
+FML,6PmBnKrQuT4guboE9mNQIe,Kanye West,77,0.428,9,-7.12,0,0.0798,0.316,0,0.212,0.148,125.079,236120,4
+Break On Me.,3W5GXbS3ugsYjx1X0xBNbL,Keith Urban,72,0.764,8,-6.757,1,0.0314,0.38,0.000154,0.112,0.447,86.996,209253,4
+THat Part,?,ScHoolboy Q Featuring Kanye West,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Girls Just Want To Have Fun,62gFelpaDV9TPR4AybUfjK,Madi Davis,33,0.223,2,-6.772,0,0.0361,0.924,0,0.223,0.398,130.352,170573,3
+Ophelia,3qhobDAfBcVoOWZP8Ck8R2,The Lumineers,77,0.573,5,-6.519,1,0.0277,0.613,0.000363,0.0857,0.573,76.023,160097,4
+Gonna Know We Were Here,0OAsUPA8qPzP0Qmo5iMr54,Jason Aldean,69,0.903,9,-5.512,1,0.181,0.0374,0,0.891,0.552,173.924,224026,4
+Space Oddity,72Z17vmmeQKAg8bptWvpVG,David Bowie,64,0.443,0,-12.621,1,0.0346,0.0748,0.000138,0.177,0.429,139.539,318813,4
+Cut It,?,O.T. Genasis Featuring Young Dolph,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Fire & Desire,4bEGp4AapA0B3Q5PpnSq3K,Drake,77,0.255,1,-14.394,0,0.0851,0.0797,0,0.0869,0.252,80.001,238120,4
+Into You,2meEiZKWkiN28gITzFwQo5,Ariana Grande,80,0.728,9,-5.871,1,0.0999,0.0153,1.46e-06,0.154,0.384,107.986,244453,4
+Water Under The Bridge,11dIDYdr0ybfrDx8d01U8y,Adele,12,0.328,0,-19.538,0,0.0375,0.89,0.909,0.118,0.59,97.026,207935,4
+Climb Every Mountain,6GtMaEfcLyzwfglzSlqzyX,Jordan Smith,35,0.493,6,-5.356,1,0.0287,0.415,5.15e-05,0.147,0.34,100.921,190440,4
+Walking On A Dream,0mBkoM8r7KAQzZij5swTUL,Empire Of The Sun,72,0.699,5,-5.541,0,0.0459,0.245,6.76e-06,0.0588,0.725,126.967,198440,4
+Light It Up,?,Major Lazer Featuring Nyla & Fuse ODG,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Sugar,2iuZJX9X9P0GKaE93xcPjk,Maroon 5,79,0.768,1,-7.089,1,0.0346,0.052,0,0.0848,0.885,120.084,235493,4
+With You,?,Drake Featuring PARTYNEXTDOOR,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Grammys,?,Drake Featuring Future,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Good To Be Alive (Hallelujah),1fMEUGs5CvRv0VrcJlQITt,Andy Grammer,64,0.882,5,-3.646,1,0.0451,0.0377,0,0.65,0.702,120.017,189870,4
+Humble And Kind,3Rkk851fZjIsglV2jbBPDd,Tim McGraw,75,0.486,11,-7.232,1,0.0289,0.693,1.73e-06,0.122,0.162,101.053,257360,3
+The Fix,?,Nelly Featuring Jeremih,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Where Are U Now,66hayvUbTotekKU3H4ta1f,Skrillex & Diplo With Justin Bieber,87,0.781,4,-4.038,0,0.0567,0.041,4.21e-06,0.0789,0.191,139.432,250286,4
+Confession,6IFPfV8PNSYOmufzQ95hmm,Florida Georgia Line,77,0.873,1,-5.056,1,0.0348,0.101,0.000131,0.176,0.457,104.986,190640,4
+R.I.C.O.,?,Meek Mill Featuring Drake,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Runnin' (Lose It All),?,Naughty Boy Featuring Beyonce & Arrow Benjamin,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+When We Were Young,7A2eDNBgJrEVE87C8pOMqN,Adele,79,0.594,3,-5.97,1,0.0486,0.348,0,0.0925,0.275,143.86,290907,4
+Say It,610BVUQMZpmt3eROWX9ZC1,Tory Lanez,79,0.521,11,-10.125,0,0.0551,0.0874,2.99e-06,0.21,0.274,107.299,236893,4
+Sandcastles,1xXEZboBMUgaS1a6R0yvnh,Beyonce,20,0.068,10,-17.874,1,0.34,0.995,0.939,0.117,0.168,74.901,178445,1
+Hands To Myself,1LoriJC05IrHIDwj3q0KC1,Selena Gomez,83,0.504,5,-7.218,0,0.0979,0.0165,5.25e-06,0.335,0.488,111.014,200680,4
+Moolah,746PsZ5jTdqIJ6LgJAHcEZ,Young Greatness,79,0.568,4,-5.737,1,0.201,0.0261,0,0.3,0.243,64.049,204027,4
+Hello Friday,?,Flo Rida Featuring Jason Derulo,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Cheap Thrills,?,Sia Featuring Sean Paul,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+I'd Just Love To Lay You Down,31mfhAKOC4q1qSUl8YqiIh,Barrett Baber,33,0.548,7,-6.438,1,0.0292,0.424,1.06e-05,0.0945,0.44,151.924,194813,4
+I Would Die 4 U,6HHEoDvXsJE9OfWP8zuACO,Prince And The Revolution,17,0.523,2,-11.63,1,0.0321,0.0106,2.37e-06,0.178,0.121,137.267,152109,4
+Used To Love You Sober,6V3wTb4VVDWRw3YEDgc6Py,Kane Brown,67,0.674,1,-6.053,1,0.0282,0.0405,0,0.339,0.425,147.978,181680,4
+Gold,6ZSO7kPn8IMJFymyticbJO,Kiiara,91,0.412,8,-9.343,1,0.344,0.615,0.0025,0.134,0.409,113.049,225882,5
+I Love This Life,2CIw1JCKA6exk5Mod3QJhA,LoCash,65,0.921,2,-3.051,1,0.052,0.0151,3.09e-06,0.129,0.588,111.99,210867,4
+Promise,?,Kid Ink Featuring Fetty Wap,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+All Night,5DgLNORET0teNMHtRvRSFr,Beyonce,10,0.716,5,-5.109,1,0.0463,0.0517,0.00035,0.145,0.811,116.044,252612,4
+Infinity,6N5xh0tYYLTQRiCCaNbAUt,One Direction,70,0.705,4,-6.073,1,0.0337,0.0687,0,0.0842,0.295,131.965,249480,4
+Ain't Your Mama,2hgzdQdnfWwtdpZbhZlV72,Jennifer Lopez,88,0.678,8,-5.529,0,0.233,0.0472,9.14e-06,0.0654,0.815,120.075,218235,4
+Came Here To Forget,1N7qGCKRRnvjoy8MGyHgpS,Blake Shelton,54,0.667,1,-6.874,0,0.029,0.356,1.29e-05,0.111,0.49,130.023,220413,4
+Let's Go Crazy,0VtHhIPb2AaJypAXoMFmH1,Prince And The Revolution,22,0.587,11,-11.906,1,0.0339,0.00441,0.0146,0.273,0.533,98.026,278047,4
+Untitled 07 l 2014 - 2016,?,Kendrick Lamar,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+30 for 30 Freestyle,1DmnEYXa4WfbdhAPwNzgD8,Drake,67,0.612,4,-9.151,0,0.434,0.654,0,0.124,0.284,91.47,253935,4
+Drifting,?,G-Eazy Featuring Chris Brown & Tory Lanez,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+We Don't Talk Anymore,?,Charlie Puth Featuring Selena Gomez,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Kiss It Better,7bmqcI1HQwx1PWwYyZO0lg,Rihanna,76,0.812,3,-4.758,0,0.0483,0.273,0,0.0734,0.869,95.093,253080,4
+No,3ge54HUrk1ht3EX5SMhIzZ,Meghan Trainor,86,0.802,1,-3.599,0,0.27,0.0125,1.45e-06,0.702,0.649,88.615,213507,4
+Stressed Out,3CRDbSIZ4r5MsZ0YwxuEkn,twenty one pilots,96,0.637,4,-5.677,0,0.141,0.0462,2.29e-05,0.0602,0.638,169.977,202333,4
+Purpose,50kpGaPAhYJ3sGmk6vplg0,Justin Bieber,87,0.376,4,-9.954,1,0.453,0.856,0,0.285,0.559,102.541,233720,4
+Lose My Mind,0dwudL6pM7zLO7MSUxMUYd,Brett Eldredge,64,0.755,6,-5.509,0,0.029,0.0206,0,0.21,0.837,101.048,155440,4
+Worth It,?,Fifth Harmony Featuring Kid Ink,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Tennessee Whiskey,3fqwjXwUGN6vbzIwvyFMhx,Chris Stapleton,77,0.369,9,-10.916,1,0.0317,0.17,0.00618,0.0808,0.443,101.624,293293,4
+Something In The Way You Move,3ZCDG0nujwGfxrEmZlZoEt,Ellie Goulding,73,0.819,1,-6.118,0,0.0476,0.0419,0,0.114,0.313,108.985,227423,4
+Wherever I Go,0KdwmtG44yIDpyie4b0jCn,OneRepublic,80,0.703,10,-6.414,0,0.0439,0.105,0,0.21,0.319,100.006,170213,4
+Go Ahead And Break My Heart,?,Blake Shelton Featuring Gwen Stefani,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+God Only Knows,26BvbgWisvyequ09r52TDA,Jordan Smith & Adam Levine,36,0.573,6,-3.628,0,0.03,0.434,0,0.109,0.583,117.942,168560,4
+Post To Be,?,Omarion Featuring Chris Brown & Jhene Aiko,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Redemption,6qGgrhiZ20Qrir3MNGUJq4,Drake,76,0.315,0,-8.736,1,0.104,0.607,1.81e-06,0.117,0.335,119.2,333947,4
+Hasta El Amanecer,4wFHfY9IILHLNwakPuFogD,Nicky Jam,88,0.608,6,-6.046,0,0.0381,0.283,0,0.0855,0.598,94.0,197213,4
+I'm Comin' Over,6W9W8dSswA8KNegvl3W97V,Chris Young,78,0.893,11,-3.588,1,0.0375,0.000937,0,0.111,0.548,111.959,218947,4
+Firestone,?,Kygo Featuring Conrad,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Children,7sK3nu6yk8urQ44ouEB7Au,Justin Bieber,68,0.884,11,-4.67,0,0.338,0.0114,1.16e-06,0.203,0.33,126.977,223333,4
+Feel No Ways,12C1XYFQGZYXRYJNbsgDc7,Drake,79,0.67,7,-7.077,1,0.164,0.0331,7.18e-06,0.109,0.223,193.8,240653,4
+Honey, I'm Good.,4orphgwPHHRsdEkfUmANSD,Andy Grammer,70,0.796,9,-6.406,1,0.0576,0.0378,0,0.331,0.597,122.025,199263,4
+Stay A Little Longer,6rqxivjFHp8K0yMiefG56g,Brothers Osborne,75,0.882,6,-5.515,1,0.0294,0.0408,0.241,0.146,0.537,97.006,335267,4
+Classic Man,?,Jidenna Featuring Roman GianArthur,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Formation,0VCZ8tS4za4kEwJHbMNVnY,Beyonce,37,0.683,10,-6.148,0,0.0654,0.0452,1.74e-05,0.0583,0.63,122.988,387320,4
+Get Ugly,1dl3vuXJS9anUXE7XnNP75,Jason Derulo,80,0.683,9,-4.829,0,0.12,0.0462,1.32e-06,0.297,0.566,111.066,200492,4
+Keep The Family Close,0AAyo5bMIVgVxv9DF6XV2B,Drake,76,0.565,9,-7.663,0,0.073,0.137,0,0.381,0.204,76.278,328907,4
+Death Of A Bachelor,1BECwm5qkaBwlbfo4kpYx8,Panic! At The Disco,77,0.538,0,-5.527,1,0.059,0.0137,0,0.429,0.385,139.256,203507,4
+Huntin', Fishin' & Lovin' Every Day,6nUKELHbV6Tdj5OuQbksKH,Luke Bryan,76,0.809,0,-4.237,1,0.0335,0.141,2.31e-05,0.13,0.433,154.156,278640,4
+Close,?,Nick Jonas Featuring Tove Lo,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Law,?,Yo Gotti Featuring E-40,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+If I Could Fly,5CRVwXGikmqzoRO6q7FeAg,One Direction,73,0.245,5,-9.132,1,0.0262,0.781,0,0.0998,0.3,75.055,230320,4
+Roses,?,The Chainsmokers Featuring ROZES,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Drag Me Down,70OTIpw8x8UXUsuCHW9i1i,One Direction,76,0.711,0,-5.576,0,0.0378,0.0997,0,0.0528,0.6,138.098,192107,4
+Buy Me A Boat,6y35xDJFzpy1FIa6qCMA59,Chris Janson,68,0.745,2,-6.663,1,0.0507,0.319,0,0.11,0.695,154.042,179078,4
+Something New,?,Zendaya Featuring Chris Brown,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Jimmy Choo,7s49Um7G06hq2rulrHPsIy,Fetty Wap,78,0.646,11,-5.073,0,0.1,0.112,0,0.104,0.44,132.97,176855,4
+Don't Mind,27PmvZoffODNFW2p7ehZTQ,Kent Jones,88,0.771,8,-4.503,1,0.336,0.0235,0,0.063,0.678,158.777,198237,4
+Break Up With Him,5ZManJDV3CexO66nRCkdiV,Old Dominion,72,0.632,3,-5.382,1,0.0374,0.0685,0,0.108,0.561,152.035,207733,4
+Fly S**t Only,1ANYHWUz5NqPu2EBALGK9Z,Future,70,0.733,2,-6.012,1,0.0313,0.43,2.35e-06,0.351,0.411,109.989,212760,4
+Waves,4HKGV55ULdn3RLaKLsc2Ju,Kanye West,81,0.572,10,-4.52,1,0.0389,0.0408,4.32e-06,0.332,0.0523,96.066,181573,4
+Sorry,09CtPGIpYB4BrO8qb1RGsF,Justin Bieber,86,0.768,0,-3.724,0,0.0476,0.0865,0,0.308,0.396,100.209,200787,4
+How Deep Is Your Love,22mek4IiqubGD9ctzxc69s,Calvin Harris & Disciples,88,0.868,11,-4.373,0,0.0731,0.0389,0.00171,0.388,0.334,122.003,212640,4
+Love On The Brain,2aksifNn5ph8igDOkPBA02,Rihanna,72,0.641,4,-4.815,0,0.0456,0.0848,8.09e-06,0.073,0.385,171.957,224000,3
+Writing's On The Wall,1PWnAEQcbwQwK759otUbta,Sam Smith,68,0.302,5,-8.188,0,0.0304,0.76,6.65e-06,0.0908,0.079,96.456,278987,3
+Untitled 02 l 06.23.2014.,?,Kendrick Lamar,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+RGF Island,1iuljeYz6ZG3GTJOZZkoer,Fetty Wap,73,0.764,0,-5.066,0,0.0423,0.00116,8.19e-06,0.0867,0.503,137.98,173893,4
+Hide Away,2hsza71y54ABzmabyNDtM4,Daya,83,0.826,11,-3.672,0,0.0854,0.222,2.29e-06,0.0719,0.474,94.997,192381,4
+One Call Away,7soJgKhQTO8hLP2JPRkL5O,Charlie Puth,78,0.613,1,-5.353,1,0.0344,0.403,0,0.115,0.479,91.024,194453,4
+Nothing But Trouble (Instagram Models),7rdjfrTBMNt3KaaGvSv3YG,Lil Wayne & Charlie Puth,73,0.691,6,-5.665,0,0.0324,0.0172,1.68e-05,0.194,0.24,126.002,217984,4
+Home,0uZzdkuzJEjFzaRR2HQ5mj,One Direction,68,0.867,9,-5.397,1,0.0859,0.0115,0,0.0851,0.625,78.814,194907,4
+WTF (Where They From),?,Missy Elliott Featuring Pharrell Williams,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Stand By You,3kSXn1osC89W8JcPLozTzs,Rachel Platten,75,0.897,9,-4.632,1,0.26,0.146,0.000451,0.0868,0.517,188.03,219000,4
+Live From The Gutter,2uTG00P1DkhB97pdITkl2O,Drake & Future,72,0.493,4,-8.447,0,0.256,0.0319,1.83e-06,0.0804,0.288,83.008,211643,4
+Famous,3KDmFRW19NHtxIeDnxdFBc,Kanye West,83,0.745,6,-3.671,1,0.115,0.064,0,0.116,0.409,174.017,196040,4
+No Role Modelz,62vpWI1CHwFy7tMIcSStl8,J. Cole,85,0.521,10,-8.465,0,0.332,0.302,0,0.0565,0.471,100.0,292987,4
+Burning House,2zhk0kypGeOPsaaZcjyc14,Cam,74,0.253,0,-8.427,1,0.0304,0.887,1.11e-05,0.133,0.455,140.923,231333,4
+Lights Come On,596ShP1KQsIzk7dTpJNXJi,Jason Aldean,75,0.855,6,-3.715,0,0.0727,0.0594,0,0.123,0.908,160.113,194253,4
+1999,5yMp0quAWTb2lSEvWbAtqj,Prince,31,0.0862,5,-17.092,1,0.133,0.292,0.617,0.0912,0.647,119.075,168333,4
+Out Of The Woods,3P0OaRxvTJk1oWo7CAr4LN,Taylor Swift,31,0.826,1,-7.094,1,0.0395,0.078,0.487,0.103,0.607,91.995,207011,4
+Sorry,4k8Kq3yLE7I7umYfN08YCU,Beyonce,33,0.11,11,-17.493,0,0.0482,0.942,0.00106,0.1,0.177,129.935,179435,4
+On My Mind,4nS1sut0R2mgmFitKIShVe,Ellie Goulding,76,0.687,2,-6.574,0,0.0537,0.279,5.11e-06,0.0861,0.733,154.921,213445,4
+Shut Up And Dance,4kbj5MwxO1bq9wjT5g9HaA,WALK THE MOON,82,0.866,1,-3.804,1,0.0619,0.00701,0,0.257,0.619,128.038,199080,4
+Til It Happens To You,0bCCGLHflR08UVA6oJJc8I,Lady Gaga,58,0.558,0,-4.753,1,0.0347,0.501,0,0.093,0.148,113.666,258093,4
+Cheerleader,2XPc8gL9PwxGURQFcFaDJR,OMI,71,0.663,4,-6.117,1,0.0305,0.146,1.52e-05,0.174,0.598,118.016,181827,4
+Never Enough,7rdP71W8x4UbJ0KAKBACbo,One Direction,69,0.779,4,-1.829,0,0.0512,0.0379,0,0.385,0.591,164.145,213440,3
+Back To Back,5lFDtgWsjRJu8fPOAyJIAK,Drake,81,0.472,8,-3.869,0,0.511,0.00898,0,0.117,0.368,174.008,170638,4
+Summer Sixteen,17Q87zeXgsAi9iQQbMu9v0,Drake,83,0.455,1,-7.698,1,0.393,0.00322,3.72e-05,0.154,0.0568,146.316,202451,4
+Purple Rain,6syMtbMAZJnAkOeztOxbsH,Prince And The Revolution,37,0.278,10,-13.66,1,0.0282,0.0364,0.00221,0.508,0.178,117.959,262693,4
+Watch Out,22DKsoYFV5npPXmnPpXL7i,2 Chainz,77,0.509,8,-6.777,0,0.492,0.842,0,0.0531,0.537,129.924,207813,4
+2 Phones,0wdKiSBUT7aZkXUIdJWcwC,Kevin Gates,86,0.681,7,-5.267,0,0.358,0.157,0,0.189,0.547,121.918,240000,4
+Little Bit Of You,1lNVii0jj5Sa1leKSYWMNl,Chase Bryant,69,0.863,1,-4.258,1,0.0426,0.0582,0,0.0823,0.634,121.963,186240,4
+With Them,0tISnxqgVmxqhVghsTi2Rr,Young Thug,74,0.517,9,-6.794,1,0.184,0.00218,0,0.091,0.269,132.07,197747,4
+Daddy Lessons,?,Beyonce,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Love Me,5hRzAbY2AAO258hL6oqsqO,The 1975,66,0.803,10,-3.312,0,0.0382,0.00925,3.75e-05,0.613,0.899,97.027,222040,4
+Liquor,2Xm00M3mcMcdSv7QJBhlvr,Chris Brown,65,0.346,5,-8.563,0,0.0456,0.0259,0,0.104,0.396,104.988,227087,4
+Thriller,5ChkMS8OtdzJeqyybCc9R5,Michael Jackson,78,0.654,11,-3.051,0,0.0401,0.0236,0.0158,0.0359,0.856,117.046,293827,4
+Real Friends,6C4j3qW5h6GjvF5FbcoBvz,Kanye West,75,0.752,6,-6.242,0,0.448,0.262,0.000417,0.138,0.13,80.631,251573,4
+All I Want For Christmas Is You,0bYg9bo50gSsH3LtXe2SQn,Mariah Carey,55,0.625,7,-7.462,1,0.0386,0.164,0,0.0708,0.334,150.277,241107,4
+Record Year,5fSPbm5lcwtqwXkeQQswW8,Eric Church,76,0.655,5,-8.151,1,0.12,0.178,0,0.0842,0.571,159.96,179347,4
+Dessert,2mqDi8BzmNw54qrVHduyiu,Dawin,73,0.791,6,-3.796,1,0.0504,0.0686,2.21e-06,0.068,0.689,97.001,211240,4
+Break Up In A Small Town,7aftSOGSOpSoIlVAQVBb71,Sam Hunt,76,0.789,8,-5.349,1,0.232,0.0713,0,0.229,0.444,136.08,229880,4
+Down That Road,3sS03NvxbrVgFNZgvnR26k,Alisan Porter,32,0.578,5,-5.527,1,0.0314,0.521,1.04e-06,0.0993,0.377,143.966,232827,4
+Dangerous Woman,7l94dyN2hX9c6wWcZQuOGJ,Ariana Grande,79,0.605,7,-5.353,1,0.0378,0.0499,0,0.357,0.292,134.015,235947,3
+Ghost Town,44aN5xKL3kGHvQ5bXVk6B8,Adam Lambert,75,0.736,4,-5.709,0,0.046,0.186,1.92e-05,0.174,0.273,119.955,208330,4
+Gonna,57gS5wJqIH6sbtBIIiioNY,Blake Shelton,69,0.886,4,-5.12,1,0.0387,0.0265,0,0.0759,0.946,146.076,182947,4
+Watch Me,5RIVoVdkDLEygELLCniZFr,Silento,74,0.77,8,-8.508,1,0.134,0.265,0,0.334,0.964,139.982,185131,4
+Been You,6gcA4zzG6FnMEgPSDKbAMs,Justin Bieber,69,0.794,7,-6.178,0,0.077,0.0255,0,0.322,0.836,113.0,199227,4
+Wasted Time,5BIwPoVMFnFIr8RzJunRvf,Keith Urban,74,0.827,7,-5.736,1,0.0478,0.0717,0,0.0764,0.313,100.002,233813,4
+Crash And Burn,6bZq9yf23N1xXVmNeyhDsb,Thomas Rhett,67,0.785,5,-5.153,0,0.0311,0.0904,1.31e-06,0.197,0.814,130.02,190747,4
+Renegades,0fYVliAYKHuPmECRs1pbRf,X Ambassadors,76,0.868,11,-5.988,0,0.203,0.0112,0.0685,0.27,0.567,180.261,195199,4
+Same Old Love,1BZG99C7Co1r6QUC3zaS59,Selena Gomez,77,0.596,11,-4.005,0,0.031,0.0236,0,0.228,0.444,98.025,229080,4
+Look At My Dab,20n5AhSbetBMt6Xbrm4fa7,Migos,64,0.611,10,-3.943,1,0.175,0.0568,0,0.47,0.395,137.048,217226,4
+In The Night,25KybV9BOUlvcnv7nN3Pyo,The Weeknd,75,0.683,7,-4.989,1,0.134,0.0794,0,0.0465,0.526,167.615,235653,3
+Hype,07GilNHSfS5oicUgHgU7VG,Drake,82,0.62,7,-8.278,1,0.195,0.0226,0,0.365,0.258,129.959,209413,4
+Nobody To Blame,4WRRCuJYRq7gUKiupxVH9W,Chris Stapleton,70,0.673,9,-9.459,1,0.0337,0.013,0.0583,0.0973,0.598,87.099,244147,4
+Wild Things,2ZyuwVvV6Z3XJaXIFbspeE,Alessia Cara,87,0.627,1,-4.816,0,0.0894,0.0183,0,0.0909,0.714,108.016,188493,4
+Loving You Easy,69XcvSymPaTke2Qb6f3W6P,Zac Brown Band,70,0.593,1,-3.953,1,0.0269,0.017,1.42e-06,0.067,0.329,98.982,155653,4
+Black Magic,33NHr7lu7tCMjK05jUj1v0,Little Mix,75,0.898,4,-4.461,1,0.0581,0.0322,0,0.313,0.856,111.996,211787,4
+That Don't Sound Like You,2l1fWY1albInvAG9t8WP2p,Lee Brice,73,0.589,4,-9.496,1,0.0421,0.0236,2.99e-05,0.0798,0.249,129.813,210573,4
+Irresistible,3Y3gChJoEUTqrtuqJCIPQk,Fall Out Boy,71,0.897,2,-4.492,1,0.07,0.048,0,0.196,0.335,164.908,205851,4
+Might Be,7KLB6Jptw9wyQXkSLiO8qh,DJ Luke Nasty,73,0.782,9,-6.766,0,0.458,0.378,0,0.114,0.699,74.037,210704,4
+Sorry,?,Rick Ross Featuring Chris Brown,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Freedom,?,Beyonce Featuring Kendrick Lamar,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Let It Go,13HVjjWUZFaWilh2QUJKsP,James Bay,82,0.293,1,-10.253,1,0.0313,0.804,1.26e-05,0.107,0.252,147.175,260533,4
+What Do You Mean?,4B0JvthVoAAuygILe3n4Bs,Justin Bieber,83,0.571,5,-8.273,0,0.0922,0.61,0.000898,0.0849,0.802,125.034,205680,4
+Really Really,10I3CmmwT0BkOVhduDy53o,Kevin Gates,81,0.666,0,-6.055,1,0.0916,0.00427,0,0.127,0.273,118.97,232093,4
+Digits,4cg1yakyRSIOjxKM2I7J1q,Young Thug,81,0.632,10,-4.228,0,0.0537,0.0325,0,0.116,0.291,131.932,176387,4
+When Doves Cry,77GLApi9hqJKMYEe8QybtA,Prince,32,0.102,9,-19.069,0,0.161,0.0958,0.78,0.302,0.643,126.979,143267,4
+Plastic Bag,76kyKtPLsFbQkdQ86QrkF4,Drake & Future,70,0.471,1,-6.586,1,0.321,0.0107,0,0.154,0.362,170.986,202085,3
+We Went,4kYlMWhSOvrg4U6c0RqgEP,Randy Houser,66,0.882,4,-3.752,0,0.0389,0.0892,0,0.317,0.538,101.972,181987,4
+Prisoner,?,The Weeknd Featuring Lana Del Rey,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Like I Would,0WEVf4RhIrcr3S3ULBrt0T,Zayn,87,0.832,10,-5.732,0,0.114,0.0247,0,0.26,0.232,112.827,192133,4
+Blase,?,Ty Dolla $ign Featuring Future & Rae Sremmurd,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Earned It (Fifty Shades Of Grey),2PIvq1pGrUjY007X5y1UpM,The Weeknd,76,0.371,2,-5.959,0,0.0306,0.404,0,0.0971,0.449,119.95,252227,3
+Light It Up,?,Major Lazer Featuring Nyla,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Controlla,4CpKEkdGbOJV51cSvx7SoG,Drake,86,0.477,10,-11.062,0,0.276,0.0962,0,0.114,0.339,93.44,245227,4
+Go Flex,3e7pB02vXiqVYaDTymYY1t,Post Malone,80,0.511,5,-8.229,1,0.105,0.209,0,0.0525,0.126,81.946,182000,4
+Church Bells,67citk3uzWs5qbaIVKTeg8,Carrie Underwood,76,0.844,3,-1.772,0,0.0633,0.226,0,0.0538,0.534,87.007,193333,4
+Uber Everywhere,7zBPzAjKAqQpcv8F8GCq5s,MadeinTYO,85,0.455,1,-15.025,1,0.28,0.0542,0,0.177,0.176,140.181,153429,4
+Change Locations,4gowy3WT6D1yhMLgRBlf9C,Drake & Future,70,0.338,0,-10.112,1,0.384,0.0224,1.05e-06,0.118,0.19,137.848,220862,4
+100,?,The Game Featuring Drake,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+My Boo,4i90nIw2MouaJjTyaSgfYG,Ghost Town DJ's,15,0.996,6,-8.218,0,0.0769,0.01,0.000305,0.0878,0.427,139.987,281313,4
+Jingle Bell Rock,74u8cWJGP8d8xsdD0pFoWg,Bobby Helms,34,0.368,2,-10.538,1,0.0345,0.84,0,0.0632,0.782,118.743,130107,4
+Body,?,Dreezy Featuring Jeremih,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Bang My Head,?,David Guetta Featuring Sia & Fetty Wap,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Gotta Lotta,?,2 Chainz Featuring Lil Wayne,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Weston Road Flows,0P7HlSwSY8mJCWIk4yunb0,Drake,77,0.742,1,-6.963,1,0.296,0.0763,0,0.31,0.36,82.884,253533,4
+Ginza,4rrkKXxlsrze8bVEzRaTFV,J Balvin,75,0.814,10,-6.475,0,0.0806,0.218,0.000436,0.0781,0.839,102.052,170186,4
+Childs Play,0k9RIzZtAo4DTQu0ZM6lNZ,Drake,80,0.47,1,-11.173,1,0.15,0.0163,4.75e-06,0.199,0.299,80.016,241400,4
+Don't,3pXF1nA74528Edde4of9CC,Bryson Tiller,85,0.356,11,-5.556,0,0.196,0.222,0,0.0963,0.191,97.001,198293,4
+Blackstar,3Vn9oCZbdI1EMO7jxdz2Rc,David Bowie,64,0.695,9,-6.896,0,0.029,0.0466,0.145,0.0854,0.506,129.972,382387,4
+My Church,69guyOwpeKji5OY8wMdsDI,Maren Morris,76,0.726,9,-4.332,1,0.0361,0.254,3.01e-06,0.106,0.659,76.981,197947,4
+She's Kinda Hot,5fsQSDifYpjfbCqvZKPVBj,5 Seconds Of Summer,62,0.9,4,-4.856,1,0.0317,0.00216,0,0.111,0.882,118.04,216454,4
+Be Alright,6f5TuB9WtbA1g49A4DcMQ4,Ariana Grande,74,0.464,1,-7.767,0,0.0599,0.158,0,0.124,0.626,108.817,179293,4
+Still Here,4YJmZfvlheSziXem8HBWrj,Drake,80,0.436,0,-9.602,1,0.176,0.0235,0,0.635,0.241,133.942,189853,3
+From The Ground Up,0AdjJ2SaOeb5bPJ67nDbsW,Dan + Shay,76,0.586,9,-5.431,1,0.0262,0.356,0,0.121,0.287,101.214,254293,4
+Backroad Song,5ix3mPn7JFsKTVoidu6dBw,Granger Smith,75,0.833,11,-6.571,1,0.0437,0.0352,0.0172,0.34,0.73,174.006,236787,4
+All Eyes On You,?,Meek Mill Featuring Chris Brown & Nicki Minaj,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Pt. 2,0tCuyg1OikbQ4nIq36n26D,Kanye West,80,0.734,11,-4.139,1,0.362,0.593,0,0.788,0.287,144.926,130293,4
+Downtown,5pfJsMwoRYKampPay8amX0,Macklemore & Ryan Lewis Featuring Eric Nally, Melle Mel, Kool Moe Dee & Grandmaster Caz,80,0.609,1,-4.402,1,0.0694,0.0916,1.21e-06,0.291,0.724,109.725,292593,4
+Lean On,4vS8VaBwJJV5Ry7UFIQuoo,Major Lazer & DJ Snake Featuring M0,83,0.809,7,-3.081,0,0.0625,0.00346,0.00123,0.565,0.271,98.007,176561,4
+Somebody To Love,3RWzLyBUqoBSX4jTAHo4TP,Jordan Smith,44,0.853,8,-3.95,1,0.0481,0.106,0,0.168,0.385,111.019,216213,3
+Right Hand,3lSR267IJfT54p0Gfuw7mi,Drake,76,0.292,2,-7.74,1,0.289,0.0978,0,0.0816,0.339,100.54,190595,4
+Hold Each Other,?,A Great Big World Featuring FUTURISTIC,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Whisper,6EdSZmWCQJfO8T66x9VCID,Chase Rice,71,0.891,2,-4.89,1,0.0757,0.0138,0,0.063,0.643,128.108,191213,4
+Wicked,6BbINUfGabVyiNFJpQXn3x,Future,83,0.679,11,-5.899,0,0.0706,0.00191,0.0104,0.385,0.215,157.97,173347,4
+Cool For The Summer,2zFF6jG5hQArbzcXz3KUWk,Demi Lovato,73,0.614,5,-5.587,0,0.0363,0.00506,9.7e-05,0.0802,0.293,114.075,214740,4
+Blessings,2VQc9orzwE6a5qFfy54P6e,Chance The Rapper,71,0.343,10,-7.641,1,0.38,0.723,5.48e-06,0.102,0.388,72.348,221940,4
+The Feeling,?,Justin Bieber Featuring Halsey,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Hallelujah,3LLYIitFpZSmXY95rQxw0E,Jordan Smith,43,0.369,2,-6.784,1,0.0272,0.816,0,0.123,0.138,89.822,189093,3
+I Took A Pill In Ibiza,1MtUq6Wp1eQ8PC6BbPCj8P,Mike Posner,89,0.725,7,-6.588,0,0.12,0.034,9.17e-06,0.0864,0.697,101.96,197933,4
+Alive,05cXQMJcrM9msUYu11mOrs,Sia,73,0.752,6,-4.91,0,0.056,0.289,0.000101,0.102,0.398,98.88,263893,4
+Already Callin' You Mine,57SvK3tVLtYTk076o9qwAV,Parmalee,61,0.889,1,-2.642,1,0.0352,0.0431,0,0.112,0.675,120.066,184387,4
+Messin' Around,?,Pitbull Featuring Enrique Iglesias,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Bottom Of The Bottle,?,Curren$Y Featuring August Alsina & Lil Wayne,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Random,422lAAWQO9TqL1LxIPdhOn,G-Eazy,74,0.783,9,-6.891,1,0.139,0.0036,0,0.216,0.181,87.026,180333,4
+Bake Sale,?,Wiz Khalifa Featuring Travi$ Scott,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Temporary Fix,2Xcvt8NRLw0xbB3ClfW8MI,One Direction,69,0.902,4,-5.143,1,0.0449,9.17e-05,0,0.0888,0.961,145.914,175013,4
+Halo,7DThz7qoNx3WWQJgEipP7W,Jordan Smith,42,0.443,6,-5.939,1,0.0281,0.879,2.28e-05,0.133,0.171,147.607,228240,4
+Let Me See Ya Girl,3y1t2sEahs8idFz2tiYNPO,Cole Swindell,70,0.834,6,-3.561,1,0.0281,0.254,0,0.393,0.455,92.99,187587,4
+Panda,275a9yzwGB6ncAW4SxY7q3,Desiigner,95,0.748,10,-5.522,0,0.393,0.0235,0,0.369,0.245,145.22,247867,4
+Uptown Funk!,?,Mark Ronson Featuring Bruno Mars,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Smoke Break,46W2wkCzFerbeQbNz3EIaa,Carrie Underwood,66,0.839,11,-3.702,1,0.0511,0.0513,0,0.348,0.561,160.16,198333,4
+See You Again,4JZ9NUioOgDEVjDuBGukRV,Wiz Khalifa Featuring Charlie Puth,29,0.638,10,-7.831,1,0.0592,0.445,1.96e-05,0.0925,0.429,80.001,264000,4
+Come Get Her,1Ser4X0TKttOvo8bgdytTP,Rae Sremmurd,77,0.563,2,-6.214,1,0.163,0.184,0,0.0681,0.11,185.056,212947,4
+Save It For A Rainy Day,6wfTb2he5ANMQSFnlamnyi,Kenny Chesney,68,0.775,7,-5.48,1,0.0291,0.0053,0,0.0807,0.607,154.889,182213,4
+Beautiful Drug,0vcfOQOvTCv8ckiRs8Xc1Z,Zac Brown Band,70,0.857,8,-5.267,0,0.0877,0.0424,2e-06,0.128,0.365,125.838,191600,4
+Jersey,2ACys0pX0SjmpQmQWzp7wt,Future,71,0.544,0,-10.746,0,0.269,0.495,0.000419,0.0942,0.307,146.033,188703,4
+Antidote,0KaA33vmmUEY77YD6L3KFi,Travi$ Scott,78,0.647,1,-4.008,1,0.0345,0.119,1.38e-05,0.121,0.159,131.04,263817,4
+Remedy,7kH8BoXL2bRioVky7DZfJ8,Adele,15,0.0907,8,-21.402,1,0.0453,0.987,0.857,0.121,0.183,145.1,245943,3
+Wake Up,6BOtDFg6GJm0rPUDuNmx57,Fetty Wap,79,0.673,5,-5.992,1,0.176,0.172,0,0.223,0.521,179.971,224000,4
+Burning House,4hgrcrkcaHtsdKU35RZyn6,Emily Ann Roberts,38,0.312,2,-5.751,1,0.028,0.811,0,0.122,0.443,141.819,186853,4
+Jumpman,27GmP9AWRs744SzKcpJsTZ,Drake & Future,87,0.547,1,-7.535,1,0.194,0.0565,0,0.341,0.677,142.065,205879,4
+American Country Love Song,3eGH1kOyOjq19khdfYg5R7,Jake Owen,77,0.892,8,-4.59,1,0.0411,0.0725,0,0.0997,0.353,104.009,200640,4
+Come And See Me,?,PARTYNEXTDOOR Featuring Drake,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Under Pressure,11IzgLRXV7Cgek3tEgGgjw,Queen & David Bowie,68,0.707,2,-7.643,1,0.0516,0.398,0,0.105,0.468,113.741,248440,4
+The Fighter,?,Keith Urban Featuring Carrie Underwood,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Hell Of A Night,30wEpY339lJXMEP7gDTypY,Dustin Lynch,66,0.797,2,-4.845,1,0.0402,0.00472,0,0.297,0.591,85.054,190427,4
+Forward,?,Beyonce Featuring James Blake,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+House Party,1TwLKNsCnhi1HxbIi4bAW0,Sam Hunt,75,0.854,8,-5.245,1,0.0503,0.129,0,0.0262,0.841,103.952,190240,4
+You Don't Own Me,?,Grace Featuring G-Eazy,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Like I'm Gonna Lose You,?,Meghan Trainor Featuring John Legend,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+My Way,?,Fetty Wap Featuring Monty,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+U With Me?,4MSjMv3kpbLEeyGfIh52qH,Drake,77,0.414,6,-11.448,0,0.132,0.363,1.1e-05,0.141,0.134,79.542,297373,4
+Photograph,1HNkqx9Ahdgi1Ixy2xkKkL,Ed Sheeran,88,0.379,4,-10.48,1,0.0476,0.607,0.000464,0.0986,0.198,107.989,258987,4
+Want To Want Me,7oGZAicScQt96OAW4AruYy,Jason Derulo,84,0.68,0,-5.508,0,0.0629,0.00906,0,0.109,0.636,114.025,207719,4
+I'm The Plug,6bqtKURdSWkInAJHDkuaL0,Drake & Future,72,0.527,0,-9.279,1,0.252,0.000416,0.000893,0.131,0.242,160.1,180000,4
+Hold My Hand,1i1rNVtxbE7rdFfpHuNq2j,Jess Glynne,77,0.823,0,-5.717,1,0.0289,0.00159,0,0.0776,0.441,122.977,227344,4
+Kick The Dust Up,7wVeIwUxcUddK44joZ3bPO,Luke Bryan,71,0.85,1,-2.263,1,0.0497,0.2,0,0.114,0.795,172.106,190600,4
+Feedback,1JeXMBdxduaLpQnMxN6ezS,Kanye West,74,0.563,1,-6.027,1,0.526,0.602,0,0.104,0.17,100.071,147240,4
+H.O.L.Y.,19PJf5HzeiVW0mdk82Swmn,Florida Georgia Line,82,0.661,7,-3.828,0,0.0333,0.361,0,0.087,0.56,78.132,196960,4
+The Hills,7fBv7CLKzipRk6EC6TWHOB,The Weeknd,78,0.561,0,-6.987,0,0.0699,0.0635,0,0.137,0.123,113.295,242253,4
+Wildest Dreams,6UHn5UWGlvbbmUfczWSmDX,Taylor Swift,65,0.56,8,-6.858,1,0.0406,0.396,1.37e-06,0.121,0.489,139.979,231845,4
+Good For You,?,Selena Gomez Featuring A$AP Rocky,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Raspberry Beret,5v8efbhgUkxwMtv9IJredo,Prince And The Revolution,16,0.542,11,-13.575,0,0.0533,0.0239,0.00565,0.0297,0.961,121.787,216712,4
+This Could Be Us,4jTiyLlOJVJj3mCr7yfPQD,Rae Sremmurd,76,0.692,5,-5.06,0,0.148,0.275,0,0.118,0.732,142.992,206307,4
+Can't Feel My Face,22VdIZQfgXJea34mQxlt81,The Weeknd,77,0.783,9,-5.407,0,0.0423,0.109,0,0.0947,0.617,107.972,213520,4
+Ultralight Beam,6aEgrTRLSRQ0FIrvOwcOE6,Kanye West,78,0.398,8,-8.731,1,0.431,0.624,0,0.539,0.35,105.956,320680,4
+Mary Did You Know,0Mfbc7b4veAMEiWOffph5q,Jordan Smith,37,0.415,6,-4.961,0,0.0261,0.771,0,0.127,0.454,103.029,199760,4
+Team,2bocAPQcUTLUXx8lAOTiK3,Iggy Azalea,77,0.682,9,-4.834,1,0.067,0.0508,1.23e-06,0.501,0.218,100.023,209467,4
+Sorry Not Sorry,16bHRxM89ue0TiCKARYbRp,Bryson Tiller,79,0.608,1,-6.093,1,0.214,0.0477,0,0.225,0.265,97.933,200760,4
+Kiss,3GLCOm8bTTSZL6JkG6nK00,Prince And The Revolution,23,0.484,4,-11.951,0,0.08,0.167,0.00417,0.0538,0.79,110.388,230150,4
+It's You,1dB3Hsi3LfViWtqE8Sj8pr,Zayn,70,0.336,5,-10.839,1,0.0345,0.807,0.0272,0.108,0.151,124.945,230481,4
+True Colors,71qR03VPn762lG8esdRmkR,Zedd & Kesha,71,0.792,2,-3.226,0,0.0365,0.35,1.31e-05,0.104,0.456,126.06,224867,4
+Me Too,1m4dXbkplvaOO4Wbdjbwxs,Meghan Trainor,80,0.694,11,-5.849,0,0.1,0.0963,1.21e-06,0.479,0.825,123.822,181240,4
+Gonna Wanna Tonight,0JCjhCdqvVQ8am5x689TL0,Chase Rice,67,0.783,2,-6.667,1,0.0405,0.0707,0.00014,0.0875,0.606,125.948,213736,4
+Scholarships,0B5OTb36fzLayn6XQHg5A1,Drake & Future,72,0.422,0,-9.184,0,0.355,0.0958,8.41e-06,0.102,0.278,108.937,209288,4
+Thinking Out Loud,34gCuhDGsG4bRPIf9bb02f,Ed Sheeran,87,0.445,2,-6.061,1,0.0295,0.474,0,0.184,0.584,78.998,281560,4
+New Level,?,A$AP Ferg Featuring Future,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Digital Dash,0GR7iJLhj80KD5LkA14ZRn,Drake & Future,72,0.542,2,-7.676,1,0.13,0.00323,3.3e-06,0.235,0.31,140.028,231231,4
+Comfortable,2BqQQXuBOuhaWeUP7okEx0,K Camp,71,0.417,7,-8.895,0,0.0974,0.72,0,0.125,0.623,109.956,211573,4
+Lay It All On Me,?,Rudimental Featuring Ed Sheeran,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Faded,1brwdYwjltrJo7WHpIvbYt,Alan Walker,97,0.651,6,-5.097,1,0.0306,0.0291,3.2e-06,0.111,0.161,90.011,212627,4
+If It Ain't Love,5YHR8wBR5jXfGtP766NiAT,Jason Derulo,92,0.843,10,-4.991,0,0.316,0.0487,0,0.344,0.774,128.63,203105,4
+All The Way Up,61QSuw5VlC0LTS8WMO356g,Fat Joe & Remy Ma Featuring French Montana & Infared,84,0.721,10,-6.44,0,0.386,0.062,0,0.824,0.388,117.139,191942,5
+Dark Times,?,The Weeknd Featuring Ed Sheeran,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Top Of The World,4pdoeoOQSu6DNznlfNc5FP,Tim McGraw,66,0.795,8,-5.608,1,0.0391,0.296,0,0.489,0.961,141.208,233973,4
+Piece By Piece,2NELtMgQ8HSdrGrYQPLnC3,Kelly Clarkson,68,0.808,1,-6.728,1,0.0408,0.000953,1.53e-06,0.0918,0.598,106.029,257747,4
+Real Life,5NUvj4WX2tAQGxOF4CWJ7I,Jake Owen,64,0.749,1,-5.383,0,0.0257,0.00195,0,0.0956,0.78,108.004,169827,4
+Anything Goes,6IFPfV8PNSYOmufzQ95hmm,Florida Georgia Line,77,0.873,1,-5.056,1,0.0348,0.101,0.000131,0.176,0.457,104.986,190640,4
+Just Like Fire,7K5dzhGda2vRTaAWYI3hrb,P!nk,86,0.701,7,-5.921,1,0.146,0.0114,0,0.108,0.488,162.958,215414,4
+My House,6Knv6wdA0luoMUuuoYi2i1,Flo Rida,94,0.702,7,-4.792,0,0.0499,0.0215,0,0.128,0.731,94.006,192191,4
+Send My Love (To Your New Lover),3LGxef3inmn5jMLGDz9lqw,Adele,80,0.524,6,-8.39,0,0.103,0.0415,3.16e-06,0.17,0.561,164.023,223080,4
+I Know What You Did Last Summer,1tIUfYWKAeMEeQqL6venu0,Shawn Mendes & Camila Cabello,75,0.754,9,-4.537,0,0.103,0.119,0,0.138,0.737,114.037,223853,4
+I Like The Sound Of That,5S5rw0WLVCAux5B5bWCehK,Rascal Flatts,77,0.813,0,-5.599,1,0.0368,0.275,0,0.205,0.54,89.964,209280,4
+I Don't Like It, I Love It,?,Flo Rida Featuring Robin Thicke & Verdine White,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Cake By The Ocean,42ftjU4cTN5UTRksyqBKZJ,DNCE,88,0.76,4,-5.459,0,0.0514,0.147,0,0.053,0.891,119.0,218440,4
+Get Used To Me,?,Justin Bieber,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Might Not,?,Belly Featuring The Weeknd,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+One Dance,?,Drake Featuring WizKid & Kyla,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Diamonds Dancing,2AGottAzfC8bHzF7kEJ3Wa,Drake & Future,74,0.366,1,-10.828,1,0.0469,0.157,3.54e-05,0.111,0.185,136.14,314632,4
+Never Be Like You,?,Flume Featuring Kai,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Drunk On Your Love,1jNNHFZmRGXZFHlil5uhei,Brett Eldredge,76,0.831,11,-5.606,1,0.0616,0.414,0,0.204,0.57,182.064,173960,4
+9,4uCAKqQQYJaIvyzq4sZkaO,Drake,79,0.71,2,-7.381,1,0.0437,0.000907,0.000783,0.237,0.0387,99.994,255787,4
+Lazarus,3Vn9oCZbdI1EMO7jxdz2Rc,David Bowie,64,0.695,9,-6.896,0,0.029,0.0466,0.145,0.0854,0.506,129.972,382387,4
+Cecilia And The Satellite,1MSM3Fo2fvnwVqMcz8Jhjq,Andrew McMahon In The Wilderness,66,0.842,0,-7.119,1,0.137,0.0116,0,0.328,0.23,194.048,223880,4
+Sugar,?,Robin Schulz Featuring Francesco Yates,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Focus,1cdzfFjEbUbgTm5nv3FgXR,Ariana Grande,73,0.879,3,-6.006,0,0.291,0.266,0,0.446,0.806,99.955,211360,4
+Fly,1ewLdzcpSQkU9wpFdqFauw,Maddie & Tae,58,0.681,5,-4.092,1,0.0285,0.621,0,0.178,0.256,156.039,217293,4
+Bad Blood,?,Taylor Swift Featuring Kendrick Lamar,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Heartbeat,05BgC2247XGi8ySwBzOO0o,Carrie Underwood,71,0.766,1,-4.478,1,0.05,0.606,0,0.0903,0.43,139.999,209920,4
+Home Alone Tonight,?,Luke Bryan Featuring Karen Fairchild,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Alright,3iVcZ5G6tvkXZkZKlMpIUs,Kendrick Lamar,75,0.779,7,-5.972,1,0.235,0.0734,0,0.0832,0.581,110.037,219333,4
+Can't Sleep Love,1klGbW5a9qTBFUjFfddbmU,Pentatonix,68,0.433,2,-7.05,1,0.0455,0.0849,0,0.169,0.574,94.596,173053,4
+6 Inch,?,Beyonce Featuring The Weeknd,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Unsteady,7lGKEWMXVWWTt3X71Bv44I,X Ambassadors,76,0.673,9,-6.134,0,0.0469,0.177,0.000316,0.203,0.242,117.02,193546,4
+Adventure Of A Lifetime,69uxyAqqPIsUyTO8txoP2M,Coldplay,89,0.924,7,-3.887,1,0.0359,0.00205,0.000173,0.149,0.515,111.995,263787,4
+Can't Stop The Feeling!,6JV2JOEocMgcZxYSZelKcc,Justin Timberlake,98,0.83,0,-5.715,1,0.0749,0.0123,0,0.191,0.716,113.03,236002,4
+Hello,0ENSn4fwAbCGeFGVUbXEU3,Adele,84,0.451,5,-6.095,0,0.0347,0.336,0,0.0872,0.287,157.966,295493,4
+Stitches,5t4B1kAlCD13YY9poph0Mg,Shawn Mendes,82,0.745,10,-6.605,0,0.0961,0.0187,0,0.0476,0.745,74.986,206880,4
+Mind Reader,1N0j6Gw5lmfI7kipAgYcma,Dustin Lynch,76,0.8,4,-4.17,0,0.0413,0.0266,0,0.184,0.532,162.053,185413,4
+Fight Song,37f4ITSlgPX81ad2EvmVQr,Rachel Platten,79,0.714,7,-4.987,1,0.129,0.0549,0,0.155,0.328,175.924,204013,4
+Confident,0Mn3amMRMoabaoTf1Publ4,Demi Lovato,72,0.763,10,-6.197,0,0.0669,0.00182,0.000159,0.116,0.308,130.018,205746,4
+Dibs,6FWrlXo99QRmPtOeUSWDjv,Kelsea Ballerini,66,0.733,4,-4.7,1,0.052,0.231,0,0.103,0.64,87.999,183947,4
+Roses,?,The Chainsmokers Featuring Rozes,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Olivia,5dONhl6aXFuN86UBdayF6W,One Direction,70,0.681,6,-5.362,1,0.0334,0.0438,0,0.166,0.673,118.062,177973,4
+Country Nation,4yL5WpJZmoxAV4udhE55VY,Brad Paisley,63,0.861,4,-5.529,1,0.0413,0.0389,0.00047,0.1,0.458,177.94,225413,4
+Don't Hurt Yourself,?,Beyonce Featuring Jack White,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Back Up,?,DeJ Loaf Featuring Big Sean,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Oui,0PJIbOdMs3bd5AT8liULMQ,Jeremih,86,0.703,5,-3.825,1,0.0503,0.192,0,0.113,0.599,119.749,238320,4
+Should've Been Us,5SUKnxEQaFFeudmI4qYLd9,Tori Kelly,67,0.75,6,-5.488,0,0.117,0.00468,1.3e-05,0.0737,0.464,90.042,186467,4
+Traveller,3fqwjXwUGN6vbzIwvyFMhx,Chris Stapleton,77,0.369,9,-10.916,1,0.0317,0.17,0.00618,0.0808,0.443,101.624,293293,4
+Views,12VWzyPDBCc8fqeWCAfNwR,Drake,94,0.617,1,-5.871,1,0.0522,0.00902,0.00246,0.351,0.378,103.981,173987,4
+Needed Me,1Tt4sE4pXi57mTD1GCzsqm,Rihanna,90,0.325,5,-8.083,0,0.251,0.107,0,0.0837,0.274,110.888,191600,4
+Think Of You,6W9W8dSswA8KNegvl3W97V,Chris Young Duet With Cassadee Pope,78,0.893,11,-3.588,1,0.0375,0.000937,0,0.111,0.548,111.959,218947,4
+Life Is Worth Living,4yWCzA44dQyp0SoeM81bUb,Justin Bieber,69,0.301,10,-9.217,1,0.0619,0.915,0,0.111,0.471,75.922,234787,4
+oui,0PJIbOdMs3bd5AT8liULMQ,Jeremih,86,0.703,5,-3.825,1,0.0503,0.192,0,0.113,0.599,119.749,238320,4
+Nothin' Like You,4W38RXuQNuoTSwVsQA1OGC,Dan + Shay,71,0.704,4,-4.772,1,0.0303,0.151,0,0.067,0.429,84.956,186253,4
+Let Me Love You,?,Ariana Grande Featuring Lil Wayne,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Low Life,?,Future Featuring The Weeknd,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Here,1wYZZtamWTQAoj8B812uKQ,Alessia Cara,78,0.822,0,-4.029,1,0.167,0.0716,0,0.0694,0.353,123.363,199453,4
+This Is What You Came For,?,Calvin Harris Featuring Rihanna,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+All The Way Up,61QSuw5VlC0LTS8WMO356g,Fat Joe & Remy Ma Featuring French Montana,84,0.721,10,-6.44,0,0.386,0.062,0,0.824,0.388,117.139,191942,5
+Where Ya At,?,Future Featuring Drake,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Mark My Words,2SnNaoNhMjC1WRMTWD8qTX,Justin Bieber,71,0.258,0,-8.489,1,0.0333,0.898,2.06e-06,0.147,0.52,116.599,134347,4
+Die A Happy Man,5kNe7PE09d6Kvw5pAsx23n,Thomas Rhett,80,0.383,2,-9.377,1,0.0304,0.381,0,0.119,0.38,83.096,227427,4
+Perfect,3NLnwwAQbbFKcEcV8hDItk,One Direction,80,0.823,2,-5.231,1,0.0762,0.0598,0,0.119,0.4,99.933,230333,4
+Die A Happy Man,1mExCoXAGKI6abLGXoG7O3,Nelly,65,0.745,1,-3.795,0,0.0333,0.0232,0,0.0754,0.179,88.032,214495,4
+Victorious,6od5hFv9IT5JHc7NEF9HRv,Panic! At The Disco,78,0.865,8,-4.518,1,0.0472,0.00205,0,0.404,0.699,110.01,178600,4
+Hollow,160hN2OsDXnmgExwtG7cvD,Tori Kelly,80,0.664,2,-6.838,0,0.0372,0.0187,0.0049,0.473,0.419,126.085,210606,4
+Acquainted,7uJH0YdSZL6psjxI6Xy08b,The Weeknd,74,0.484,7,-9.858,0,0.0482,0.461,0,0.0821,0.25,104.593,348853,4
+Marvin Gaye,?,Charlie Puth Featuring Meghan Trainor,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Lonesome Broken And Blue,1mx5Q2cmOzUUjEURXbJNOB,Adam Wakefield,28,0.562,4,-5.067,1,0.0284,0.6,0.0008,0.316,0.322,136.589,232853,4
+The Christmas Song (Merry Christmas To You),6NMz3Cjvod2qnJjakiRDA8,Nat King Cole,35,0.141,1,-15.439,1,0.0384,0.857,1.13e-06,0.0995,0.19,131.76,191640,4
+Work From Home,?,Fifth Harmony Featuring Ty Dolla $ign,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Lost Boy,4h0zU3O9R5xzuTmNO7dNDU,Ruth B,86,0.0565,7,-15.099,1,0.0534,0.965,0,0.0889,0.352,123.994,275280,4
+Hymn For The Weekend,3RiPr603aXAoi4GHyXx0uy,Coldplay,93,0.743,0,-5.155,0,0.0409,0.255,7.21e-06,0.3,0.376,89.974,258827,4
+Tell Your Friends,1mhVXWduD8ReDwusfaHNwU,The Weeknd,66,0.459,1,-11.083,0,0.0442,0.25,0,0.181,0.307,74.541,334333,4
+Work,?,Rihanna Featuring Drake,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Planes,?,Jeremih Featuring J. Cole,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+$ave Dat Money,?,Lil Dicky Featuring Fetty Wap & Rich Homie Quan,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Uma Thurman,5PUawWFG1oIS2NwEcyHaCr,Fall Out Boy,72,0.956,4,-2.608,0,0.0753,0.119,0.000227,0.617,0.718,149.958,211573,4
+Ex's & Oh's,30KcJZaETkOl3kabw7R7D3,Elle King,79,0.466,1,-7.388,1,0.146,0.0823,0.00116,0.131,0.0746,140.136,223008,4
+New Americana,6Xs7OKt6i0Ddq8B4M5Dgvr,Halsey,73,0.694,0,-5.066,0,0.0303,0.0118,0,0.34,0.333,86.897,183808,4
+Flex (Ooh Ooh Ooh),4T0ScSPdQKmGvruK7pavNP,Rich Homie Quan,73,0.607,2,-7.68,1,0.0498,0.0389,0,0.19,0.899,81.997,176744,4
+Big Rings,7jslhIiELQkgW9IHeYNOWE,Drake & Future,80,0.676,8,-6.432,0,0.271,0.00157,0,0.25,0.314,132.002,217707,4
+Stick Talk,20fAoPjfYltmd3K3bO7gbt,Future,76,0.672,7,-6.749,1,0.282,0.0265,0,0.244,0.566,159.903,171333,4
+679,?,Fetty Wap Featuring Remy Boyz,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Company,61uyGDPJ06MkxJtHgPmuyO,Justin Bieber,80,0.8,4,-5.024,0,0.0654,0.147,0,0.0852,0.425,94.985,208120,4
+Father Stretch My Hands Pt. 1,6QO46cJfmFvvCKUgauKOKS,Kanye West,83,0.563,7,-4.406,1,0.052,0.126,0,0.515,0.399,113.121,135920,4
+Hallelujah,0GhuwiwcAuw3zU5QHCmBiP,Lindsey Stirling,53,0.437,2,-7.44,1,0.0324,0.799,0.0764,0.0885,0.0779,89.538,200000,3

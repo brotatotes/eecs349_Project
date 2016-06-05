@@ -35,7 +35,10 @@ def add_lyric_data(range_start, range_end, restart=False):
 
 	for i in range(range_start, range_end):
 		print (i+1)
-		artist = songs_artist[i].replace(" ","-")
+		artist = songs_artist[i]
+		sep = ' Featuring'
+		artist = artist.split(sep, 1)[0]	
+		artist = artist.replace(" ","-")
 		song = songs_list[i].replace(" ","-")
 		url = "http://www.metrolyrics.com/" + song + "-lyrics-" + artist
 		# print url

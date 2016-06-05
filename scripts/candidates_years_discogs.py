@@ -28,10 +28,10 @@ for i in range(0, len(SA)):
  	songs_list.append(SA[i][0])
  	songs_artist.append(SA[i][1])
 
-song_data_headers = ["song", "artist", "labels"]
-labels = []
+song_data_headers = ["song", "artist", "years"]
+years = []
 
-for i in range(421):
+for i in range(len(songs_artist)):
 	artist = songs_artist[i]
 	sep = ' Featuring'
 	artist = artist.split(sep, 1)[0]	
@@ -42,23 +42,23 @@ for i in range(421):
 	try:
 		if len(data["results"]) > 0:
 			try:
-				print data["results"][0]["label"]
-				labels.append(data["results"][0]["label"][0])
+				year = data["results"][0]["year"]
+				years.append(year)
 			except:
-				labels.append("?")
+				years.append("?")
 		else:
-			labels.append("?")
+			years.append("?")
 	except:
-		labels.append("?")
-print labels
+		years.append("?")
+print years
 
 
-filename = "candidate_labels.csv"
+filename = "candidate_years.csv"
 file = open(filename, "w")
 file.write(",".join(song_data_headers)+"\n")
-for i in range(421):
+for i in range(len(songs_artist)):
 	try:
-		file.write(str(songs_list[i]) + "," + str(songs_artist[i]) + "," + str(labels[i]) + "\n")
+		file.write(str(songs_list[i]) + "," + str(songs_artist[i]) + "," + str(years[i]) + "\n")
 	except:
 		file.write(str(songs_list[i]) + "," + str(songs_artist[i]) + ",?" + "\n")
 file.close()
