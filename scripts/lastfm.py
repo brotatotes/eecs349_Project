@@ -1,4 +1,4 @@
-import json, requests
+import json, requests, pickle
 import parse as p
 
 def persistent_request(url):
@@ -33,15 +33,28 @@ def get_top_tags(track_name, artist):
 	except:
 		[]
 
-songs_list = p.parse("./song_titles.csv")
-songs_artist = p.parse("./artists.csv")
+with open('grammy_candidates.pickle', 'r') as handle:
+		SA = pickle.load(handle)
+
+songs_artist = []
+songs_list = []
+for i in range(0, len(SA)):
+ 	songs_list.append(SA[i][0])
+ 	songs_artist.append(SA[i][1])
+
+song_data_headers = ["song", "artist", "years"]
+years = []
+
 genres = ["oldies", "rock", "classic rock", "jazz", "soul", "instrumental", "folk", "country", "pop", "blues", "reggae", "Hip-Hop", "rnb" ,"rap", "indie", "funk", "latin", "electronic", "punk", "Disco"]
 song_data_headers = ["song", "artist", "genre"]
 lyric_word_counts = []
 lyric_reading_scores = []
 song_genres = []
-for i in range(0, 5399):
-	data = get_top_tags(songs_list[i], songs_artist[i])
+for i in range(421):
+	artist = songs_artist[i]
+	sep = ' Featuring'
+	artist = artist.split(sep, 1)[0]	
+	data = get_top_tags(songs_list[i], artist)
 	if data == None or len(data) == 0:
 		print data
 		song_genres.append("?")	
@@ -59,9 +72,9 @@ for i in range(0, 5399):
 print song_genres
 print len(song_genres)
 
-filename = "genres.csv"
+filename = "candidate_genres.csv"
 file = open(filename, "w")
 file.write(",".join(song_data_headers)+"\n")
-for i in range(5399):
+for i in range(421):
 	file.write(songs_list[i] + "," + songs_artist[i] + "," + song_genres[i] + "\n")
 file.close()

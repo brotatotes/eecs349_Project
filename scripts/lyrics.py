@@ -67,7 +67,6 @@ def add_lyric_data(range_start, range_end, restart=False):
 			except:
 				lyric_reading_scores.append("?")
 			lyric_word_counts.append(len(lyric.split()))
-			# print lyric
 		else:		
 			url = "http://www.songlyrics.com/" +artist + "/" + song +"-lyrics/"
 			# print url
@@ -111,15 +110,16 @@ def add_lyric_data(range_start, range_end, restart=False):
 				lyric_word_counts.append("?")
 				lyric_reading_scores.append("?")
 				sentiments.append(["?", "?"])
+			print lyric
 		print songs_list[i] + "," + songs_artist[i] + "," + str(lyric_word_counts[i - range_start]) + "," + str(lyric_reading_scores[i - range_start]) + "," +str(sentiments[i - range_start][0]) + "," + str(sentiments[i - range_start][1])
 				
 	filename = "candidates_lyric_attributes.csv"
 	
-	if restart:
-		file = open(filename, "w")
-		file.write(",".join(song_data_headers)+"\n")
-	else:
-		file = open(filename, "a")
+# if restart:
+	file = open(filename, "w")
+	file.write(",".join(song_data_headers)+"\n")
+# else:
+# 	file = open(filename, "a")
 
 	for i in range(len(lyric_word_counts)):
 		row = songs_list[range_start + i] + "," + songs_artist[range_start + i] + "," + str(lyric_word_counts[i]) + "," + str(lyric_reading_scores[i]) + "," +str(sentiments[i][0]) + "," + str(sentiments[i][1]) + "\n"

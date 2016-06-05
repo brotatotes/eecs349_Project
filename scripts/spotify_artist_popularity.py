@@ -35,7 +35,7 @@ def add_songs(range_begin, range_end):
 
 		query = "search?q="+ artist +"&type=artist"
 		url = "https://api.spotify.com/v1/"+query
-		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQBU_HrkpxMZ0b_YAwKjc3YUf6bJi4Rykyx-RsXpAbhEjLkud9qY3OInWvSOD9hDTmq4YlEYf9ZLzI5M5AgtP5dSO2L-aiUwAy20YHBK3NdQaPPDk72-akUFzlQ5PxbgyEIHoFbxE5lr0aR6vdv9vzQKxx88zGU"}
+		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQChbEMcrQbcnHQ4zLEKm-GLkyX9NSdXpcZAfi0TN-vFQbpeF1_9jmEMRQRd_zyErj6hhWyFfiP8xlc99C5yfdt9hBTawgUe6neDlQyvZl_Qgsj4zMN8rVia2hNPtYhomUcBRHclETejJrbI3WtH1SPmHPlS-w4n04WMNutg8zkzd81iFreFPGxbpNtsFseyEx9Lk0Yit6M"}
 
 		data = persistent_request(url, req_headers)
 		if data == None:
