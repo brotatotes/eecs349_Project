@@ -19,23 +19,18 @@ def persistent_request(url):
 	print "damn"
 	return
 
-with open('grammy_candidates.pickle', 'r') as handle:
-		SA = pickle.load(handle)
-
-songs_artist = []
-songs_list = []
-for i in range(0, len(SA)):
- 	songs_list.append(SA[i][0])
- 	songs_artist.append(SA[i][1])
+songs_list = p.parse("../data/song_titles.csv")
+songs_artist = p.parse("../data/artists.csv")
 
 song_data_headers = ["song", "artist", "labels"]
 labels = []
 
-for i in range(421):
+for i in range(5399):
 	artist = songs_artist[i]
 	sep = ' Featuring'
 	artist = artist.split(sep, 1)[0]	
-
+	sep = ' feat'
+	artist = artist.split(sep, 1)[0]	
 	url = "https://api.discogs.com/database/search?release_title=" +str(songs_list[i])+"&artist="+artist+"&token=wijuIjjAhxEdvPVotElLdycDEosgTyAKkVdiigVD"
 	print url
 	data = persistent_request(url)
@@ -53,10 +48,10 @@ for i in range(421):
 print labels
 
 
-filename = "candidate_labels.csv"
+filename = "labels.csv"
 file = open(filename, "w")
 file.write(",".join(song_data_headers)+"\n")
-for i in range(421):
+for i in range(5399):
 	try:
 		file.write(str(songs_list[i]) + "," + str(songs_artist[i]) + "," + str(labels[i]) + "\n")
 	except:

@@ -21,15 +21,8 @@ def persistent_request(url, headers):
 def add_songs(range_begin, range_end):
 	followers = []	
 
-	with open('grammy_candidates.pickle', 'r') as handle:
-		SA = pickle.load(handle)
-
-	song_artist = []
-	songs_list = []
-	for i in range(0, len(SA)):
-	 	songs_list.append(SA[i][0])
-	 	song_artist.append(SA[i][1])
-
+	songs_list = p.parse("../data/song_titles.csv")
+	song_artist = p.parse("../data/artists.csv")
 
 	song_data_headers = ["title", "spotify_id", "artist", "popularity", "danceability", "energy", "key", "loudness", "mode", "speechiness", "acousticness", "instrumentalness", "liveness", "valence", "tempo", "duration_ms", "time_signature"]
 	song_data = []
@@ -39,9 +32,10 @@ def add_songs(range_begin, range_end):
 		artist = song_artist[i]
 		sep = ' Featuring'
 		artist = artist.split(sep, 1)[0]
+
 		query = "search?q="+ artist +"&type=artist"
 		url = "https://api.spotify.com/v1/"+query
-		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQBXDYdUuQUQaC1GvbCXx4LY5kV-wTFvVhe84imLN-VDwDRTO1L3obyNEw-K1komwPxEMS6YBXISDKaaak6vchoUKRLaYfZ1hZvYewEBnqSn6-NlAYH3Ww_u3DtIXHguQA9ZV5fwujeVangacJmWXk1P9Ll6E_Q"}
+		req_headers = {"Accept": "application/json", "Authorization": "Bearer BQBU_HrkpxMZ0b_YAwKjc3YUf6bJi4Rykyx-RsXpAbhEjLkud9qY3OInWvSOD9hDTmq4YlEYf9ZLzI5M5AgtP5dSO2L-aiUwAy20YHBK3NdQaPPDk72-akUFzlQ5PxbgyEIHoFbxE5lr0aR6vdv9vzQKxx88zGU"}
 
 		data = persistent_request(url, req_headers)
 		if data == None:
@@ -54,7 +48,7 @@ def add_songs(range_begin, range_end):
 		else:
 			followers.append("?")
 	print followers
-	filename = "candidate_artist_popularity.csv"
+	filename = "artist_popularity.csv"
 	file = open(filename, "w")
 	for i in range(0, range_end):
 		if followers[i] != None:
@@ -64,7 +58,7 @@ def add_songs(range_begin, range_end):
 
 	file.close()
 
-add_songs(0, 421)
+add_songs(0, 5399)
 
 
 

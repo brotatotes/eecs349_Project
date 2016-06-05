@@ -17,15 +17,8 @@ def persistent_request(url):
 	print "damn"
 	return
 
-with open('grammy_candidates.pickle', 'r') as handle:
-		SA = pickle.load(handle)
-
-songs_artist = []
-songs_list = []
-for i in range(0, len(SA)):
- 	songs_list.append(SA[i][0])
- 	songs_artist.append(SA[i][1])
-
+songs_list = p.parse("../data/song_titles.csv")
+songs_artist = p.parse("../data/artists.csv")
 
 def get_top_tags(track_name, artist):
 	"""Makes a Last.fm API call and gets the top five song tags for a song in list form"""
@@ -41,7 +34,7 @@ def get_top_tags(track_name, artist):
 	try:
 		return data['track']["listeners"], data['track']["playcount"]
 	except:
-		[]
+		return "?", "?"
 
 
 genres = ["oldies", "rock", "classic rock", "jazz", "soul", "instrumental", "folk", "country", "pop", "blues", "reggae", "Hip-Hop", "rnb" ,"rap", "indie", "funk", "latin", "electronic", "punk", "Disco"]
@@ -50,7 +43,8 @@ lyric_word_counts = []
 lyric_reading_scores = []
 popularity = []
 
-for i in range(0, 421):
+for i in range(0, 5399):
+	print i
 	artist = songs_artist[i]
 	sep = ' Featuring'
 	artist = artist.split(sep, 1)[0]	
@@ -58,10 +52,10 @@ for i in range(0, 421):
 	popularity.append(data)
 
 print popularity
-filename = "candidate_popularity.csv"
+filename = "popularity.csv"
 file = open(filename, "w")
 file.write(",".join(song_data_headers)+"\n")
-for i in range(421):
+for i in range(5399):
 	if popularity[i] != None:
 		file.write(songs_list[i] + "," + songs_artist[i] + "," + popularity[i][0] + "," + popularity[i][1] + "\n")
 	else:
