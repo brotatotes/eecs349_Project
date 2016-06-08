@@ -27,6 +27,14 @@ includes roughly 5400 songs from 1958 to 2015. All of these songs were part of t
 Top 100 List. There are 4955 songs from 1958 to 2015 used as training set and 450 songs from 2010 to
 2015 used as validation set. We applied the following equation to set up the weight of each data entry
 based on the year of release.
-![Image of Equation](https://github.com/brotatotes/eecs349_Project/FinalReport/eqn.gif)  
-The validation result is satisfiable.
+![Image of Equation](http://s32.postimg.org/teammm7d1/eqn.gif)  
+The validation result is satisfiable.  
+TABLE  
+The result for 2015 is not as accurate as the results for 2011 and 2012 because the model we used to predict
+the results for 2011-2015 is trained on data from 1958 to 2010, which has smaller gap from 2011 than
+from 2015. Due to the transience of fashion, the fashion trend in popular songs may have already changed,
+leading to the decrease in accuracy of our validation.
+However, this will not be a problem when we make our predictions for 2017 since the model we use is
+trained on data from 1958 to 2015, with songs from recent years being assigned more weights thus exerting
+more influence.
 ## Results
